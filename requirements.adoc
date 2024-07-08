@@ -1,0 +1,93 @@
+---
+sidebar: sidebar 
+permalink: requirements.html 
+keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements 
+summary: 기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바르게 설정되어 있는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다. 
+---
+= GenAI 요구 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바르게 설정되어 있는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.
+
+워크로드 팩토리 로그인 및 계정:: Workload Factory에 로그인하여 계정을 생성해야 합니다.
++
+--
+https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["로그인 및 계정 생성에 대해 자세히 알아봅니다"^]
+
+--
+AWS 자격 증명 및 권한:: 자동화 권한으로 Workload Factory에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI에 대해 Workload Factory를 _automate_mode로 사용합니다.
++
+--
+_Basic_mode 및 _Read_mode 권한은 현재 지원되지 않습니다.
+
+자격 증명을 설정할 때 아래 표시된 권한을 선택하면 FSx for ONTAP 파일 시스템을 관리하고 기술 자료 및 챗봇에 필요한 GenAI EC2 인스턴스 및 기타 AWS 리소스를 배포 및 관리할 수 있는 모든 권한을 얻을 수 있습니다.
+
+image:screenshot-ai-permissions.png["AI 리소스의 전체 관리에 대한 사용 권한 설정을 보여 주는 스크린샷"]
+
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AWS 자격 증명을 Workload Factory 에 추가하는 방법에 대해 알아보십시오"^]
+
+--
+아마존 Bedrock:: Amazon Bedrock은 기반 모델을 사용할 수 있으며 생성 가능한 AI 애플리케이션을 구축하는 기능을 제공합니다.
++
+--
+GenAI용 Workload Factory를 시작하려면 먼저 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.
+
+* https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html["AWS 설명서: Amazon Bedrock을 설정합니다"^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["AWS 설명서: Amazon Bedrock에 대한 지식 기반 지원 지역 및 모델"^]
+
+
+--
+모델 임베드:: 기술 문서를 만들기 전에 사용하려는 포함 모델을 활성화해야 합니다. 지원되는 임베드 모델은 다음과 같습니다.
++
+--
+* Titan Embeddings G1 - 텍스트
+* Titan Embedding Text v2
+* 타이탄 다중 모드 포함 G1
++
+https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아보십시오"^]
+
+
+
+--
+채팅 모델:: 기술 자료를 생성하기 전에 사용하려는 기본 채팅 모델을 활성화해야 합니다. 지원되는 Claude 채팅 모델은 다음과 같습니다.
++
+--
+* 클로드 3.5 소넷
+* 클로드 3 오푸스
+* 클로드 3 하이쿠
+* 클로드 3 소넷
+* 클로드 2.1
+* 클로드 2.0
++
+모델 지원은 AWS 지역에 따라 다르므로, 기술 자료를 배포할 계획이 있는 지역에서 사용할 수 있는 모델을 확인하려면 을 참조하십시오 https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html["이 AWS 설명서 페이지"^] .
+
++
+선택 시 사용할 수 있는 모델에 대해 자세히 알아보십시오. https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
+
+
+
+--
+FSx for ONTAP 파일 시스템:: FSx for ONTAP 파일 시스템이 하나 이상 필요합니다.
++
+--
+* NetApp GenAI 엔진에서 기술 자료에 사용되는 벡터 데이터베이스를 저장하는 데 하나의 파일 시스템이 사용됩니다.
++
+이 FSx for ONTAP 파일 시스템은 FlexVol 볼륨을 사용해야 합니다. FlexGroup 볼륨은 지원되지 않습니다.
+
+* 하나 이상의 파일 시스템에는 기술 자료에 통합할 데이터 원본이 포함됩니다.
++
+하나의 FSx for ONTAP 파일 시스템을 두 가지 용도로 사용하거나 여러 FSx for ONTAP 파일 시스템을 사용할 수 있습니다.
+
+* AWS FSx for ONTAP 파일 시스템이 상주하는 AWS 지역, VPC 및 서브넷을 알아야 합니다. 파일 시스템은 Amazon Bedrock이 활성화된 AWS 지역에 있어야 합니다.
+* 이 배포의 일부인 AWS 리소스에 적용할 태그 키/값 쌍을 고려해야 합니다(선택 사항).
+* NetApp AI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍 정보를 알아야 합니다.
+
+
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["FSx for ONTAP 파일 시스템을 구축 및 관리하는 방법에 관해 알아보십시오"^]
+
+--
+

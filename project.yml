@@ -1,0 +1,66 @@
+---
+settings:
+  name: GenAI
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: GenAI 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: GenAI용 Workload Factory에 대해 알아보십시오
+      url: "/ai-workloads-overview.html"
+    - title: 빠른 시작
+      url: "/quick-start.html"
+    - title: GenAI 요구 사항
+      url: "/requirements.html"
+    - title: 기술 자료에 대한 데이터 소스를 식별합니다
+      url: "/identify-data-sources.html"
+    - title: 기술 자료 인프라를 구축합니다
+      url: "/deploy-infrastructure.html"
+  - title: GenAI를 사용하여 지식 기반을 만듭니다
+    entries:
+    - title: 기술 문서를 작성합니다
+      entries:
+      - title: 기술 문서를 작성합니다
+        url: "/create-knowledgebase.html"
+      - title: 기술 문서를 테스트합니다
+        url: "/test-knowledgebase.html"
+      - title: 인증을 활성화합니다
+        url: "/activate-authentication.html"
+      - title: 기술 문서를 게시합니다
+        url: "/publish-knowledgebase.html"
+      - title: 다음에 할 수 있는 일
+        url: "/whats-next.html"
+    - title: 데이터 소스 관리
+      url: "/manage-data-source.html"
+    - title: 기술 자료 관리
+      url: "/manage-knowledgebase.html"
+  - title: GenAI 관리
+    entries:
+    - title: GenAI 인프라를 관리합니다
+      url: "/manage-infrastructure.html"
+    - title: NetApp GenAI 엔진의 구성 요소
+      url: "/genai-engine-instance.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP Workload Factory for AWS
+  repo: workload-family

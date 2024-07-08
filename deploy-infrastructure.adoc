@@ -1,0 +1,93 @@
+---
+sidebar: sidebar 
+permalink: deploy-infrastructure.html 
+keywords: ai, chatbot, infrastructure, bedrock, fsx for ontap 
+summary: 조직을 위해 FSx for ONTAP 기술 자료 및 애플리케이션을 구축하기 전에 환경에 RAG 프레임워크용 인프라를 구축해야 합니다. 주요 인프라 구성 요소는 Amazon Bedrock AI 서비스, NetApp GenAI 엔진의 가상 머신 인스턴스 및 FSx for ONTAP 파일 시스템입니다. 
+---
+= GenAI 인프라를 구축합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+조직에 맞게 FSx for ONTAP 지식 기반 및 애플리케이션을 구축하기 전에 환경에 RAG 프레임워크용 GenAI 인프라를 구축해야 합니다. 기본 인프라 구성요소는 Amazon Bedrock 서비스, NetApp GenAI 엔진의 가상 머신 인스턴스 및 FSx for ONTAP 파일 시스템입니다.
+
+구축된 인프라스트럭처는 여러 가지 지식 기반과 챗봇을 지원할 수 있으므로 일반적으로 이 작업은 한 번만 수행하면 됩니다.
+
+
+
+== 인프라 세부 정보
+
+GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["지원되는 지역 목록을 봅니다"^]
+
+배포는 다음과 같은 구성 요소로 이루어집니다.
+
+아마존 Bedrock 서비스:: Amazon Bedrock은 단일 API를 통해 선도적인 AI 회사의 기반 모델(FMS)을 사용할 수 있는 완전 관리형 서비스입니다. 또한 안전한 생성 AI 애플리케이션을 구축하는 데 필요한 기능을 제공합니다.
++
+--
+https://aws.amazon.com/bedrock/["아마존 Bedrock에 대해 자세히 알아보십시오"^]
+
+--
+NetApp GenAI 엔진용 가상 머신입니다:: 이 프로세스 중에 NetApp GenAI 엔진이 배포됩니다. 데이터 소스에서 데이터를 수집한 다음 해당 데이터를 벡터 데이터베이스에 쓸 수 있는 처리 능력을 제공합니다.
+FSx for ONTAP 파일 시스템:: FSx for ONTAP 파일 시스템은 GenAI 시스템을 위한 스토리지를 제공합니다.
++
+--
+데이터 소스를 기반으로 기본 모델에 의해 생성된 데이터를 저장하는 벡터 데이터베이스를 포함하는 단일 볼륨이 배포됩니다.
+
+기술 자료에 통합할 데이터 소스는 동일한 FSx for ONTAP 파일 시스템 또는 다른 시스템에 상주할 수 있습니다.
+
+NetApp GenAI 엔진은 이 두 볼륨을 모두 모니터링하고 상호 작용합니다.
+
+--
+
+
+다음 이미지는 GenAI 인프라를 보여 줍니다. 이 절차를 수행하는 동안 번호가 1, 2, 3인 구성 요소가 전개됩니다. 배포를 시작하기 전에 다른 요소가 있어야 합니다.
+
+image:diagram-chatbot-infrastructure.png["AI 챗봇 구성 요소의 다이어그램"]
+
+
+
+== GenAI 인프라를 구축합니다
+
+AWS 자격 증명을 입력하고 FSx for ONTAP 파일 시스템을 선택하여 RAG(Retrieval Augmentation Generation) 인프라를 배포해야 합니다.
+
+.시작하기 전에
+이 절차를 시작하기 전에 환경이 충족되는지 확인하십시오. link:requirements.html["설명합니다"]
+
+.단계
+. Workload Factory에 로그인합니다.
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
+. 인프라 다이어그램을 검토하고 * Next * 를 선택합니다.
+. AWS 설정 * 섹션의 항목을 완료합니다.
++
+.. * AWS 자격 증명 *: AWS 리소스 배포 권한을 제공하는 AWS 자격 증명을 선택하거나 추가합니다.
+.. * 위치 *: AWS 지역, VPC 및 서브넷을 선택합니다.
++
+GenAI 배포는 Amazon Bedrock이 활성화된 AWS 지역에 있어야 합니다. https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["지원되는 지역 목록을 봅니다"^]
+
+
+
+. 인프라 설정 * 섹션의 항목을 완료합니다.
++
+.. * ONTAP용 FSx 파일 시스템 *: ONTAP용 FSx 파일 시스템 및 GenAI 인스턴스 데이터베이스 볼륨을 배포할 스토리지 VM을 선택한 다음 볼륨에 사용할 이름을 지정합니다.
++
+Workload Factory에 FSx for ONTAP 파일 시스템에 대한 자격 증명이 있는지 여부에 따라 사용자 이름과 암호를 입력해야 할 수 있습니다.
+
+.. * 태그 * : 이 배포의 일부인 모든 AWS 리소스에 적용할 태그 키/값 쌍을 입력하십시오.
+.. * 키 쌍 * : NetApp GenAI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍을 선택하십시오.
+
+
+. 배포 * 를 선택하여 배포를 시작합니다.
+
+
+.결과
+Workload Factory가 챗봇 인프라 구축을 시작합니다. 이 프로세스는 최대 10분 정도 소요될 수 있습니다.
+
+배포 프로세스 중에 다음 항목이 설정됩니다.
+
+* 네트워크는 전용 끝점과 함께 설정됩니다.
+* IAM 역할, 인스턴스 프로필 및 보안 그룹이 생성됩니다.
+* GenAI 엔진 데이터베이스(LanceDB)의 볼륨이 FSx for ONTAP 파일 시스템에 생성됩니다.
+* GenAI 엔진의 가상 머신 인스턴스가 배포됩니다.
+

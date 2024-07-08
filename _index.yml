@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: GenAI 설명서를 위한 워크로드 팩토리
+  summary: FSx for ONTAP 파일 시스템의 데이터를 MLOps 플랫폼 및 GenAI 기반 모델과 통합하여 조직 데이터를 통해 기능
+    챗봇을 만들 수 있습니다.
+  keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP, knowledge base
+  lead: FSx for ONTAP 파일 시스템의 데이터를 MLOps 플랫폼 및 GenAI 기반 모델과 통합하여 조직 데이터를 통해 기능 챗봇을
+    만들 수 있습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: GenAI용 Workload Factory에 대해 알아보십시오
+      url: ai-workloads-overview.html
+    - title: 빠른 시작
+      url: quick-start.html
+    - title: GenAI 요구 사항
+      url: requirements.html
+    - title: 기술 자료 인프라를 구축합니다
+      url: deploy-infrastructure.html
+  - title: 기술 문서를 작성합니다
+    links:
+    - title: 기술 문서를 작성합니다
+      url: create-knowledgebase.html
+    - title: 기술 문서를 테스트합니다
+      url: test-knowledgebase.html
+    - title: 기술 문서를 게시합니다
+      url: publish-knowledgebase.html
+  - title: GenAI 관리
+    links:
+    - title: 기술 자료 인프라 관리
+      url: manage-infrastructure.html

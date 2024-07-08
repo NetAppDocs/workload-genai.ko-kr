@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: whats-next.html 
+keywords: what you can do, knowledge base 
+summary: 이제 엔터프라이즈 데이터를 사용하여 기술 자료를 만들고 사용자를 위해 배포했으므로 ONTAP용 FSx 파일 시스템을 비롯한 기술 자료, 데이터 소스 및 RAG 인프라를 관리할 수 있습니다. 
+---
+= 다음에 할 수 있는 일
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+이제 엔터프라이즈 데이터를 사용하여 기술 자료를 만들고 사용자를 위해 배포했으므로 ONTAP용 FSx 파일 시스템을 비롯한 기술 자료, 데이터 소스 및 RAG 인프라를 관리할 수 있습니다.
+
+기술 자료 구성 요소를 관리하기 위해 수행할 수 있는 작업은 다음과 같습니다.
+
+* 데이터 원본의 콘텐츠를 업데이트하거나 새 데이터 원본을 추가하고 이러한 변경 내용을 기술 자료 및 챗봇과 동기화합니다.
+* 청킹 전략 및 사용 권한 인식(SMB 파일 액세스용)을 비롯한 데이터 소스 설정을 관리합니다.
+* 채팅 모델 및 대화 시작자를 포함한 기술 자료 설정을 관리합니다.
+* 기술 문서 게시를 취소하거나 변경한 후 다시 게시합니다.
+* FSx for ONTAP 파일 시스템에서 중요한 데이터를 백업 및 보호하여 기술 자료 데이터 및 기타 인프라 구성요소를 항상 사용할 수 있도록 합니다.
+
+
+FSx for ONTAP 파일 시스템 관리에 대한 자세한 내용은 로 https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["Amazon FSx for NetApp ONTAP 설명서용 워크로드 팩토리"^] 이동하여 사용할 수 있는 백업 및 보호 기능을 확인하십시오.
