@@ -54,7 +54,6 @@
   <block id="80a4d47d289b6794b7af32bf0403d817" category="list-text">기술 문서의 내용을 기반으로 대화 시작 질문을 자동으로 작성합니다.</block>
   <block id="d115eba24b3d1be73af7f0952b82dc13" category="list-text">데이터 관리자가 기술 문서를 사용하여 채팅을 테스트할 수 있는 채팅 시뮬레이터를 제공합니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
-  <block id="848d5941560ff7e3f492b8bc6ca745d1" category="paragraph">미리보기 기간 동안 Workload Factory의 GenAI 기능을 사용하는 데 비용이 들지 않습니다.</block>
   <block id="ca4fec9e2b2e873ba73dde822ed0fd02" category="paragraph">그러나 생성 AI 인프라를 지원하기 위해 구축하는 AWS 리소스에 대한 비용을 지불해야 합니다. 예를 들어, Amazon Bedrock AI 서비스, FSx for ONTAP 파일 시스템 및 스토리지 용량 및 GenAI 엔진 EC2 인스턴스에 대해 AWS 비용을 지불합니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
   <block id="0ea77fd2fdca0ee14d426a023ea715ad" category="paragraph">워크로드 팩토리의 AI 기능을 사용하기 위해 NetApp으로부터 특별한 라이센스가 필요하지 않습니다.</block>
@@ -538,4 +537,5 @@
   <block id="2e800147de9688c09f27dae52c542680" category="sidebar">GenAI를 사용하여 지식 기반을 만듭니다</block>
   <block id="b032727d9e00be7e59aefec94a0972c2" category="sidebar">인증을 활성화합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="3163a16fc98aa29c5fea8b61c62bb459" category="paragraph">Workload Factory의 GenAI 기능을 무료로 사용할 수 있습니다.</block>
 </blocks>
