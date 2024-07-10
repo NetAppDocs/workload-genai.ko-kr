@@ -538,4 +538,9 @@
   <block id="b032727d9e00be7e59aefec94a0972c2" category="sidebar">인증을 활성화합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
   <block id="3163a16fc98aa29c5fea8b61c62bb459" category="paragraph">Workload Factory의 GenAI 기능을 무료로 사용할 수 있습니다.</block>
+  <block id="a46c34e822b00eb49125943300225ec1" category="summary">지식 기반을 구축하고 챗봇을 테스트하면 사용자가 챗봇을 쿼리할 수 있는 애플리케이션을 설정할 수 있습니다.</block>
+  <block id="4c096c170a3ae328a9df5fb19871a9a7" category="doc">FSx for ONTAP 기술 자료를 기반으로 하는 애플리케이션을 생성합니다</block>
+  <block id="3034501b6830f6e24b0e219fa3565ffb" category="inline-link">FSx for ONTAP에서 RAG 기반 AI 애플리케이션을 생성하는 방법에 대해 알아보십시오</block>
+  <block id="cddb505028d2d2c7026aad1d17c19a05" category="paragraph"><block ref="cddb505028d2d2c7026aad1d17c19a05" category="inline-link-rx"></block></block>
+  <block id="53b343f4a880bcff3b258324a35744ff" category="sidebar">rag 기반 AI 애플리케이션을 생성한다</block>
 </blocks>

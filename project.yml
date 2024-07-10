@@ -41,6 +41,8 @@ sidebar:
         url: "/activate-authentication.html"
       - title: 기술 문서를 게시합니다
         url: "/publish-knowledgebase.html"
+      - title: rag 기반 AI 애플리케이션을 생성한다
+        url: "/create-application.html"
       - title: 다음에 할 수 있는 일
         url: "/whats-next.html"
     - title: 데이터 소스 관리
