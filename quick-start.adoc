@@ -15,7 +15,7 @@ Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:requirements.html["GenAI 요구사항을 충족하도록 환경을 설정합니다"]
 [role="quick-margin-para"]
-AWS 인프라를 구축하려면 AWS 자격 증명이 필요합니다. AWS 인프라를 구축하고 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등이 필요합니다.
+AWS 인프라, 배포되어 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등을 구축하려면 AWS 자격 증명이 필요합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] link:identify-data-sources.html["데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다"]
 [role="quick-margin-para"]

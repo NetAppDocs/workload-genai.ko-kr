@@ -388,7 +388,6 @@
   <block id="19761722f9e779bd2a70fef96c24a1bc" category="paragraph">Workload Factory는 기술 자료를 게시합니다. 기술 문서에 대한 세부 정보 페이지에서 상태가 * 게시되지 않음 * 에서 * 게시됨 * 으로 변경됩니다</block>
   <block id="5e92f6a356303934a45930f0e541c6b1" category="paragraph">이제 기술 문서의 고유 끝점에 대한 세부 정보를 얻을 수 있습니다.</block>
   <block id="004faa273ca0b2383f0f12b8850c493b" category="list-text">게시됨 상태 옆에 있는 * 보기 * 를 선택합니다.</block>
-  <block id="d1f4efe2fd3a800f4b008e172439fe85" category="paragraph">Workload Factory API 디스플레이를 사용하여 기술 자료에 액세스하는 방법에 대한 세부 정보입니다.</block>
   <block id="9de2775e528dfff9dd9666885c222272" category="list-text">게시된 정보 보기 * 대화 상자에서 기술 자료를 응용 프로그램과 통합하는 데 사용할 수 있는 API 끝점을 복사합니다.</block>
   <block id="7495d9f71402d3b1d20f08bd19ac6562" category="inline-link">API 설명서</block>
   <block id="2cb94eb0648b9f93f300ea0aff833f95" category="paragraph">API 엔드포인트에 대해 자세히 알아보려면 로<block ref="c0a9aa55ed57e2e15b2d20baa6a6e023" category="inline-link-rx"></block> 이동하여 * AI &gt; 외부 * 를 선택하십시오.</block>
@@ -398,7 +397,6 @@
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
   <block id="e16edd708081c06a9c8bdef1486a94b4" category="inline-link-macro">GenAI 요구사항을 충족하도록 환경을 설정합니다</block>
   <block id="0b0e916064e065ab12e1db6735832ef0" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="d4a51aa0811f51e3206f49b62f46f1ef" category="inline-link-macro-rx"></block></block>
-  <block id="926f216b1b078ff9ce47e61e22932514" category="paragraph">AWS 인프라를 구축하려면 AWS 자격 증명이 필요합니다. AWS 인프라를 구축하고 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등이 필요합니다.</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
   <block id="36ec882c51ea2d7689f78bed44b7fdaa" category="inline-link-macro">데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다</block>
   <block id="cc9cd1c7d0a54d3fe49ca467804963fb" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="7206191241f03719b7415c03564b4c6e" category="inline-link-macro-rx"></block></block>
@@ -539,8 +537,17 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
   <block id="3163a16fc98aa29c5fea8b61c62bb459" category="paragraph">Workload Factory의 GenAI 기능을 무료로 사용할 수 있습니다.</block>
   <block id="a46c34e822b00eb49125943300225ec1" category="summary">지식 기반을 구축하고 챗봇을 테스트하면 사용자가 챗봇을 쿼리할 수 있는 애플리케이션을 설정할 수 있습니다.</block>
-  <block id="4c096c170a3ae328a9df5fb19871a9a7" category="doc">FSx for ONTAP 기술 자료를 기반으로 하는 애플리케이션을 생성합니다</block>
   <block id="3034501b6830f6e24b0e219fa3565ffb" category="inline-link">FSx for ONTAP에서 RAG 기반 AI 애플리케이션을 생성하는 방법에 대해 알아보십시오</block>
   <block id="cddb505028d2d2c7026aad1d17c19a05" category="paragraph"><block ref="cddb505028d2d2c7026aad1d17c19a05" category="inline-link-rx"></block></block>
   <block id="53b343f4a880bcff3b258324a35744ff" category="sidebar">rag 기반 AI 애플리케이션을 생성한다</block>
+  <block id="da1fd32e4f4851fbf4922d1c55e8fcc0" category="list-text">Knowledge Base 인벤토리 페이지에서 인증을 활성화할 기술 문서를 선택합니다.</block>
+  <block id="d71d72ee7bc5c79bade09f02715592c3" category="paragraph">기술 자료에 대한 인증이 활성화되었으며, API 엔드포인트를 사용하여 기술 자료와 상호 작용하고 기술 자료를 챗봇 애플리케이션과 통합할 수 있습니다.</block>
+  <block id="c83d7c23906c063b64dd22d30483cb24" category="list-text">Amazon Bedrock은 접두사가 있는 로그 그룹을 사용하여 Amazon CloudWatch 로그에 로그를 보내도록 구성되어<block ref="26245dda4fa653114e9a41956171489d" prefix=" " category="inline-code"></block>있습니다.</block>
+  <block id="6fbe5ae14d71eb3abafcfce8f7fe977a" category="inline-link">BlueXP 계정 ID입니다</block>
+  <block id="af270465b477b731bafe1e4859956cc4" category="list-text">GenAI 엔진은 이름이 지정된 로그 그룹을 사용하여 Amazon CloudWatch 로그에 로그를 전송하도록 구성되어<block ref="267ed14c989ee7da1da6b5683a1ba205" prefix=" " category="inline-code"></block>있습니다. 여기서 는 현재 사용자에 대한 입니다.<block ref="44014fe9a7dd0d34b59279b9206b84b3" prefix=" " category="inline-code"></block><block ref="bffdd6286177ca86f99ccefe410268a2" category="inline-link-rx"></block></block>
+  <block id="b3ec171bb9a8cc7c009e2caf4d945535" category="paragraph">Workload Factory API를 사용하여 기술 자료에 액세스하는 방법에 대한 세부 정보가 표시됩니다.</block>
+  <block id="f48c3e82e3f3b9cc782fe1277e362ec5" category="paragraph">AWS 인프라, 배포되어 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등을 구축하려면 AWS 자격 증명이 필요합니다.</block>
+  <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="section-title">Amazon CloudWatch Logs 통합</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">이제 생성 가능한 AI 워크로드가 Amazon CloudWatch Logs에 통합되어 생성 가능한 AI 워크로드 로그 파일을 모니터링할 수 있습니다.</block>
 </blocks>
