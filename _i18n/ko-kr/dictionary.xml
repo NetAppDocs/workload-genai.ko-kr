@@ -543,13 +543,13 @@
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="section-title">Amazon CloudWatch Logs 통합</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">이제 생성 가능한 AI 워크로드가 Amazon CloudWatch Logs에 통합되어 생성 가능한 AI 워크로드 로그 파일을 모니터링할 수 있습니다.</block>
-  <block id="c34bf4f0a7173f53dc110e7f41c2e0d0" category="paragraph">지식 기반 인증을 활성화하여 API 엔드포인트를 사용하여 지식 기반을 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 합니다. 인증을 활성화하면 챗봇 클라이언트의 기술 자료에 대한 API 요청에 사용할 JSON 웹 토큰이 생성됩니다.</block>
   <block id="d4cc00616339f0819c8ca53d7850ca2c" category="list-text">필요한 정보를 제공하십시오. 예제가 제공되지만 인증 공급자로부터 이러한 필드의 값을 얻어야 합니다.</block>
   <block id="8fbebd38c35cb217ad6437410297b5e7" category="list-text">* 알고리즘 *: 인증 공급자가 사용하는 서명 알고리즘입니다.</block>
-  <block id="59575929b41aa989abd4d539bc31b47a" category="list-text">* Audience * (선택 사항): 인증 토큰의 의도된 수신자를 포함하는 문자열(때로는 URL)입니다.</block>
   <block id="8815fb464bfa6c8533fc5ae4e04b9c5a" category="list-text">* 발급자 *: 토큰을 발급한 공급자를 식별하는 문자열입니다.</block>
   <block id="9f921e08c2635ce0ca6d5507cf90b6d2" category="paragraph">예를 들어 Amazon Cognito는 다음과 같은 형식의 발급사 문자열을 사용합니다.</block>
   <block id="69a143a2f8c7c42f85ef0de9978c131d" category="paragraph">여기서<block ref="d1dc4390a2dfb7cdc1a097e10b04acdf" prefix=" " category="inline-code"></block> 는 사용자 풀이 포함된 AWS 영역이며<block ref="d47ea98789cbedeffd13a02b7b550538" prefix=" " category="inline-code"></block> 은 사용자 풀 ID입니다. 다음 명령을 사용하여 사용자 풀 ID를 검색할 수 있습니다.</block>
   <block id="563ae45eabbbd334a2af58d93ded707c" category="list-text">* JWKS URI *: 이 토큰의 서명을 확인하는 데 필요한 공개 키를 제공하는 URI 문자열입니다.</block>
   <block id="2caafa02c784bfe569590254865dd928" category="paragraph">예를 들어 Amazon Cognito는 JWKS URI 문자열을 다음과 같은 형식으로 사용합니다.</block>
+  <block id="566673c66dc53f65f0662ca186b4ff33" category="paragraph">지식 기반 인증을 활성화하여 API 엔드포인트를 사용하여 지식 기반을 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 합니다. 인증을 활성화할 때 챗봇 클라이언트의 기술 자료에 대한 API 요청에 사용할 JSON Web Token의 설정을 구성합니다.</block>
+  <block id="af3e21688164f21808a96c579519e58a" category="list-text">* Audience * (선택 사항): 토큰의 의도된 수신자를 포함하는 문자열(때로는 URL)입니다.</block>
 </blocks>
