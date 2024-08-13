@@ -29,6 +29,8 @@ sidebar:
       url: "/identify-data-sources.html"
     - title: 기술 자료 인프라를 구축합니다
       url: "/deploy-infrastructure.html"
+    - title: 외부 예제 챗봇 응용 프로그램을 사용합니다
+      url: "/example-chatbot-application.html"
   - title: GenAI를 사용하여 지식 기반을 만듭니다
     entries:
     - title: 기술 문서를 작성합니다

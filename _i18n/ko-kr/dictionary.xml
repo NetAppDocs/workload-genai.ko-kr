@@ -552,4 +552,23 @@
   <block id="2caafa02c784bfe569590254865dd928" category="paragraph">예를 들어 Amazon Cognito는 JWKS URI 문자열을 다음과 같은 형식으로 사용합니다.</block>
   <block id="566673c66dc53f65f0662ca186b4ff33" category="paragraph">지식 기반 인증을 활성화하여 API 엔드포인트를 사용하여 지식 기반을 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 합니다. 인증을 활성화할 때 챗봇 클라이언트의 기술 자료에 대한 API 요청에 사용할 JSON Web Token의 설정을 구성합니다.</block>
   <block id="af3e21688164f21808a96c579519e58a" category="list-text">* Audience * (선택 사항): 토큰의 의도된 수신자를 포함하는 문자열(때로는 URL)입니다.</block>
+  <block id="9f6d7e16caf2363ed289cf415c43d68e" category="summary">예제 챗봇 애플리케이션을 설치 및 실행하여 기술 자료를 테스트하고 Workload Factory API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
+  <block id="ce8f8573f53c4f625df29c794cd7d82a" category="doc">외부 예제 챗봇 응용 프로그램을 사용합니다</block>
+  <block id="15abf1d561eb7f7ddb0e28f6c4562a8c" category="paragraph">기술 자료를 구성, 활성화 및 게시한 후 외부 애플리케이션 개발자는 NetApp에서 제공하는 오픈 소스 예제 챗봇 애플리케이션을 구성 및 실행하여 기술 자료와 상호 작용하고 Workload Factory API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
+  <block id="39f8e13a71ec862a906b446df493f119" category="list-text"><block ref="34b37227349aa26ad88498e81a1ea1af" category="inline-link-macro-rx"></block>..</block>
+  <block id="804d039033ead5360f1a1a7d2c362f11" category="list-text"><block ref="30b5e2b0cf5de93d45c874ca5c8c6a31" category="inline-link-macro-rx"></block> 사용자가 만든 기술 문서에 대한 정보를 제공합니다.</block>
+  <block id="73e5c231c5129b847eb8645a0a52a595" category="paragraph">이렇게 하면 기술 문서에서 API 요청을 인증할 수 있으며 API 엔드포인트를 사용할 때 토큰 유효성 검사와 ACL이 필요합니다.</block>
+  <block id="9422cba0464f58f3b37b0745e5b00b27" category="admonition">이 기술 문서와 통합되는 외부 채팅 응용 프로그램은 기술 문서의 인증 설정에서 구성한 것과 동일한 인증 공급자(발급사)를 사용해야 합니다.</block>
+  <block id="4608fcb51404075a263bdb6e179b0a2d" category="inline-link-macro">기술 문서를 게시합니다</block>
+  <block id="722a513785392127bf30ac1365e83362" category="list-text"><block ref="55b5b45f76a7f4e93c30f45e62e61f7a" category="inline-link-macro-rx"></block> 외부 애플리케이션에 대한 API 액세스를 활성화합니다.</block>
+  <block id="1119e2011350c0d24f44e3aaf7f8fd74" category="paragraph">기술 자료가 게시되면 API 끝점에 외부에서 액세스할 수 있으며, 기술 자료를 외부 채팅 애플리케이션(예: 챗봇 애플리케이션)과 통합할 수 있습니다.</block>
+  <block id="d3b7c913cd04ebfec0e9ec32cb6fd58c" category="inline-link">GitHub를 참조하십시오</block>
+  <block id="f49a88c7b28444b7b991e9803b076e62" category="list-text">에서 예제 챗봇 애플리케이션 패키지를<block ref="61cc64ceefa7eff1b19d7a7c0c883e1f" category="inline-link-rx"></block>다운로드합니다.</block>
+  <block id="188374f3639ec34e68d38eae79f19aae" category="list-text">패키지에 포함된 README 파일의 지침에 따라 챗봇 애플리케이션을 설치하고 실행합니다.</block>
+  <block id="c2847f2ccebd5c687f46c7bf12c1be5c" category="inline-link"><block ref="c2847f2ccebd5c687f46c7bf12c1be5c" category="inline-link-rx"></block></block>
+  <block id="4fc1d0607a3fe50db5ef612a2c4a178e" category="list-text">로<block ref="0e14f9ffc1d2673bd92f13a4ac79e32e" category="inline-link-rx"></block> 이동하여 응용 프로그램에 로그인합니다.</block>
+  <block id="5f62c285aea87618ed1381c43c7ae2cf" category="paragraph">챗봇 애플리케이션 예가 나타납니다.</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="section-title">자세한 정보</block>
+  <block id="862b02acae8afc7a8e5ed9bf4c7cb18e" category="inline-link">워크로드 팩토리 API 설명서</block>
+  <block id="39d0fcde59bc31b066cd026cdc9718f8" category="paragraph"><block ref="39d0fcde59bc31b066cd026cdc9718f8" category="inline-link-rx"></block></block>
 </blocks>
