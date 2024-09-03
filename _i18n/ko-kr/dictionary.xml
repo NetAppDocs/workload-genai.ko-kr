@@ -5,7 +5,6 @@
   <block id="e3fbe9ea657688c1ff4a86f23c1752c3" category="list-text">* 볼륨 선택 *: 데이터 원본 파일이 있는 볼륨을 선택하고 * 다음 * 을 선택합니다.</block>
   <block id="3bce906453410b081d8e495b9cf8c9b0" category="paragraph">SMB 프로토콜을 사용하여 저장된 파일을 선택할 때 도메인, IP 주소, 사용자 이름 및 암호를 포함한 Active Directory 정보를 입력해야 합니다.</block>
   <block id="7028355d43ef8a71ff4d5e7bed32be2b" category="list-text">* 데이터 소스 선택 *: 파일을 저장한 위치를 기준으로 데이터 소스 위치를 선택합니다. 전체 볼륨일 수도 있고 볼륨의 특정 폴더 또는 하위 폴더일 수도 있고 * 다음 * 을 선택합니다.</block>
-  <block id="8cb2845f0cbb1e8e9ed75fc969cf512b" category="list-text">* AI 매개 변수 정의 *: * 청크 정의 * 섹션에서 Amazon Bedrock 서비스가 속한 지식 기반을 쿼리할 때 데이터 소스 콘텐츠를 청크로 분할하는 방법을 정의합니다. 현재로서는 문장만 선택할 수 있습니다.</block>
   <block id="12d073958c6d4922a6f27ae8b5e4b533" category="list-text">선택한 데이터 소스가 SMB 프로토콜을 사용하는 볼륨에 있을 때만 사용할 수 있는 * 권한 인식 * 섹션에서 선택 항목을 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="751157f855d8f0597671b65bc8ea1301" category="list-text">*사용*: 이 기술 자료에 액세스하는 챗봇 사용자는 액세스 권한이 있는 데이터 원본에서 쿼리에 대한 응답만 받습니다.</block>
   <block id="9969ec0e7476736a130c54f32700611e" category="list-text">* 사용 안 함 * : 챗봇 사용자는 모든 통합 데이터 소스의 콘텐츠를 사용하여 응답을 받습니다.</block>
@@ -58,9 +57,7 @@
   <block id="3bd4cddbc7a98f5c9632a455eca8c27e" category="section-title">기술 문서를 만들고 구성합니다</block>
   <block id="646df03c5fddafc8e9c4ed5aa7036edf" category="paragraph">기술 자료에서는 지식 기반을 생성하는 데 사용할 Bedrock AI 모델 및 내장 형식과 같은 특성을 정의합니다.</block>
   <block id="d34fab7936dd110b003945d679bb4133" category="list-text">Workload Factory에 로그인합니다.</block>
-  <block id="2775f5aa84cae461b809b629e27e2305" category="list-text">AI 워크로드 타일에서 * Create Chatbot * 을 선택합니다.</block>
   <block id="5b20d7e96740200c428376cbb5e7fdb4" category="list-text">Knowledge Base 탭에서 * Add Knowledge Base * 를 선택합니다.</block>
-  <block id="a3efc362347ba241480bf992b9fa4899" category="list-text">기술 문서 정의 페이지에서 기술 문서 설정을 구성합니다.</block>
   <block id="53bdd4ba55043d3b20fafbaeddced95e" category="list-text">* 이름 *: 기술 문서에 사용할 이름을 입력하십시오.</block>
   <block id="867a64928002194654eea40509536879" category="list-text">*Description*: 기술 문서에 대한 자세한 설명을 입력합니다.</block>
   <block id="c37e3f948924097538b621ebbdc79afa" category="list-text">* 포함 모델 * : 포함 모델은 귀하의 데이터가 기술 자료를 위한 벡터 임베딩으로 변환되는 방법을 정의합니다. Workload Factory는 다음 모델을 지원합니다.</block>
@@ -75,7 +72,6 @@
   <block id="c6a0e7101f0906d1498552ff723709e5" category="paragraph">선택 시 사용할 수 있는 모델에 대해 자세히 알아보십시오.<block ref="56cf03ef03ec9048e7282cdb73fcf2fd" category="inline-link-rx"></block></block>
   <block id="bb75c182eff66bee3c76899d41fc8e8f" category="list-text">* Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.</block>
   <block id="fd6f710773f79577a44d128bb3df27cc" category="inline-link-macro">기술 문서 설정을 수정하는 방법에 대해 알아봅니다</block>
-  <block id="1010b4e428fbb8fb24725a17eb384f8e" category="paragraph">대화 시작 기능을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. <block ref="787b3d64d417e723feebaf5fa5dbfeee" category="inline-link-macro-rx"></block>..</block>
   <block id="7311e81ffb665c2ec2a4c996ce693887" category="list-text">GenAI에 기술 문서를 추가하려면 * 기술 문서 만들기 * 를 선택하십시오.</block>
   <block id="89f815e342683a86616ce06926e87088" category="list-text">마법사의 다음 페이지에서는 새 기술 자료에 데이터 원본을 추가하거나 데이터 원본을 추가하지 않고 이 프로세스를 종료할 수 있습니다. 지금 * 데이터 원본 추가 * 를 선택하고 하나 이상의 데이터 원본을 추가하는 것이 좋습니다.</block>
   <block id="9bd079cbc91b32393983ae28a378c00c" category="section-title">기술 문서에 데이터 원본을 추가합니다</block>
@@ -118,8 +114,6 @@
   <block id="e36b38f91227e22bbae32a9f84bef25b" category="list-text">* 위치 *: AWS 지역, VPC 및 서브넷을 선택합니다.</block>
   <block id="6f2c1c768f2edab4eb318bdb1580f9f7" category="paragraph">GenAI 배포는 Amazon Bedrock이 활성화된 AWS 지역에 있어야 합니다.<block ref="25581c78bc5f676a9b9f4743abf4f06f" category="inline-link-rx"></block></block>
   <block id="49d6fbbfca02733209ee2833d2481e4e" category="list-text">인프라 설정 * 섹션의 항목을 완료합니다.</block>
-  <block id="54e710456ced46833adf947bc5f6d4d8" category="list-text">* ONTAP용 FSx 파일 시스템 *: ONTAP용 FSx 파일 시스템 및 GenAI 인스턴스 데이터베이스 볼륨을 배포할 스토리지 VM을 선택한 다음 볼륨에 사용할 이름을 지정합니다.</block>
-  <block id="2d63bd7626a5c75abc0b0ce09d186bf9" category="paragraph">Workload Factory에 FSx for ONTAP 파일 시스템에 대한 자격 증명이 있는지 여부에 따라 사용자 이름과 암호를 입력해야 할 수 있습니다.</block>
   <block id="3869544f6aa6ccd1570caed7671ca0d6" category="list-text">* 태그 * : 이 배포의 일부인 모든 AWS 리소스에 적용할 태그 키/값 쌍을 입력하십시오.</block>
   <block id="f445edd51fe9e6a1af8ffd9c30e87f40" category="list-text">* 키 쌍 * : NetApp GenAI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍을 선택하십시오.</block>
   <block id="6449a99be42d938ed27187e040028634" category="list-text">배포 * 를 선택하여 배포를 시작합니다.</block>
@@ -127,7 +121,6 @@
   <block id="64dea11099d626528fa052576a740de2" category="paragraph">배포 프로세스 중에 다음 항목이 설정됩니다.</block>
   <block id="8f3d503d34aa6fe6a66b841b0bdd2996" category="list-text">네트워크는 전용 끝점과 함께 설정됩니다.</block>
   <block id="fc4ab898b1959c931605be5dfe62a71d" category="list-text">IAM 역할, 인스턴스 프로필 및 보안 그룹이 생성됩니다.</block>
-  <block id="eac776dd224d1ed33599e26586f981b6" category="list-text">GenAI 엔진 데이터베이스(LanceDB)의 볼륨이 FSx for ONTAP 파일 시스템에 생성됩니다.</block>
   <block id="216a480d552bd412d15e51cde6cbbf7a" category="list-text">GenAI 엔진의 가상 머신 인스턴스가 배포됩니다.</block>
   <block id="6b39fa3582a5336c28b4c324f016a9a8" category="summary">GenAI 인프라를 구축하면 Workload Factory에서 GenAI 엔진에 대한 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. Workload Factory가 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 알고 싶을 수 있습니다.</block>
   <block id="44f33186e2b6baa4a697e5604c0a3863" category="doc">NetApp GenAI 엔진의 구성 요소</block>
@@ -281,11 +274,8 @@
   <block id="24908e355d451004c7525900e1599a1f" category="list-text">을 선택하여 각 행을 확장하여 <block ref="0722c4ff5aff83b42b3212ce6356e926" category="inline-image-macro-rx" type="image"></block> FSx for ONTAP 파일 시스템, 볼륨 및 데이터 소스가 있는 경로와 같은 각 데이터 소스에 대한 자세한 정보를 확인합니다.</block>
   <block id="e251df112fcfd5ceb227487e3e407e23" category="paragraph">또한 포함 정보 및 해당 데이터 원본이 현재 기술 문서에 포함되어 있는지 여부도 나열합니다.</block>
   <block id="437e83696ee10276f1829979bc2001ee" category="section-title">데이터 원본 설정을 편집합니다</block>
-  <block id="20b4ccd92a21762105664927fab1bf0b" category="paragraph">기술 문서에 통합된 데이터 원본에 대한 정보를 편집할 수 있습니다. 대부분의 정보는 기술 자료에 데이터 원본을 추가한 후에 수정되지만 데이터 소스 볼륨에서 SMB 프로토콜을 사용할 때 청크 정의 및 권한 인식을 변경할 수 있습니다.</block>
   <block id="d2e5a465dda010b6df10e906f7ceebf7" category="list-text">Knowledge Base 인벤토리 페이지에서 데이터 원본이 있는 기술 문서를 선택한 다음 * Manage Knowledge Base * 를 선택하고 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택합니다.</block>
   <block id="16a3994ccc4796acb1b8e40635717ec3" category="list-text">편집할 데이터 원본의 행에서 * 데이터 원본 편집 * 을 선택하고 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택합니다.</block>
-  <block id="d4e6a12cce33b083e0522879b175e10f" category="list-text">데이터 원본 편집 페이지에서 <block ref="0722c4ff5aff83b42b3212ce6356e926" category="inline-image-macro-rx" type="image"></block> 청크 정의에 대한 행을 확장하도록 선택합니다.</block>
-  <block id="2be67c88816bb68c39e2b6cb0139de03" category="list-text">청킹 전략 및 청크 크기, 사용 권한 인식(SMB 볼륨의 경우)에 대한 설정을 업데이트하고 * 저장 * 을 선택합니다.</block>
   <block id="fcada3664d85dba347df890b564f014e" category="paragraph">데이터 소스 설정이 업데이트되고 AI 시스템이 데이터 소스를 동기화하여 기술 자료에 다시 인덱싱되도록 합니다.</block>
   <block id="f0c862596fc0a1dd30faa6b630a0d09b" category="section-title">기존 데이터 원본의 내용을 업데이트합니다</block>
   <block id="d811eb8aad6aebc071695232fb58c5a5" category="paragraph">언제든지 데이터 원본의 내용을 변경하여 조직 데이터를 추가하거나 업데이트할 수 있습니다. 이 데이터 원본이 기술 문서에서 활발하게 사용되는 경우 데이터 원본이 기술 문서에 다시 인덱싱되도록 데이터 원본을 동기화해야 합니다. 동기화는 증분 방식이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 FSx for ONTAP 볼륨의 개체만 처리합니다.</block>
@@ -304,7 +294,6 @@
   <block id="3263e773b336a912867ed1aeefc4176b" category="list-text">인프라 * 탭을 선택합니다.</block>
   <block id="441f8ae1adcfebb474bcc1b899e82a24" category="list-text">다음 구성 요소에 대한 세부 정보가 포함된 인프라에 대한 정보를 봅니다.</block>
   <block id="fcf0479502455d0702db3f277c9df646" category="list-text">AWS 설정</block>
-  <block id="561e65b11988eaba0ecae49d7b764de1" category="list-text">FSx for ONTAP 파일 시스템</block>
   <block id="ae83c68afab83f983d4cf40bb5e9197e" category="list-text">있습니다</block>
   <block id="6d8dc0b510e717cbe34e53d7fc1097e5" category="list-text">벡터 데이터베이스</block>
   <block id="2a118f240daca7e8bd0c3e4bc54a8d77" category="section-title">인프라를 제거합니다</block>
@@ -333,7 +322,6 @@
   <block id="6c81c0a68409ceeffca1a2438dbb831c" category="paragraph">기술 문서에서 데이터 원본을 추가, 수정 또는 제거할 때마다 데이터 원본이 기술 문서에 다시 인덱싱되도록 데이터 원본을 동기화해야 합니다. 동기화는 증분 방식이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 FSx for ONTAP 볼륨의 개체만 처리합니다.</block>
   <block id="d21368803fa621b044a871188810b1ac" category="list-text">Knowledge Base 인벤토리 페이지에서 업데이트할 기술 문서를 선택합니다.</block>
   <block id="6461d5a78cc7b9cc40e5443635d9112e" category="list-text">조치 * 메뉴를 선택하고 * 기술 문서 편집 * 을 선택합니다.</block>
-  <block id="0008bdb5b5e3b453e69696b34d9d5d1c" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델 및 대화 시작점을 자동 또는 수동으로 만들지 여부를 변경할 수 있습니다.</block>
   <block id="e57d913eed051be6b0b9406295913487" category="paragraph">대화를 시작하는 데 수동 모드를 사용하는 경우 여기에서 대화 시작도 변경할 수 있습니다.</block>
   <block id="1302ca167379db1ebc02d198eb7518a3" category="list-text">변경한 후 * 저장 * 을 선택합니다.</block>
   <block id="214d48f43c3d0248419d70ccacea9a73" category="section-title">기술 문서에 데이터 원본을 추가합니다</block>
@@ -364,14 +352,9 @@
   <block id="bd5de107e9031f0c3a6ac09d2366a7be" category="list-text">작업 * 메뉴를 선택하고 * 게시 취소 * 를 선택합니다.</block>
   <block id="10b42a1e79dbd5f79dd793c2655522b8" category="paragraph">기술 문서가 비활성화되고 챗봇 애플리케이션에서 더 이상 액세스할 수 없습니다.</block>
   <block id="cc0a404c41a82c6be9de0d64f06fcd89" category="section-title">기술 문서를 삭제합니다</block>
-  <block id="76420e895d8bcbca33f0cf3202997ba2" category="paragraph">기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 자료를 삭제하면 Workload Factory에서 해당 기술 자료가 제거되고 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않게 됩니다. 이 작업은 되돌릴 수 없습니다.</block>
-  <block id="bd1e7a638d401a590a6dfd0683fcab0c" category="paragraph">기술 문서를 삭제할 때 다음 작업을 수행하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.</block>
-  <block id="d6a62e94706e27186ebc0fbca1c802d4" category="list-text">기술 문서를 관련 에이전트에서 분리합니다.</block>
-  <block id="0581045f098dd9833078169a3178147a" category="list-text">기술 문서에서 인덱싱된 기본 데이터는 설정한 벡터 저장소에 남아 있으며 여전히 검색할 수 있습니다. 데이터를 삭제하려면 데이터 포함 벡터 인덱스도 삭제해야 합니다.</block>
   <block id="26d469c182333c4c1e4800ddcd6d2a61" category="list-text">Knowledge Base 인벤토리 페이지에서 삭제할 기술 문서를 선택합니다.</block>
   <block id="0e0f1b27ca798d3b3b8154b411215d9a" category="list-text">조치 * 메뉴를 선택하고 * 기술 문서 삭제 * 를 선택합니다.</block>
   <block id="74091f3303c946e291c1c1702ba6d39a" category="list-text">기술 자료 삭제 대화 상자에서 삭제할 내용을 확인하고 * 삭제 * 를 선택합니다.</block>
-  <block id="63d56e434f490d0e8d99ce407df90bf6" category="paragraph">기술 문서가 Workload Factory에서 삭제됩니다.</block>
   <block id="8bbd4e338e42c1350d453ca5c82eb3b3" category="summary">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
   <block id="70de8e73e84df845f91376c6c0d1188e" category="doc">기술 문서를 게시하고 고유 끝점을 봅니다</block>
   <block id="12676fc9338d312de3a6cbb584fa3284" category="paragraph">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
@@ -571,4 +554,29 @@
   <block id="d59048f21fd887ad520398ce677be586" category="section-title">자세한 정보</block>
   <block id="862b02acae8afc7a8e5ed9bf4c7cb18e" category="inline-link">워크로드 팩토리 API 설명서</block>
   <block id="39d0fcde59bc31b066cd026cdc9718f8" category="paragraph"><block ref="39d0fcde59bc31b066cd026cdc9718f8" category="inline-link-rx"></block></block>
+  <block id="8f3f613a5094ebfa7c5f531cb356028e" category="list-text">* AI 매개 변수 정의 *: * 청크 전략 * 섹션에서 데이터 소스가 기술 문서에 통합될 때 GenAI 엔진이 데이터 소스 콘텐츠를 청크로 분할하는 방법을 정의합니다. 다음 전략 중 하나를 선택할 수 있습니다.</block>
+  <block id="091e1c7957272ab69145f4859b4465d0" category="list-text">* 다중 문장 청킹 *: 데이터 소스의 정보를 문장 정의 청크로 정리합니다. 각 청크를 구성하는 문장의 수(최대 100개)를 선택할 수 있습니다.</block>
+  <block id="87aa4ffcf50084a10651fe7094e75bda" category="list-text">* 오버랩 기반 청크 *: 데이터 소스의 정보를 인접 청크와 겹칠 수 있는 문자 정의 청크로 구성합니다. 각 청크의 크기를 문자 단위로 선택하고 각 청크가 인접한 청크와 겹치는 정도를 선택할 수 있습니다. 청크 크기는 50자에서 3000자 사이이고 겹치는 비율은 1 ~ 99%로 구성할 수 있습니다.</block>
+  <block id="18c41e2a8da7a23dcc990da8d7dfe06d" category="admonition">높은 중복 비율을 선택하면 검색 정확도가 약간 개선되어 저장소 요구 사항이 크게 증가할 수 있습니다.</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">챗봇 애플리케이션 예</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp Workload Factory 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.</block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">이제 Generative AI 워크로드가 새로운 각 기술 자료에 대해 전용 Amazon FSx for NetApp ONTAP 볼륨을 생성하여 각 기술 자료에 대한 개별 스냅샷 정책을 지원하고 장애 및 데이터 중독에 대한 보호 기능을 향상합니다.</block>
+  <block id="a97438cf1c94fe51248083c86ce591c5" category="list-text">기술 문서 정의 페이지에서 기술 문서 설정을 구성합니다.</block>
+  <block id="b651dafbe972dff3ef00c60a522c2c08" category="paragraph">대화 시작점을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. <block ref="787b3d64d417e723feebaf5fa5dbfeee" category="inline-link-macro-rx"></block>..</block>
+  <block id="ce08e73f7c40cf7e58d6371a757d23c6" category="list-text">* FSx for ONTAP 파일 시스템 *: 새로운 기술 자료를 정의하면 워크로드 팩토리에서는 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다. 새 볼륨을 생성할 기존 파일 시스템 이름과 SVM(스토리지 VM이라고도 함)을 선택합니다.</block>
+  <block id="305529b9c4df0ab06763778bf46b9449" category="list-text">* 스냅샷 정책 *: Workload Factory 스토리지 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다.</block>
+  <block id="ced63c567878ed01730fce043c8ade96" category="inline-link">스냅샷 정책을 생성합니다</block>
+  <block id="ad36efe6c620944e32785812d09accd6" category="paragraph">필요한 스냅샷 정책이 없는 경우<block ref="7546e5b5141e2979fa53ccc7106931ca" category="inline-link-rx"></block> 볼륨이 포함된 스토리지 VM에서 수행할 수 있습니다.</block>
+  <block id="d2efa843fffdf7f0b1400f4edeb08081" category="paragraph">기술 문서에 통합된 데이터 원본에 대한 정보를 편집할 수 있습니다. 대부분의 정보는 기술 문서에 데이터 원본을 추가한 후에 수정되지만 청크 정의 및 구성과 권한 인식(데이터 소스 볼륨에서 SMB 프로토콜을 사용할 때)을 변경할 수 있습니다.</block>
+  <block id="46f71814ee1d2e5bbe062c91635739cf" category="list-text">데이터 원본 편집 페이지에서 <block ref="0722c4ff5aff83b42b3212ce6356e926" category="inline-image-macro-rx" type="image"></block>청크 정의에 대한 행을 확장하도록 선택합니다.</block>
+  <block id="c9ee341e3341c054d76e9a00e2455883" category="list-text">청킹 전략 및 구성, 사용 권한 인식(SMB 볼륨의 경우)에 대한 설정을 업데이트하고 * 저장 * 을 선택합니다.</block>
+  <block id="f3ee02a23f65c24a5b66f40deaa52796" category="list-text">인프라 설정</block>
+  <block id="f39b1e8c1922f03eae35d54aa3cc70e1" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 대화 시작기를 자동으로 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 변경할 수 있습니다.</block>
+  <block id="88f99918375bbf8120b251d975b7e03e" category="paragraph">기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 문서를 삭제하면 Workload Factory에서 해당 기술 문서가 제거되고 기술 문서가 포함된 볼륨이 삭제됩니다. 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않습니다. 지식 기반 삭제는 되돌릴 수 없습니다.</block>
+  <block id="fd33fe22719aed031c8ea822ba866360" category="paragraph">기술 문서를 삭제할 때 기술 문서와 관련된 모든 상담원과의 연결을 해제하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.</block>
+  <block id="fa20235938197ed878f7da8159917a1d" category="paragraph">기술 문서가 Workload Factory에서 제거되고 관련 볼륨이 삭제됩니다.</block>
+  <block id="b5cef683aab00353096b98823a237e69" category="section-title">2024년 9월 1일</block>
 </blocks>
