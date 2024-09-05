@@ -579,4 +579,32 @@
   <block id="fd33fe22719aed031c8ea822ba866360" category="paragraph">기술 문서를 삭제할 때 기술 문서와 관련된 모든 상담원과의 연결을 해제하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.</block>
   <block id="fa20235938197ed878f7da8159917a1d" category="paragraph">기술 문서가 Workload Factory에서 제거되고 관련 볼륨이 삭제됩니다.</block>
   <block id="b5cef683aab00353096b98823a237e69" category="section-title">2024년 9월 1일</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="doc">문제 해결</block>
+  <block id="36e2bd9e7950f46d3ea6d2bca4c50ba1" category="paragraph">발생할 수 있는 몇 가지 일반적인 문제를 해결하는 방법에 대해 알아봅니다.</block>
+  <block id="95716fc01ccba6df751b9d2ae002be52" category="section-title">일반적인 문제 및 해결 방법</block>
+  <block id="cdfb5c11885ea650ef88224d86291d32" category="paragraph">이러한 문제 중 하나가 있는 경우 해결 방법 열에 있는 단계를 사용하여 문제를 해결할 수 있습니다.</block>
+  <block id="deec4ff19974f12ed781cb9a59064214" category="cell">영역</block>
+  <block id="642facf67e0ad311eee88b3ab8381590" category="cell">문제</block>
+  <block id="50fc9b91746bb8d34fa385d9324741ed" category="cell">원인</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">해결 방법</block>
+  <block id="ea355214fd4bc7c57f471bd92918879b" category="cell">구축</block>
+  <block id="c7ffd0cab67a601554ae934436d644d8" category="cell">볼륨이 이미 있기 때문에 배포가 실패합니다.</block>
+  <block id="5c985f7bd2795d6a69cd256e7fd02755" category="cell">GenAI용 워크로드 팩토리에는 구축 프로세스 중에 새 볼륨을 생성해야 하지만 지정한 이름을 사용하는 볼륨이 이미 존재합니다.</block>
+  <block id="c116d59189f49ad24327d9067ef9806e" category="cell">새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오.</block>
+  <block id="429a792784eb6767e4ecfd3b82f1ae2d" category="cell">GenAI용 Workload Factory에서 볼륨을 마운트할 수 없기 때문에 배포가 실패합니다.</block>
+  <block id="8f3392d21c1e23f002f42fd0394d7c80" category="cell">FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.</block>
+  <block id="e87d6ed459b274ad7c388e0797013c9f" category="inline-link">ONTAP용 FSx에 대한 보안 그룹 규칙입니다</block>
+  <block id="5503cb2b17f74a27a0085d8499cd3f60" category="paragraph">에 나열된 포트를<block ref="127df24588c6526408fa1a708579050d" category="inline-link-rx"></block> 엽니다.</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="cell">유지 관리</block>
+  <block id="dbb45a1dccce77b67592b5925f4e79c4" category="cell">Workload Factory for GenAI에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
+  <block id="f1e0872518e98f8295b8550491f79850" category="cell">볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.</block>
+  <block id="35df13c892646e1e41e065276ead0cee" category="paragraph">다음 복구 단계를 사용합니다.</block>
+  <block id="33aefd97376313139230d90d11725c7c" category="list-text">FSx for NetApp ONTAP에서 새 볼륨을 생성합니다. 예를 들어, 볼륨 이름은<block ref="74cd6292d49a50a17339880eaf71909f" prefix=" " category="inline-code"></block> 이고 볼륨 경로는 일 수<block ref="e7251dd12f14500e110af37fd268f48d" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="eeac5419fd92421807eedad222f7a6aa" category="list-text">Amazon EC2 인스턴스에 대한 SSH.</block>
+  <block id="d8fdf1bf6fa8b2e85005a0e982def19e" category="list-text">볼륨 나열:</block>
+  <block id="dd99e83d7c285a324a28a5c92543c4f8" category="list-text">이전 볼륨 제거:</block>
+  <block id="fa7f64581f6d6c87a2a52e6df453b29b" category="list-text"><block ref="4e5e90c6228fd48698d074241c2ba760" prefix=" " category="inline-code"></block>텍스트 편집기를 사용하여 파일을 엽니다.</block>
+  <block id="9cbd2c5c5175ed32f13a8e1e7a8198dd" category="list-text"><block ref="078831e29f354e83fac6da3db6ed6b7b" prefix=" " category="inline-code"></block>섹션에서 디바이스 경로를 새 볼륨 경로로 변경합니다. 예를 들면 다음과 같습니다.</block>
+  <block id="e9813bd2289d9835204f02be0a5d2df6" category="cell">루트 볼륨이 삭제되었습니다.</block>
+  <block id="358ede72c2c3d3e77baf3ed35b4039f6" category="cell">이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다.</block>
 </blocks>

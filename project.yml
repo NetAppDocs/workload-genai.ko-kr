@@ -63,6 +63,8 @@ sidebar:
     entries:
     - title: 지원을 위해 등록하십시오
       url: "/support-registration.html"
+    - title: 문제 해결
+      url: "/troubleshooting.html"
     - title: 도움을 받으십시오
       url: "/get-help.html"
   - title: 법적 고지

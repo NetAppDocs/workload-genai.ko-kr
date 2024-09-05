@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: troubleshooting.html 
+keywords: support registration, register for support, support, nss account, add nss account, 
+summary: NetApp 기술 지원에 대한 지원 케이스를 열려면 먼저 NetApp 지원 사이트 계정을 Workload Factory에 추가한 다음 지원을 등록해야 합니다. 
+---
+= 문제 해결
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+발생할 수 있는 몇 가지 일반적인 문제를 해결하는 방법에 대해 알아봅니다.
+
+
+
+== 일반적인 문제 및 해결 방법
+
+이러한 문제 중 하나가 있는 경우 해결 방법 열에 있는 단계를 사용하여 문제를 해결할 수 있습니다.
+
+[cols="1,2,2,4"]
+|===
+| 영역 | 문제 | 원인 | 해결 방법 
+
+
+| 구축 | 볼륨이 이미 있기 때문에 배포가 실패합니다. | GenAI용 워크로드 팩토리에는 구축 프로세스 중에 새 볼륨을 생성해야 하지만 지정한 이름을 사용하는 볼륨이 이미 존재합니다. | 새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오. 
+
+
+| 구축 | GenAI용 Workload Factory에서 볼륨을 마운트할 수 없기 때문에 배포가 실패합니다. | FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.  a| 
+에 나열된 포트를 https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html#inbound-rules["ONTAP용 FSx에 대한 보안 그룹 규칙입니다"^] 엽니다.
+
+
+
+| 유지 관리 | Workload Factory for GenAI에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.  a| 
+다음 복구 단계를 사용합니다.
+
+.단계
+. FSx for NetApp ONTAP에서 새 볼륨을 생성합니다. 예를 들어, 볼륨 이름은 `netapp_ai` 이고 볼륨 경로는 일 수 `/netapp_ai` 있습니다.
+. Amazon EC2 인스턴스에 대한 SSH.
+. 볼륨 나열:
++
+[source, console]
+----
+docker volume list
+----
+. 이전 볼륨 제거:
++
+[source, console]
+----
+docker volume rm ec2-user_persistent_folder
+----
+.  `docker-compose.yml`텍스트 편집기를 사용하여 파일을 엽니다.
+.  `volumes`섹션에서 디바이스 경로를 새 볼륨 경로로 변경합니다. 예를 들면 다음과 같습니다.
++
+[source, yaml]
+----
+volumes:
+  persistent_folder:
+    driver_opts:
+      type: 'nfs'
+      o: "addr=svm-0df66b96a890d8a72.\
+      fs-0d673008aaca12bc3.\
+      fsx.us-east-1.amazonaws.com,nolock,soft,rw"
+      device: ':/netapp_ai' # Path to new volume
+----
+
+
+
+
+| 유지 관리 | Workload Factory for GenAI에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 루트 볼륨이 삭제되었습니다. | 이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다. 
+|===
