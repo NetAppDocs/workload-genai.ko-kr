@@ -73,14 +73,12 @@
   <block id="bb75c182eff66bee3c76899d41fc8e8f" category="list-text">* Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.</block>
   <block id="fd6f710773f79577a44d128bb3df27cc" category="inline-link-macro">기술 문서 설정을 수정하는 방법에 대해 알아봅니다</block>
   <block id="7311e81ffb665c2ec2a4c996ce693887" category="list-text">GenAI에 기술 문서를 추가하려면 * 기술 문서 만들기 * 를 선택하십시오.</block>
-  <block id="89f815e342683a86616ce06926e87088" category="list-text">마법사의 다음 페이지에서는 새 기술 자료에 데이터 원본을 추가하거나 데이터 원본을 추가하지 않고 이 프로세스를 종료할 수 있습니다. 지금 * 데이터 원본 추가 * 를 선택하고 하나 이상의 데이터 원본을 추가하는 것이 좋습니다.</block>
   <block id="9bd079cbc91b32393983ae28a378c00c" category="section-title">기술 문서에 데이터 원본을 추가합니다</block>
   <block id="831e8ddab4c3e70bcfe67a3e58aaf8cc" category="paragraph">하나 이상의 데이터 원본을 추가하여 조직의 데이터로 기술 문서를 채울 수 있습니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
   <block id="443fa995d0ec899357a7e519e2055b98" category="paragraph">지원되는 최대 데이터 원본 수는 10개입니다.</block>
   <block id="10031d73287aadb6c5f8b3dae7b23860" category="list-text">데이터 원본 추가 * 를 선택하면 * 파일 시스템 선택 * 페이지가 표시됩니다.</block>
   <block id="8817d70d4163473468fa1b2b6e498321" category="paragraph">데이터 원본이 기술 문서에 포함되기 시작합니다. 데이터 원본이 완전히 포함되면 상태가 "포함"에서 "포함"으로 변경됩니다.</block>
-  <block id="8dfce7f4d224734508ee16a1aff7ad72" category="paragraph">기술 문서에 단일 데이터 소스를 추가한 후 Chatbot 시뮬레이터 창에서 로컬로 테스트하고 필요에 따라 변경한 후 챗봇을 사용자에게 제공할 수 있습니다. 또한 동일한 단계에 따라 기술 문서에 데이터 원본을 추가할 수도 있습니다.</block>
   <block id="b9605cf748e4b8e1c97d786258a0be40" category="summary">조직을 위해 FSx for ONTAP 기술 자료 및 애플리케이션을 구축하기 전에 환경에 RAG 프레임워크용 인프라를 구축해야 합니다. 주요 인프라 구성 요소는 Amazon Bedrock AI 서비스, NetApp GenAI 엔진의 가상 머신 인스턴스 및 FSx for ONTAP 파일 시스템입니다.</block>
   <block id="e379b913896cf9bdd4e2d6717212215a" category="doc">GenAI 인프라를 구축합니다</block>
   <block id="0cd805094b5dffd702d8e0faa10c927c" category="paragraph">조직에 맞게 FSx for ONTAP 지식 기반 및 애플리케이션을 구축하기 전에 환경에 RAG 프레임워크용 GenAI 인프라를 구축해야 합니다. 기본 인프라 구성요소는 Amazon Bedrock 서비스, NetApp GenAI 엔진의 가상 머신 인스턴스 및 FSx for ONTAP 파일 시스템입니다.</block>
@@ -218,7 +216,6 @@
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="doc">기술 자료에 통합할 데이터 소스를 식별합니다</block>
   <block id="887cf13beb27381e3305ca34c5115c2d" category="section-title">최대 데이터 원본 수입니다</block>
   <block id="4b8e341857a3eb86f0ae58a01da824ed" category="section-title">데이터 소스의 위치입니다</block>
-  <block id="517b9fa88a903df70d1614de4a032562" category="paragraph">데이터 소스는 Amazon FSx for NetApp ONTAP 파일 시스템의 SMB 공유 또는 NFS 내보내기의 단일 볼륨 또는 볼륨 내의 폴더에 저장될 수 있습니다. 볼륨이나 폴더 내에서 개별 문서를 선택할 수 없으므로 데이터 원본이 포함된 각 볼륨이나 폴더에 기술 문서와 통합되지 않아야 하는 관련 문서가 포함되어 있지 않은지 확인해야 합니다.</block>
   <block id="a07dd9fe7465f7ec7d15135a3cfab3a4" category="paragraph">각 기술 자료에 여러 데이터 소스를 추가할 수 있지만, 모두 AWS 계정에서 액세스할 수 있는 FSx for ONTAP 파일 시스템에 상주해야 합니다.</block>
   <block id="ffbef7cfe7a8524b59851c8a1389ebcc" category="paragraph">각 데이터 원본의 최대 파일 크기는 50MB입니다.</block>
   <block id="c84d4278eb32c7a089aea86ebf95ad39" category="section-title">지원되는 프로토콜</block>
@@ -231,10 +228,8 @@
   <block id="63e4e92bb7d207ca577b11c07f827279" category="cell">연장</block>
   <block id="f39a0720a929097afa9db4505cdf9669" category="cell">일반 텍스트</block>
   <block id="be4117b0c842c4be8f9960294bdc2cd1" category="cell">.txt입니다</block>
-  <block id="7fe3b93cf991d61aa2597033a8f37d76" category="cell">휴대용 문서</block>
   <block id="abdf095626d4a4ab2bcd4167b128c1f1" category="cell">PDF로 이동합니다</block>
   <block id="d241ed446445a725f6362568f61cc6c3" category="cell">Microsoft Word를</block>
-  <block id="8c7a7a618a6d4acfe85b4b4b1048846d" category="cell">.docx입니다</block>
   <block id="68dfdbe39ab30356a21fe4db773d9589" category="cell">쉼표로 구분된 값 파일입니다</block>
   <block id="01b1b6ebeb388697cca6712b58439069" category="cell">.csv입니다</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
@@ -329,8 +324,6 @@
   <block id="365770c3700b9872888879ce60ec18e9" category="list-text">Knowledge Base 인벤토리 페이지에서 데이터 소스를 추가할 기술 문서를 선택합니다.</block>
   <block id="5e1a4fe723264018579dfc3330f9b160" category="list-text">를 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택하고 * 데이터 원본 추가 * 를 선택합니다.</block>
   <block id="07d9f547e6bcd64a574782add9797b63" category="paragraph">데이터 원본은 기술 자료에 통합됩니다.</block>
-  <block id="5b1f48da21d15acc675f4720c57d0f26" category="section-title">데이터 원본을 기술 문서와 동기화합니다</block>
-  <block id="9547b575fe1c28cc98e35108cacd9918" category="paragraph">데이터 소스는 하루에 한 번 기술 자료와 자동으로 동기화되므로 데이터 소스 변경 사항이 챗봇에 반영됩니다. 데이터 원본을 변경하고 데이터를 즉시 동기화하려는 경우 필요 시 동기화를 수행할 수 있습니다.</block>
   <block id="9cbd78c1bcf6132d43822acf74d520f1" category="paragraph">동기화는 증분 동기화이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 데이터 원본의 객체만 처리합니다.</block>
   <block id="5fe210e3b4435e2188200d1f9b96db74" category="list-text">Knowledge Base 인벤토리 페이지에서 동기화할 기술 자료를 선택합니다.</block>
   <block id="fbf8fa86db3bb16616d2fb45b7250a0d" category="list-text">조치 * 메뉴를 선택하고 * 지금 스캔 * 을 선택합니다.</block>
@@ -567,7 +560,6 @@
   <block id="a97438cf1c94fe51248083c86ce591c5" category="list-text">기술 문서 정의 페이지에서 기술 문서 설정을 구성합니다.</block>
   <block id="b651dafbe972dff3ef00c60a522c2c08" category="paragraph">대화 시작점을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. <block ref="787b3d64d417e723feebaf5fa5dbfeee" category="inline-link-macro-rx"></block>..</block>
   <block id="ce08e73f7c40cf7e58d6371a757d23c6" category="list-text">* FSx for ONTAP 파일 시스템 *: 새로운 기술 자료를 정의하면 워크로드 팩토리에서는 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다. 새 볼륨을 생성할 기존 파일 시스템 이름과 SVM(스토리지 VM이라고도 함)을 선택합니다.</block>
-  <block id="305529b9c4df0ab06763778bf46b9449" category="list-text">* 스냅샷 정책 *: Workload Factory 스토리지 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다.</block>
   <block id="ced63c567878ed01730fce043c8ade96" category="inline-link">스냅샷 정책을 생성합니다</block>
   <block id="ad36efe6c620944e32785812d09accd6" category="paragraph">필요한 스냅샷 정책이 없는 경우<block ref="7546e5b5141e2979fa53ccc7106931ca" category="inline-link-rx"></block> 볼륨이 포함된 스토리지 VM에서 수행할 수 있습니다.</block>
   <block id="d2efa843fffdf7f0b1400f4edeb08081" category="paragraph">기술 문서에 통합된 데이터 원본에 대한 정보를 편집할 수 있습니다. 대부분의 정보는 기술 문서에 데이터 원본을 추가한 후에 수정되지만 청크 정의 및 구성과 권한 인식(데이터 소스 볼륨에서 SMB 프로토콜을 사용할 때)을 변경할 수 있습니다.</block>
@@ -607,4 +599,45 @@
   <block id="9cbd2c5c5175ed32f13a8e1e7a8198dd" category="list-text"><block ref="078831e29f354e83fac6da3db6ed6b7b" prefix=" " category="inline-code"></block>섹션에서 디바이스 경로를 새 볼륨 경로로 변경합니다. 예를 들면 다음과 같습니다.</block>
   <block id="e9813bd2289d9835204f02be0a5d2df6" category="cell">루트 볼륨이 삭제되었습니다.</block>
   <block id="358ede72c2c3d3e77baf3ed35b4039f6" category="cell">이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다.</block>
+  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">기술 문서 볼륨의 스냅샷을 생성하고 복원합니다</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.</block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">예약된 스캔을 일시 중지합니다</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">이제 예약된 데이터 원본 스캔을 일시 중지할 수 있습니다. 기본적으로 Generative AI 워크로드는 매일 각 데이터 소스를 스캔하여 각 기술 자료에 새로운 데이터를 수집합니다. 테스트 중 또는 스냅샷 복원 중에 최신 변경 사항을 수집하지 않으려면 예약된 스캔을 일시 중지하고 언제든지 다시 시작할 수 있습니다.</block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">이제 기술 자료에 지원되는 데이터 보호 볼륨입니다</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.</block>
+  <block id="c880ade9c6e1657038a733388834bf6d" category="list-text">* 스냅샷 정책 *: Workload Factory 스토리지 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다. 선택한 스냅샷 정책에 따라 기술 자료의 반복적인 스냅샷이 자동으로 생성됩니다.</block>
+  <block id="530d81713422730939efa8236f41105f" category="paragraph">기술 문서가 작성되는 동안 진행률 표시기가 나타납니다.</block>
+  <block id="2ec7e499bf83fa315927a96623d03df5" category="paragraph">기술 문서를 만든 후에는 데이터 원본을 새 기술 문서에 추가하거나 데이터 원본을 추가하지 않고 프로세스를 종료할 수 있습니다. 지금 * 데이터 원본 추가 * 를 선택하고 하나 이상의 데이터 원본을 추가하는 것이 좋습니다.</block>
+  <block id="e0308d285e9bc5966f6ceb7008c87849" category="paragraph">기술 자료에 단일 데이터 소스를 추가한 후 챗봇 시뮬레이터 창에서 로컬로 테스트하고 필요에 따라 변경한 후 사용자가 챗봇을 사용할 수 있도록 할 수 있습니다. 또한 동일한 단계에 따라 기술 문서에 데이터 원본을 추가할 수도 있습니다.</block>
+  <block id="2ea3dbeb714261d8180c0931e50d9b53" category="paragraph">데이터 소스는 Amazon FSx for NetApp ONTAP 파일 시스템의 SMB 공유 또는 NFS 내보내기의 단일 볼륨 또는 볼륨 내의 폴더에 저장될 수 있습니다. 데이터 소스는 NetApp SnapMirror 데이터 보호 관계에 있는 Amazon FSx for NetApp ONTAP 볼륨에 저장할 수도 있습니다.</block>
+  <block id="709c30bf3c120fca30b346788a407cf8" category="paragraph">볼륨이나 폴더 내에서 개별 문서를 선택할 수 없으므로 데이터 원본이 포함된 각 볼륨이나 폴더에 기술 문서와 통합되지 않아야 하는 관련 문서가 포함되어 있지 않은지 확인해야 합니다.</block>
+  <block id="2182a74bab7188d959e795d9301e87ff" category="cell">마크다운</block>
+  <block id="dadf0304a901246ee7f588e5276f1761" category="cell">진료 부서</block>
+  <block id="09df1824d82fa779fc65302df5218ed7" category="cell">.doc 또는 .docx</block>
+  <block id="df8b8a3c2e9816c8fa5785b811006754" category="cell">휴대용 문서 형식</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="section-title">스냅샷으로 기술 자료 보호</block>
+  <block id="ebe007adb0cdb086ff8918410a8dee5b" category="paragraph">기술 자료 볼륨의 스냅샷을 생성하고 복원하여 기술 자료 데이터를 보호할 수 있습니다. 언제든지 스냅샷에서 복원하여 이전 버전의 기술 자료로 되돌릴 수 있습니다.</block>
+  <block id="4579190c461a9ec96d3604ff5fad8099" category="paragraph">스냅샷은 백업보다 더 빠르고 스토리지 효율적이며, 다른 보호 정책을 사용하여 각 기술 자료를 보호할 수 있습니다. 스냅샷이 유용한 시나리오는 다음과 같습니다.</block>
+  <block id="07d621cfd1a721c92651875f5213cf9c" category="list-text">우발적인 데이터 손실 또는 손상</block>
+  <block id="b3edfca5cba615cc8a93b9d63e97b819" category="list-text">기술 문서에 수집되는 잘못된 데이터를 복구하는 중입니다</block>
+  <block id="0243c67f7fa35f362d1323768ccc5871" category="list-text">다양한 데이터 소스 또는 청킹 전략을 테스트하고 테스트가 완료되면 신속하게 되돌릴 수 있습니다</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="section-title">기술 자료 볼륨의 스냅샷을 생성합니다</block>
+  <block id="4d44b256311340bb736c203922fb0296" category="paragraph">기술 자료 볼륨의 수동 스냅샷을 생성하여 기술 문서의 상태를 저장할 수 있습니다.</block>
+  <block id="1fbeeb5e6aa15ff7209e4a92d6562e31" category="list-text">Knowledge Base 인벤토리 페이지에서 보호할 기술 자료를 선택합니다.</block>
+  <block id="81d9d121de4b6c5678182e3422bf9650" category="list-text">Actions * 메뉴를 선택하고 * Snapshot &gt; Create new snapshot * 을 선택합니다.</block>
+  <block id="3ec558c4a178bea34d2e5946bf312b7d" category="paragraph">기술 자료의 스냅샷이 생성됩니다.</block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="section-title">기술 자료 볼륨의 스냅샷을 복원합니다</block>
+  <block id="1c0e06755573de2de1c2d9b32674ea2f" category="paragraph">언제든지 기술 자료 볼륨의 수동 또는 예약 스냅샷을 복원할 수 있습니다.</block>
+  <block id="de134183bea5df515a6756a539ce6f18" category="inline-link">ONTAP CLI 를 참조하십시오</block>
+  <block id="f14abb5dd88e8c117fe2da63e57697d4" category="admonition">볼륨에 저장된 데이터베이스가 손상되었거나 삭제된 경우 Generative AI 워크로드 UI를 사용하여 스냅샷을 복원할 수 없습니다. 이 문제를 해결하려면 볼륨이 호스팅되는 ONTAP 클러스터에서 을 사용하여 스냅샷을 복원할 수<block ref="6335761ebc6c6e298f35eb8b2201e062" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="4eb5e554b61083f3b7827cb521093085" category="list-text">Knowledge Base 인벤토리 페이지에서 복원할 기술 문서를 선택합니다.</block>
+  <block id="e890c518ff6cfabdc152007bfb3c49d8" category="list-text">Actions * 메뉴를 선택하고 * Snapshot &gt; Restore snapshot * 을 선택합니다.</block>
+  <block id="da5ec29ae3439bc7afa7fa8e6407b19e" category="paragraph">스냅샷 선택 대화 상자가 나타나고 이 기술 자료에 대해 생성된 스냅샷 목록을 볼 수 있습니다.</block>
+  <block id="ece73b44227fa0e2047743c76b07917a" category="list-text">(선택 사항) 스냅샷이 복원된 후 예약 및 현재 실행 중인 데이터 소스 스캔을 계속하려면 * Pause running and scheduled scans after the snapshot Restore * (스냅숏 복원 후 실행 및 예약된 스캔 일시 중지) 옵션을 선택 취소합니다.</block>
+  <block id="562ecd64817b603d4fc723f3f68aa81c" category="paragraph">이 옵션은 기본적으로 활성화되어 있으므로 기술 문서가 부분적으로 복원된 상태일 때 검사가 수행되지 않거나 검사가 새로 복원된 기술 문서를 이전 데이터로 업데이트하지 않습니다.</block>
+  <block id="c33a9a11971ce2afdcc7d2ca3639e49d" category="list-text">목록에서 복구할 스냅샷을 선택합니다.</block>
+  <block id="f77361b272ce81d8275727f7b1a756a8" category="list-text">Restore * 를 선택합니다.</block>
+  <block id="75adfeedf06d70e0bc627133f85cd211" category="section-title">데이터 원본을 기술 문서와 동기화합니다</block>
+  <block id="44736bad98446163ecd5077653cbd105" category="paragraph">데이터 소스는 하루에 한 번 관련 기술 자료와 자동으로 동기화되므로 데이터 소스 변경 사항이 챗봇에 반영됩니다. 데이터 원본을 변경하고 데이터를 즉시 동기화하려는 경우 필요 시 동기화를 수행할 수 있습니다.</block>
+  <block id="26e6f4cc71039ce95ddbb0acdad6891d" category="section-title">2024년 9월 29일</block>
 </blocks>
