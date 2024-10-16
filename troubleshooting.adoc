@@ -7,7 +7,7 @@ summary: NetApp 기술 지원에 대한 지원 케이스를 열려면 먼저 Net
 = 문제 해결
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

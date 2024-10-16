@@ -7,7 +7,7 @@ summary: 'NetApp은 Workload Factory에 대한 다양한 방법을 지원합니�
 = 도움을 받으십시오
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

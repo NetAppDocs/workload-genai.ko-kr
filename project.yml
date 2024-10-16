@@ -33,32 +33,30 @@ sidebar:
       url: "/deploy-infrastructure.html"
     - title: 외부 예제 챗봇 응용 프로그램을 사용합니다
       url: "/example-chatbot-application.html"
-  - title: GenAI를 사용하여 지식 기반을 만듭니다
+    - title: NetApp GenAI 엔진의 구성 요소
+      url: "/genai-engine-instance.html"
+  - title: GenAI를 사용하여 지식 기반 구축
     entries:
     - title: 기술 문서를 작성합니다
-      entries:
-      - title: 기술 문서를 작성합니다
-        url: "/create-knowledgebase.html"
-      - title: 기술 문서를 테스트합니다
-        url: "/test-knowledgebase.html"
-      - title: 인증을 활성화합니다
-        url: "/activate-authentication.html"
-      - title: 기술 문서를 게시합니다
-        url: "/publish-knowledgebase.html"
-      - title: rag 기반 AI 애플리케이션을 생성한다
-        url: "/create-application.html"
-      - title: 다음에 할 수 있는 일
-        url: "/whats-next.html"
-    - title: 데이터 소스 관리
-      url: "/manage-data-source.html"
-    - title: 기술 자료 관리
-      url: "/manage-knowledgebase.html"
+      url: "/create-knowledgebase.html"
+    - title: 기술 문서를 테스트합니다
+      url: "/test-knowledgebase.html"
+    - title: 인증을 활성화합니다
+      url: "/activate-authentication.html"
+    - title: 기술 문서를 게시합니다
+      url: "/publish-knowledgebase.html"
+    - title: rag 기반 AI 애플리케이션을 생성한다
+      url: "/create-application.html"
+    - title: 다음에 할 수 있는 일
+      url: "/whats-next.html"
   - title: GenAI 관리
     entries:
     - title: GenAI 인프라를 관리합니다
       url: "/manage-infrastructure.html"
-    - title: NetApp GenAI 엔진의 구성 요소
-      url: "/genai-engine-instance.html"
+    - title: 기술 자료 관리
+      url: "/manage-knowledgebase.html"
+    - title: 데이터 소스 관리
+      url: "/manage-data-source.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오

@@ -275,7 +275,6 @@
   <block id="f0c862596fc0a1dd30faa6b630a0d09b" category="section-title">기존 데이터 원본의 내용을 업데이트합니다</block>
   <block id="d811eb8aad6aebc071695232fb58c5a5" category="paragraph">언제든지 데이터 원본의 내용을 변경하여 조직 데이터를 추가하거나 업데이트할 수 있습니다. 이 데이터 원본이 기술 문서에서 활발하게 사용되는 경우 데이터 원본이 기술 문서에 다시 인덱싱되도록 데이터 원본을 동기화해야 합니다. 동기화는 증분 방식이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 FSx for ONTAP 볼륨의 개체만 처리합니다.</block>
   <block id="24f189799b33f2d3f465d0658dcc69e1" category="inline-link-macro">필요 시 동기화를 수행합니다</block>
-  <block id="424609f726117c0fe50e1034bb197bf7" category="paragraph">데이터 소스는 하루에 한 번 기술 자료와 자동으로 동기화되므로 데이터 소스 변경 사항이 챗봇에 반영됩니다. 데이터 원본을 변경하고 데이터를 즉시 동기화하려는 경우 할 수 <block ref="67b891ffaab1342f4fb267d7cc798f81" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="35198182831e3f9922e23822e3f2e2eb" category="section-title">데이터 원본을 삭제합니다</block>
   <block id="19045c987301cc2ddb28f24761554946" category="paragraph">데이터 원본이 더 이상 기술 문서에 포함되지 않아도 되는 경우 삭제할 수 있습니다.</block>
   <block id="7c25f02bbc30d711041ddd1cc4235dc3" category="list-text">기술 문서 인벤토리 페이지에서 데이터 원본이 있는 기술 문서를 선택한 다음 * 기술 자료 관리 * 를 선택하고 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택합니다.</block>
@@ -501,7 +500,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="acbf2b120f060c765cc5fbfef7779840" category="sidebar">기술 자료에 대한 데이터 소스를 식별합니다</block>
-  <block id="2e800147de9688c09f27dae52c542680" category="sidebar">GenAI를 사용하여 지식 기반을 만듭니다</block>
   <block id="b032727d9e00be7e59aefec94a0972c2" category="sidebar">인증을 활성화합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
   <block id="3163a16fc98aa29c5fea8b61c62bb459" category="paragraph">Workload Factory의 GenAI 기능을 무료로 사용할 수 있습니다.</block>
@@ -644,4 +642,6 @@
   <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">기술 자료 볼륨에 대한 스냅샷 및 복원 지원</block>
+  <block id="ef3d62d3a83e208fec16cf94a1c9ef8b" category="paragraph">데이터 소스는 하루에 한 번 기술 자료와 자동으로 동기화되므로 데이터 소스 변경 사항이 챗봇에 반영됩니다. 데이터 원본을 변경하고 데이터를 즉시 동기화하려는 경우 할 수 <block ref="a5f82761b74f2896160929ccd4ead00e" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="3bd082f2a7c2961a682116b6ed9f43fc" category="sidebar">GenAI를 사용하여 지식 기반 구축</block>
 </blocks>
