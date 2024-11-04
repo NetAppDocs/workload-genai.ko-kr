@@ -564,7 +564,6 @@
   <block id="46f71814ee1d2e5bbe062c91635739cf" category="list-text">데이터 원본 편집 페이지에서 <block ref="0722c4ff5aff83b42b3212ce6356e926" category="inline-image-macro-rx" type="image"></block>청크 정의에 대한 행을 확장하도록 선택합니다.</block>
   <block id="c9ee341e3341c054d76e9a00e2455883" category="list-text">청킹 전략 및 구성, 사용 권한 인식(SMB 볼륨의 경우)에 대한 설정을 업데이트하고 * 저장 * 을 선택합니다.</block>
   <block id="f3ee02a23f65c24a5b66f40deaa52796" category="list-text">인프라 설정</block>
-  <block id="f39b1e8c1922f03eae35d54aa3cc70e1" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 대화 시작기를 자동으로 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 변경할 수 있습니다.</block>
   <block id="88f99918375bbf8120b251d975b7e03e" category="paragraph">기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 문서를 삭제하면 Workload Factory에서 해당 기술 문서가 제거되고 기술 문서가 포함된 볼륨이 삭제됩니다. 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않습니다. 지식 기반 삭제는 되돌릴 수 없습니다.</block>
   <block id="fd33fe22719aed031c8ea822ba866360" category="paragraph">기술 문서를 삭제할 때 기술 문서와 관련된 모든 상담원과의 연결을 해제하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.</block>
   <block id="fa20235938197ed878f7da8159917a1d" category="paragraph">기술 문서가 Workload Factory에서 제거되고 관련 볼륨이 삭제됩니다.</block>
@@ -644,4 +643,28 @@
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">기술 자료 볼륨에 대한 스냅샷 및 복원 지원</block>
   <block id="ef3d62d3a83e208fec16cf94a1c9ef8b" category="paragraph">데이터 소스는 하루에 한 번 기술 자료와 자동으로 동기화되므로 데이터 소스 변경 사항이 챗봇에 반영됩니다. 데이터 원본을 변경하고 데이터를 즉시 동기화하려는 경우 할 수 <block ref="a5f82761b74f2896160929ccd4ead00e" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="3bd082f2a7c2961a682116b6ed9f43fc" category="sidebar">GenAI를 사용하여 지식 기반 구축</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">데이터 가드레일을 사용하여 개인 식별 정보를 마스킹합니다</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">Generative AI 워크로드에는 BlueXP  분류를 기반으로 하는 데이터 가드레일 기능이 도입되었습니다. 데이터 가드레일 기능은 개인 식별 정보(PII)를 식별 및 마스킹하여 규정 준수를 유지하고 중요한 조직 데이터의 보안을 강화합니다.</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">BlueXP 분류에 대해 알아보십시오</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
+  <block id="ee538d8e0203b8c3e9bdb95ebee1162c" category="paragraph">Knowledge Base에는 두 가지 데이터 통합 Modality(_public mode_와_Enterprise mode_가 있습니다.</block>
+  <block id="3b3458714be1e5c3f76dd200e4227588" category="list-text">공개 모드</block>
+  <block id="ab6bcff4b8fb91fe0c83c8ef83da1c6e" category="list-text">엔터프라이즈 모드</block>
+  <block id="e168133413009827e06cf1b52bf82d2e" category="paragraph">조직의 데이터 원본에는 개인 ID 정보(PII)가 포함될 수 있습니다. 이러한 중요한 정보를 보호하기 위해 기술 자료를 만들고 구성할 때 _data guardrails_를 활성화할 수 있습니다. BlueXP  분류를 기반으로 하는 데이터 가드레일은 PII를 식별하고 마스킹하므로 액세스 및 복구가 불가능합니다.</block>
+  <block id="2abf45f9ff5a74918b97267cd4e59d6a" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block>..</block>
+  <block id="cf24c0f0066b07e51df4da735abd84e5" category="admonition">데이터 가드레일은 언제든지 활성화 또는 비활성화할 수 있습니다. 데이터 가드레일 사용을 전환하면 Workload Factory에서 전체 기술 자료를 처음부터 검사하여 비용이 발생합니다.</block>
+  <block id="1be907baab24daef236be08a55d381ce" category="inline-link-macro">BlueXP  분류를 기반으로 하는 데이터 가드레일에 대해 알아보십시오</block>
+  <block id="239980b6c377cd208cd4875dd11871a7" category="list-text">* 데이터 가드레일 * : 데이터 가드레일을 활성화 또는 비활성화할지 선택합니다. <block ref="705e589dc60832aba1b9593eb1d26a9a" category="inline-link-macro-rx"></block>..</block>
+  <block id="5d78af30e91e495d74cbd3cac7a282db" category="paragraph">데이터 가드레일을 사용하려면 다음 사전 요구 사항을 완료해야 합니다.</block>
+  <block id="069e9a4c876c108cc9f27ee13170ed16" category="inline-link-macro">BlueXP 에서 구성원에 역할을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="f271e30d6a375057fa3075f037ab44e5" category="list-text">BlueXP  분류와 통신하려면 서비스 계정이 필요합니다. 서비스 계정을 생성하려면 BlueXP  Tenancy 계정에 _Organization admin_역할이 있어야 합니다. 조직 관리자 역할을 가진 구성원은 BlueXP 의 모든 작업을 완료할 수 있습니다. <block ref="9ba9a2df720ef49e9efc4ba4af6ca608" category="inline-link-macro-rx"></block></block>
+  <block id="44b34442167c9611792529867ee76d90" category="inline-link-macro">BlueXP 분류 문서</block>
+  <block id="bc2f4df95fcf66983b127abe7caa7a0a" category="list-text">에 설명된 대로 다음을 수행해야 <block ref="0e478e925fb96541eb2f7d657ca01cb8" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="a5085066220b6bc77291e8a3ba481c5a" category="list-text">BlueXP Connector를 생성합니다</block>
+  <block id="3e3c8a56035df76e06772f4505dc58c7" category="list-text">환경이 사전 요구 사항을 충족할 수 있는지 확인합니다</block>
+  <block id="0ce4d42838344488f607ff306088fae9" category="list-text">BlueXP 분류를 배포합니다</block>
+  <block id="b91895758c5a35a75fd3e87dc1fa0741" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 데이터 가드레일 사용을 변경하고, 대화 시작점을 자동 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 선택할 수 있습니다.</block>
+  <block id="fde00ba8f64d2c57d64a163698fd6f03" category="admonition">임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 후 데이터 가드레일을 활성화하면 기술 문서가 다시 검색되어 비용이 발생합니다.</block>
+  <block id="d9f5899ddcae7952c9df69e075c822e2" category="section-title">2024년 11월 3일</block>
 </blocks>
