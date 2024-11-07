@@ -667,4 +667,8 @@
   <block id="b91895758c5a35a75fd3e87dc1fa0741" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 데이터 가드레일 사용을 변경하고, 대화 시작점을 자동 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 선택할 수 있습니다.</block>
   <block id="fde00ba8f64d2c57d64a163698fd6f03" category="admonition">임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 후 데이터 가드레일을 활성화하면 기술 문서가 다시 검색되어 비용이 발생합니다.</block>
   <block id="d9f5899ddcae7952c9df69e075c822e2" category="section-title">2024년 11월 3일</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
+  <block id="402ae08ce46f82670c0313312e504ad7" category="list-text">AI 엔진이 에 액세스할 수 있어야 합니다 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block></block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
+  <block id="4b88d56bd65ef92611ac63064c38369f" category="list-text">Amazon CloudWatch 를 참조하십시오</block>
 </blocks>

@@ -67,6 +67,7 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 
 +
 *** BlueXP  분류와 통신하려면 서비스 계정이 필요합니다. 서비스 계정을 생성하려면 BlueXP  Tenancy 계정에 _Organization admin_역할이 있어야 합니다. 조직 관리자 역할을 가진 구성원은 BlueXP 의 모든 작업을 완료할 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member["BlueXP 에서 구성원에 역할을 추가하는 방법에 대해 알아봅니다"^]
+*** AI 엔진이 에 액세스할 수 있어야 합니다 link:https://console.bluexp.netapp.com/["BlueXP 콘솔"^]
 *** 에 설명된 대로 다음을 수행해야 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start["BlueXP 분류 문서"^]합니다.
 +
 .... BlueXP Connector를 생성합니다

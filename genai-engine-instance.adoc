@@ -42,6 +42,8 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
 * Amazon Elastic Container Registry(ECR)
 * Amazon S3
 * AWS 시스템 관리자(SSM)
+* NetApp ONTAP용 Amazon FSx
+* Amazon CloudWatch 를 참조하십시오
 
 
 --
