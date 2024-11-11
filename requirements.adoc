@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements.html 
 keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements 
-summary: 기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바르게 설정되어 있는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다. 
+summary: 기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다. 
 ---
 = GenAI 요구 사항
 :allow-uri-read: 
@@ -11,15 +11,10 @@ summary: 기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바
 
 
 [role="lead"]
-기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바르게 설정되어 있는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.
+기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.
 
-워크로드 팩토리 로그인 및 계정:: Workload Factory에 로그인하여 계정을 생성해야 합니다.
-+
---
-https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["로그인 및 계정 생성에 대해 자세히 알아봅니다"^]
-
---
-AWS 자격 증명 및 권한:: 자동화 권한으로 Workload Factory에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI에 대해 Workload Factory를 _automate_mode로 사용합니다.
+워크로드 공장 로그인 및 계정:: 를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
+AWS 자격 증명 및 권한:: 자동 사용 권한으로 워크로드 공장에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _AUTOMATE_MODE의 워크로드 공장을 사용합니다.
 +
 --
 _Basic_mode 및 _Read_mode 권한은 현재 지원되지 않습니다.
@@ -28,13 +23,13 @@ _Basic_mode 및 _Read_mode 권한은 현재 지원되지 않습니다.
 
 image:screenshot-ai-permissions.png["AI 리소스의 전체 관리에 대한 사용 권한 설정을 보여 주는 스크린샷"]
 
-https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AWS 자격 증명을 Workload Factory 에 추가하는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"^]
 
 --
 아마존 Bedrock:: Amazon Bedrock은 기반 모델을 사용할 수 있으며 생성 가능한 AI 애플리케이션을 구축하는 기능을 제공합니다.
 +
 --
-GenAI용 Workload Factory를 시작하려면 먼저 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.
+GenAI의 워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.
 
 * https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html["AWS 설명서: Amazon Bedrock을 설정합니다"^]
 * https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["AWS 설명서: Amazon Bedrock에 대한 지식 기반 지원 지역 및 모델"^]

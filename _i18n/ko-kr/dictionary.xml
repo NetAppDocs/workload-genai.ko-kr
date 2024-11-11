@@ -21,13 +21,9 @@
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="5d8cae383bd52502a39a1612796fb31f" category="paragraph">이제 기술 자료를 챗봇 애플리케이션과 통합하는 데 사용할 수 있는 게시된 기술 자료 및 고유한 엔드포인트가 생겼습니다.</block>
-  <block id="8cf73916af9c9e607f9cebacfe1b1ac5" category="summary">GenAI용 Workload Factory를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.</block>
-  <block id="66b1224405cf6ac792013dbc191eba66" category="doc">GenAI용 Workload Factory에 대해 알아보십시오</block>
-  <block id="25762e4e39bc220e130cc0d26e2d4ca6" category="paragraph">GenAI용 Workload Factory를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&amp;A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다</block>
   <block id="32ec6ea7e1f597681bb91bb109a9ef11" category="paragraph">조직 데이터와 함께 Generative AI를 사용하면 모델이 훈련된 공용 데이터에 기반한 모델의 인텔리전스에만 의존하지 않고 자체 지식과 전문 지식을 활용할 수 있습니다. RAG를 사용하여 모델을 사용자 정의하면 조직별 질문에 정확하고 적절한 답변을 할 수 있어 Generative AI를 사용하여 애플리케이션 사용자의 생산성과 효율성이 향상됩니다.</block>
   <block id="7d5046622b6681e334f44ff69fe84455" category="paragraph">조직의 데이터에 맞춘 GenAI 애플리케이션을 개발하면 자신의 지식과 전문성을 활용할 수 있습니다. 이 사용자 지정 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 보장함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.</block>
   <block id="abcb7e2975df8496b30470d76f8b1d33" category="section-title">GenAI를 사용하여 생성 AI 애플리케이션을 생성할 때의 이점</block>
-  <block id="a8d9b71fb9e841a43685f89746970117" category="paragraph">Workload Factory for GenAI는 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.</block>
   <block id="e3fa845bdb32966ee960e79fc4cb6cf2" category="list-text">데이터 인프라, 기초 및 언어 모델에 대한 심층적인 지식이 없어도 IT 관리자와 개발자는 GenAI에서 제공하는 자동화를 활용하여 애플리케이션 개발을 가속화할 수 있습니다. 데이터 관리자와 개발자는 생성 AI 애플리케이션에서 사용할 조직의 비정형 데이터를 포함하는 엔터프라이즈 기술 자료를 쉽고 빠르게 생성할 수 있습니다.</block>
   <block id="ce8128205284c384b430769caeb26741" category="list-text">데이터 보안 및 개인 정보 보호를 위해 기술 자료에 포함된 파일에 사용자 권한을 보존하여 보안을 강화합니다. 챗봇과 같은 애플리케이션은 인증된 사용자에게만 사용자가 액세스할 수 있는 데이터를 기반으로 해답을 제공하기 위해 개발될 수 있습니다.</block>
   <block id="3bc3038379ac11eb60388be943b76d65" category="list-text">조직 데이터가 외부적으로 노출되지 않는 AWS 고객 계정 내에서 엔터프라이즈 데이터를 안전하게 보호합니다.</block>
@@ -38,7 +34,6 @@
   <block id="69fc349b2f7bd62d0e7765c8cc066234" category="paragraph">GenAI는 조직의 개인 데이터를 사용하여 모델의 인텔리전스를 보완하여(훈련된 데이터를 기반으로) 조직 내 사용자가 묻는 질문에 대한 맞춤형 답변을 제공합니다. 먼저 RAG 프레임워크에 필요한 인프라를 배포한 다음 Amazon Bedrock를 통해 사용 가능한 조직의 데이터 소스 및 기반 모델을 사용하여 기술 자료를 구축한 다음 애플리케이션(예: Q&amp;A 챗봇)을 기술 자료에 연결합니다.</block>
   <block id="d70bac99beb52d5e093b391d08e80174" category="inline-image-macro">GenAI의 주요 구성 요소, 기능 및 작동 방식을 보여 주는 다이어그램</block>
   <block id="ce3b45a4624ee79213529a063f3abb8c" category="paragraph"><block ref="ce3b45a4624ee79213529a063f3abb8c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e564ccbddd9f191b216a23125a5efb1f" category="section-title">GenAI용 Workload Factory가 Generative AI 애플리케이션을 구축하는 데 어떻게 도움이 되는지 알아보십시오</block>
   <block id="ade2c068f72325046c5312c72ad3b430" category="paragraph">GenAI는 다음과 같은 방식으로 RAG를 사용하여 생성 AI 애플리케이션을 구축하는 데 도움이 됩니다.</block>
   <block id="fda814900dea98d0023eb0ecf6f36448" category="list-text">검색 증강 생성(RAG) 프레임워크에 필요한 인프라를 구축하여 FSx for ONTAP 파일 시스템 및 Amazon Bedrock의 데이터 소스와 연동합니다. 인프라에는 데이터 관리를 위한 NetApp GenAI Engine 인스턴스, 내장 벡터 데이터베이스(LanceDB) 및 벡터 데이터베이스용 FSx for ONTAP 파일 시스템의 스토리지가 포함됩니다.</block>
   <block id="cc56ccbbe7a4a4f1d99e1d08267a272b" category="list-text">데이터 소스를 임베딩하고 사용자 쿼리에 대한 응답을 검색하기 위해 Amazon Bedrock을 통해 사용 가능한 임베디드 및 언어 모델에 데이터 소스를 연결할 수 있습니다. 데이터 소스는 모델 및 해당 구성과 함께 FSx for ONTAP 기술 자료로 제공됩니다.</block>
@@ -48,19 +43,14 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="ca4fec9e2b2e873ba73dde822ed0fd02" category="paragraph">그러나 생성 AI 인프라를 지원하기 위해 구축하는 AWS 리소스에 대한 비용을 지불해야 합니다. 예를 들어, Amazon Bedrock AI 서비스, FSx for ONTAP 파일 시스템 및 스토리지 용량 및 GenAI 엔진 EC2 인스턴스에 대해 AWS 비용을 지불합니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
-  <block id="0ea77fd2fdca0ee14d426a023ea715ad" category="paragraph">워크로드 팩토리의 AI 기능을 사용하기 위해 NetApp으로부터 특별한 라이센스가 필요하지 않습니다.</block>
-  <block id="1bb31e213d9a78b11c5c2c214bcffc0d" category="summary">AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별했으면 Workload Factory를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계에서는 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다.</block>
   <block id="0da805b7cc0727848a84e995ab36cd76" category="doc">기술 문서를 작성합니다</block>
-  <block id="f5319b0c82a4988a803605055631adad" category="paragraph">AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별했으면 Workload Factory를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계의 일환으로 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다.</block>
   <block id="ede259c54718066f429204cb187335ac" category="paragraph">조직의 데이터 원본을 통합하지 않고도 기술 문서를 사용할 수 있습니다. 이 경우 기술 문서에 통합된 응용 프로그램은 인터넷에 공개된 정보의 결과만 제공합니다. 이를 _public mode_integration 이라고 합니다.</block>
   <block id="9c5cf370721bfae38201d8aeb52e4022" category="paragraph">대부분의 경우 조직의 데이터 원본을 기술 자료에 통합할 수 있습니다. 이를 엔터프라이즈 모드_통합이라고 하며, 이는 기업으로부터 지식을 제공하기 때문입니다.</block>
   <block id="3bd4cddbc7a98f5c9632a455eca8c27e" category="section-title">기술 문서를 만들고 구성합니다</block>
   <block id="646df03c5fddafc8e9c4ed5aa7036edf" category="paragraph">기술 자료에서는 지식 기반을 생성하는 데 사용할 Bedrock AI 모델 및 내장 형식과 같은 특성을 정의합니다.</block>
-  <block id="d34fab7936dd110b003945d679bb4133" category="list-text">Workload Factory에 로그인합니다.</block>
   <block id="5b20d7e96740200c428376cbb5e7fdb4" category="list-text">Knowledge Base 탭에서 * Add Knowledge Base * 를 선택합니다.</block>
   <block id="53bdd4ba55043d3b20fafbaeddced95e" category="list-text">* 이름 *: 기술 문서에 사용할 이름을 입력하십시오.</block>
   <block id="867a64928002194654eea40509536879" category="list-text">*Description*: 기술 문서에 대한 자세한 설명을 입력합니다.</block>
-  <block id="c37e3f948924097538b621ebbdc79afa" category="list-text">* 포함 모델 * : 포함 모델은 귀하의 데이터가 기술 자료를 위한 벡터 임베딩으로 변환되는 방법을 정의합니다. Workload Factory는 다음 모델을 지원합니다.</block>
   <block id="0edab7909500c21f42341384982d7dab" category="list-text">Titan Embeddings G1 - 텍스트</block>
   <block id="b1cf79f6f67a2d7230894fc720b494b6" category="list-text">Titan Embedding Text v2</block>
   <block id="eca4d29f6a2ef2328233a8dd5b28dd89" category="list-text">타이탄 다중 모드 포함 G1</block>
@@ -115,12 +105,10 @@
   <block id="3869544f6aa6ccd1570caed7671ca0d6" category="list-text">* 태그 * : 이 배포의 일부인 모든 AWS 리소스에 적용할 태그 키/값 쌍을 입력하십시오.</block>
   <block id="f445edd51fe9e6a1af8ffd9c30e87f40" category="list-text">* 키 쌍 * : NetApp GenAI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍을 선택하십시오.</block>
   <block id="6449a99be42d938ed27187e040028634" category="list-text">배포 * 를 선택하여 배포를 시작합니다.</block>
-  <block id="601674fba29f7ecc4a5620e6933241f6" category="paragraph">Workload Factory가 챗봇 인프라 구축을 시작합니다. 이 프로세스는 최대 10분 정도 소요될 수 있습니다.</block>
   <block id="64dea11099d626528fa052576a740de2" category="paragraph">배포 프로세스 중에 다음 항목이 설정됩니다.</block>
   <block id="8f3d503d34aa6fe6a66b841b0bdd2996" category="list-text">네트워크는 전용 끝점과 함께 설정됩니다.</block>
   <block id="fc4ab898b1959c931605be5dfe62a71d" category="list-text">IAM 역할, 인스턴스 프로필 및 보안 그룹이 생성됩니다.</block>
   <block id="216a480d552bd412d15e51cde6cbbf7a" category="list-text">GenAI 엔진의 가상 머신 인스턴스가 배포됩니다.</block>
-  <block id="6b39fa3582a5336c28b4c324f016a9a8" category="summary">GenAI 인프라를 구축하면 Workload Factory에서 GenAI 엔진에 대한 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. Workload Factory가 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 알고 싶을 수 있습니다.</block>
   <block id="44f33186e2b6baa4a697e5604c0a3863" category="doc">NetApp GenAI 엔진의 구성 요소</block>
   <block id="b7afd5ecab3ac597cbe300dd5827c445" category="list-text">EC2 인스턴스 유형입니다</block>
   <block id="b592e89ca5722aab8bf77ae181e9fc0d" category="list-text">m5.large를 참조하십시오</block>
@@ -129,13 +117,11 @@
   <block id="338578acf7e0dc54ebcd8c3592f0b022" category="list-text">보안 그룹</block>
   <block id="36d8c0d0c9711e8ac7a5bbcbe9b96008" category="list-text">아웃바운드 규칙은 모든 트래픽에 대해 열려 있지만 인바운드 규칙은 완전히 닫힙니다.</block>
   <block id="1f171bab0b26254e4c58e536973c5c09" category="list-text">전용 끝점</block>
-  <block id="a91a3edb7605f2bbdd24de35ed37881d" category="list-text">대상 VPC에 해당 VPC가 없는 경우 Workload Factory는 GenAI 엔진 EC2 인스턴스에 대한 전용 엔드포인트를 생성하여 다음 AWS 서비스와 통신할 수 있도록 합니다.</block>
   <block id="34048930da0f8b448828d6774b139b17" category="list-text">아마존 Bedrock</block>
   <block id="c421d122321bec48d6b30858f4e7b515" category="list-text">Amazon EC2</block>
   <block id="719ffca696aa714ef090fce0aca97bd2" category="list-text">Amazon Elastic Container Registry(ECR)</block>
   <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
   <block id="0072b242011f459b57b0768dceac82f8" category="list-text">AWS 시스템 관리자(SSM)</block>
-  <block id="243f4102d24e538f61072e19e53b373f" category="summary">NetApp은 Workload Factory에 대한 다양한 방법을 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="3c6efe0ce159fb5b8ee4882bcf3ad973" category="paragraph">NetApp은 Workload Factory와 다양한 방법으로 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="6a7b2c9c4cec65ad972b108fa0a1192b" category="section-title">FSx for ONTAP에 대한 지원을 받으십시오</block>
@@ -262,7 +248,6 @@
   <block id="a184e20ed5e6a5b8da09e0b40c163e0c" category="doc">데이터 소스 관리</block>
   <block id="185887c3ad19744e76bc5a84165858d0" category="section-title">데이터 원본에 대한 정보를 봅니다</block>
   <block id="f6060e0bb20c0eff7193a80ac27e3036" category="paragraph">데이터 원본의 콘텐츠에 대한 정보를 볼 수 있으며 기술 문서를 통해 해당 포함 상태를 볼 수 있습니다. 데이터 원본은 기술 문서의 일부이므로 데이터 원본 세부 정보를 보려면 먼저 기술 문서를 열어야 합니다.</block>
-  <block id="ecabe73468b675c56c4b048aef061655" category="list-text">탐색 메뉴에서 * AI * 를 선택합니다.</block>
   <block id="2fb136b28c086b6b7bfc783f6e18f23b" category="list-text">데이터 원본이 있는 기술 문서를 선택한 다음 * Manage Knowledge Base * 를 선택하고 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택합니다.</block>
   <block id="b5d487e1e7e0dc1f35f129a112481d93" category="paragraph">페이지 아래쪽에는 이 기술 자료에 포함된 데이터 원본이 나열됩니다.</block>
   <block id="8a68fc9773461f136961ee1d6821c3c8" category="inline-image-macro">아래쪽 화살표 버튼</block>
@@ -291,9 +276,7 @@
   <block id="ae83c68afab83f983d4cf40bb5e9197e" category="list-text">있습니다</block>
   <block id="6d8dc0b510e717cbe34e53d7fc1097e5" category="list-text">벡터 데이터베이스</block>
   <block id="2a118f240daca7e8bd0c3e4bc54a8d77" category="section-title">인프라를 제거합니다</block>
-  <block id="a7bf703b71095ade4e9a5a2efbfb0833" category="paragraph">하나 이상의 챗봇에 배포한 챗봇 인프라가 더 이상 필요하지 않은 경우 워크로드 팩토리에서 제거할 수 있습니다.</block>
   <block id="6e78a0ad87ae28b7e51a08104ee52c34" category="admonition">이 인프라에 배포된 모든 챗봇이 비활성화되고 모든 채팅 기록이 삭제됩니다.</block>
-  <block id="ce3d14602fb1bff239cdf7ed290f87fa" category="paragraph">이 작업을 수행하면 Workload Factory에서 AI 인프라에 대한 링크만 제거되며 AWS에서 모든 구성요소가 제거되는 것은 아닙니다. AWS에서 다음 인프라 구성 요소를 수동으로 삭제해야 합니다.</block>
   <block id="6e6644acd18eb2b3e0fc07c09241130d" category="list-text">VM 인스턴스</block>
   <block id="32c7279612357f171a31f3fd0988e591" category="list-text">AI 데이터베이스가 포함된 FSx for ONTAP 파일 시스템의 볼륨입니다</block>
   <block id="eebf0e8baab6b2923da827cd56e070ef" category="list-text">IAM 역할</block>
@@ -301,7 +284,6 @@
   <block id="4e591f9db53b0a865ccc72ad006f4f61" category="list-text">보안 그룹입니다</block>
   <block id="3765f8c52656be300af4ab9e0aff8ffd" category="list-text">를 <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> 선택하고 * 챗봇 인프라 제거 * 를 선택합니다.</block>
   <block id="3df7e2c5a6249307f8e5f6af05d6ed2f" category="list-text">인프라를 삭제할 것인지 확인하고 * 제거 * 를 선택합니다.</block>
-  <block id="f8633718706ae1721e0497e512234ee9" category="paragraph">챗봇 인프라 구성 요소가 Workload Factory에서 제거되었습니다.</block>
   <block id="ed85cf4792c18c3cdb4179c827cbd42e" category="summary">기술 문서를 만든 후에는 기술 문서 세부 정보를 보거나 기술 문서를 수정하거나 추가 데이터 원본을 통합하거나 기술 문서를 삭제할 수 있습니다.</block>
   <block id="67f0dcee920749eead316e2518099abb" category="doc">기술 자료 관리</block>
   <block id="26de2eeb556bbb31af9129a3b43b690f" category="section-title">기술 문서에 대한 정보를 봅니다</block>
@@ -350,10 +332,8 @@
   <block id="8bbd4e338e42c1350d453ca5c82eb3b3" category="summary">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
   <block id="70de8e73e84df845f91376c6c0d1188e" category="doc">기술 문서를 게시하고 고유 끝점을 봅니다</block>
   <block id="12676fc9338d312de3a6cbb584fa3284" category="paragraph">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
-  <block id="63c0b4117f24258cf088fd810fcdbd9f" category="paragraph">기술 문서를 게시하면 채팅 응용 프로그램에서 사용할 수 있습니다. 게시 작업은 Workload Factory API를 트리거하여 고유한 엔드포인트를 생성하고 게시합니다. 게시한 후에는 채팅 응용 프로그램에 대한 기술 자료에 액세스할 수 있으며 API 엔드포인트를 통합할 수 있습니다.</block>
   <block id="079d0a527f117f9fde217668d7359a20" category="paragraph">게시한 각 기술 문서에는 고유한 끝점이 있습니다.</block>
   <block id="850b9475ef66eeb78335c085f71bae31" category="list-text">작업 * 메뉴를 선택하고 * 게시 * 를 선택합니다.</block>
-  <block id="19761722f9e779bd2a70fef96c24a1bc" category="paragraph">Workload Factory는 기술 자료를 게시합니다. 기술 문서에 대한 세부 정보 페이지에서 상태가 * 게시되지 않음 * 에서 * 게시됨 * 으로 변경됩니다</block>
   <block id="5e92f6a356303934a45930f0e541c6b1" category="paragraph">이제 기술 문서의 고유 끝점에 대한 세부 정보를 얻을 수 있습니다.</block>
   <block id="004faa273ca0b2383f0f12b8850c493b" category="list-text">게시됨 상태 옆에 있는 * 보기 * 를 선택합니다.</block>
   <block id="9de2775e528dfff9dd9666885c222272" category="list-text">게시된 정보 보기 * 대화 상자에서 기술 자료를 응용 프로그램과 통합하는 데 사용할 수 있는 API 끝점을 복사합니다.</block>
@@ -363,34 +343,20 @@
   <block id="a0acd37c2eea374fd571fd7e5710e3ab" category="summary">Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 기술 자료 작성을 시작합니다. 챗봇과 같은 애플리케이션은 이 기술 자료에 액세스하여 최종 사용자에게 조직 중심의 응답을 제공합니다.</block>
   <block id="35f6f80cfc19636641dd85bbae19edee" category="doc">GenAI를 위한 빠른 시작</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
-  <block id="e16edd708081c06a9c8bdef1486a94b4" category="inline-link-macro">GenAI 요구사항을 충족하도록 환경을 설정합니다</block>
-  <block id="0b0e916064e065ab12e1db6735832ef0" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="d4a51aa0811f51e3206f49b62f46f1ef" category="inline-link-macro-rx"></block></block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
-  <block id="36ec882c51ea2d7689f78bed44b7fdaa" category="inline-link-macro">데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다</block>
-  <block id="cc9cd1c7d0a54d3fe49ca467804963fb" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="7206191241f03719b7415c03564b4c6e" category="inline-link-macro-rx"></block></block>
   <block id="10986db05c15b94a4d13e32858a6e26e" category="paragraph">기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템은 서로 다른 VPC에 있을 수 있지만 동일한 네트워크 내에서 액세스할 수 있어야 합니다.</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
   <block id="ad6f5ec13ed51e48bce763e25a9c69ce" category="inline-link-macro">기술 자료 인프라를 구축합니다</block>
-  <block id="0f5790ffea3f79b1400e1156cea75fc9" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="28cdbd6802c54419558c857e614a9714" category="inline-link-macro-rx"></block></block>
   <block id="41c27d3fbdf0cdc6aab23df489fe4c94" category="paragraph">인프라 구축 마법사를 시작하여 AWS 환경에 기술 자료 인프라를 구축합니다. 이 프로세스는 NetApp GenAI 엔진용 EC2 인스턴스와 NetApp AI Engine 데이터베이스를 포함할 FSx for ONTAP 파일 시스템의 볼륨을 배포합니다. 볼륨은 기술 문서에서 사용하는 벡터 데이터베이스를 저장하는 데 사용됩니다.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
   <block id="8d126cd06a65751189e95006c972e173" category="paragraph">이제 지식 기반을 구축하여 최종 사용자에게 조직 중심의 응답을 제공할 수 있습니다.</block>
-  <block id="edeb3214a40db0eb77e92c619eab6024" category="summary">기술 자료를 구축하기 전에 Workload Factory 및 AWS가 올바르게 설정되어 있는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.</block>
   <block id="43b842fd441ce1ce92d22fb0ca25a507" category="doc">GenAI 요구 사항</block>
-  <block id="55df1ea48b09b075b4b7dd39f32b38ee" category="list-text">워크로드 팩토리 로그인 및 계정</block>
-  <block id="47530f4f079f33bd59ebd8d6ce22e965" category="list-text">Workload Factory에 로그인하여 계정을 생성해야 합니다.</block>
-  <block id="a50b567095c55be6c1dc401e0ba4bace" category="inline-link">로그인 및 계정 생성에 대해 자세히 알아봅니다</block>
-  <block id="d22e0c982de7a0a1a4146a3cac481010" category="paragraph"><block ref="d22e0c982de7a0a1a4146a3cac481010" category="inline-link-rx"></block></block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="list-text">AWS 자격 증명 및 권한</block>
-  <block id="f734c92825c03ba8094b0c90b14ef227" category="list-text">자동화 권한으로 Workload Factory에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI에 대해 Workload Factory를 _automate_mode로 사용합니다.</block>
   <block id="b9696d94476cf594b0d0a85c749985c8" category="paragraph">_Basic_mode 및 _Read_mode 권한은 현재 지원되지 않습니다.</block>
   <block id="6acb98cae81ff4c3d668ee23eaf475ea" category="paragraph">자격 증명을 설정할 때 아래 표시된 권한을 선택하면 FSx for ONTAP 파일 시스템을 관리하고 기술 자료 및 챗봇에 필요한 GenAI EC2 인스턴스 및 기타 AWS 리소스를 배포 및 관리할 수 있는 모든 권한을 얻을 수 있습니다.</block>
   <block id="90971299f3c483d8dff23334303ec501" category="inline-image-macro">AI 리소스의 전체 관리에 대한 사용 권한 설정을 보여 주는 스크린샷</block>
   <block id="b0508f9b3b98a787c9ffda5b7aec828c" category="paragraph"><block ref="b0508f9b3b98a787c9ffda5b7aec828c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b6358992bb0152c2af9f3e2e315ef468" category="inline-link">AWS 자격 증명을 Workload Factory 에 추가하는 방법에 대해 알아보십시오</block>
-  <block id="83106366073f0e7e6a64705516568b5d" category="paragraph"><block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
   <block id="75925d950c87a7dc75f300f3d330e728" category="list-text">Amazon Bedrock은 기반 모델을 사용할 수 있으며 생성 가능한 AI 애플리케이션을 구축하는 기능을 제공합니다.</block>
-  <block id="4e49292dbc43678ea9590aff823f5b35" category="paragraph">GenAI용 Workload Factory를 시작하려면 먼저 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.</block>
   <block id="42100945533643a01574ce6867f93337" category="inline-link">AWS 설명서: Amazon Bedrock을 설정합니다</block>
   <block id="c28dc65deb038c89921c82f97349e6b0" category="list-text"><block ref="c28dc65deb038c89921c82f97349e6b0" category="inline-link-rx"></block></block>
   <block id="997f616bd916b52cb9a1afa3d8f39ef7" category="inline-link">AWS 설명서: Amazon Bedrock에 대한 지식 기반 지원 지역 및 모델</block>
@@ -416,7 +382,6 @@
   <block id="9125326205d647d39ee0ac50c18a9a14" category="list-text">NetApp AI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍 정보를 알아야 합니다.</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">FSx for ONTAP 파일 시스템을 구축 및 관리하는 방법에 관해 알아보십시오</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="b334128403ed60ff931947907046e1f0" category="summary">NetApp 기술 지원에 대한 지원 케이스를 열려면 먼저 NetApp 지원 사이트 계정을 Workload Factory에 추가한 다음 지원을 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
   <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">Workload Factory 및 해당 스토리지 솔루션 및 서비스에 대한 기술 지원을 받으려면 지원 등록을 해야 합니다. Workload Factory와는 별도의 웹 기반 콘솔인 BlueXP 콘솔에서 지원을 받으려면 등록해야 합니다.</block>
   <block id="c552970fd4dc8118ba1806da596acad9" category="paragraph">지원을 등록한다고 해서 클라우드 공급자 파일 서비스에 대한 NetApp 지원이 활성화되지 않습니다. 클라우드 공급자 파일 서비스, 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품에 대한 Workload Factory 설명서의 "도움말 얻기"를 참조하십시오.</block>
@@ -462,7 +427,6 @@
   <block id="a83574dd6db90afd60d3d6c11674872b" category="doc">기술 문서를 테스트합니다</block>
   <block id="7690c373e8d8bb7bb7781f53763e1ddd" category="paragraph">기술 자료를 테스트하여 예상대로 작동하는지 확인하고, 이 기술 자료의 챗봇 사용자가 기본적으로 사용할 수 있도록 대화 시작을 사용자 지정할 수 있습니다. 챗봇 시뮬레이터는 기술 자료에 포함된 모든 데이터 소스에 대해 실행됩니다.</block>
   <block id="ef065131e9d1b1c76fc889fc9eb98a3f" category="paragraph">챗봇 시뮬레이터에서 내장된 데이터 소스와 채팅을 통해 기술 자료를 테스트할 수 있습니다. 기술 자료를 로컬로 테스트할 때 GenAI 벡터 데이터베이스에는 상호 작용이나 통찰력이 캡처되지 않습니다.</block>
-  <block id="6ea2edc8e481e05029a9c17c0d118a4c" category="paragraph">사용자의 애플리케이션에 기술 자료를 배포하기 전에 Workload Factory 내에서 대부분의 테스트를 수행합니다. 데이터 원본이나 챗봇 작업을 변경해야 하는 경우 기술 자료를 게시하기 전에 지금 변경해야 합니다.</block>
   <block id="3af56fb9119d8dcdfe73d41be9e9c264" category="paragraph">챗봇을 테스트하기 위해 수행해야 할 작업은 다음과 같습니다.</block>
   <block id="087dddee34d7ec6ae45e7a1eceb74f0e" category="list-text">조직과 관련된 많은 질문을 입력하여 답변이 예상과 같은지 확인합니다.</block>
   <block id="dbc108f6f2e9d63d6e85d41c9d797122" category="list-text">챗봇 애플리케이션의 사용자가 기본적으로 사용할 수 있도록 하려는 대화 시작자를 사용자 지정합니다.</block>
@@ -472,11 +436,8 @@
   <block id="c61f79c1724a3bab0885dbbd3b2e87ea" category="inline-image-macro">실행 버튼</block>
   <block id="ccd43d06a7b1187d2ac93471de4a9b64" category="list-text">챗봇 입력 필드에 프롬프트 또는 질문을 입력하고 을 선택하여 챗봇이 조직 지식에 어떻게 반응하는지 확인합니다 <block ref="4673f7ece64f88d1999f6ef93db80a3b" category="inline-image-macro-rx" type="image"></block> .</block>
   <block id="2625a68b73d2dae552cbcc7be08396fc" category="list-text">기술 문서에서 보다 집중적인 답변을 제공할 수 있도록 데이터 원본을 업데이트해야 하는 경우 지금 해당 내용을 변경한 다음 기술 문서를 다시 테스트합니다.</block>
-  <block id="11408eb169fbb608ff150e7669c76840" category="summary">Workload Factory의 AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
-  <block id="798b17d8de1952262296a846e0def34f" category="paragraph">Workload Factory의 Generative AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
   <block id="1d949c7c5600289e10795f178278edd1" category="section-title">2024년 7월 7일</block>
-  <block id="9ba97d99706e208a6fec2439db710d74" category="section-title">GenAI용 Workload Factory 최초 릴리즈</block>
   <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">초기 릴리스에는 조직의 데이터를 포함하여 사용자 지정된 기술 자료를 개발할 수 있는 기능이 포함되어 있습니다. 사용자를 위한 챗봇 애플리케이션에서 기술 자료에 액세스할 수 있습니다. 이 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 제공함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.</block>
   <block id="a9273ae35bbdb787574410a5cd552892" category="summary">이제 엔터프라이즈 데이터를 사용하여 기술 자료를 만들고 사용자를 위해 배포했으므로 ONTAP용 FSx 파일 시스템을 비롯한 기술 자료, 데이터 소스 및 RAG 인프라를 관리할 수 있습니다.</block>
   <block id="d0a7edff5cd82c23f3d1c18e0779ccbc" category="doc">다음에 할 수 있는 일</block>
@@ -486,10 +447,7 @@
   <block id="73dd64805069b754a14fd7cd8049faf8" category="list-text">채팅 모델 및 대화 시작자를 포함한 기술 자료 설정을 관리합니다.</block>
   <block id="54f4a017dfd5170587a554f471d25fb9" category="list-text">기술 문서 게시를 취소하거나 변경한 후 다시 게시합니다.</block>
   <block id="ff39f3beaa5058a5d7eadc6c71e847e4" category="list-text">FSx for ONTAP 파일 시스템에서 중요한 데이터를 백업 및 보호하여 기술 자료 데이터 및 기타 인프라 구성요소를 항상 사용할 수 있도록 합니다.</block>
-  <block id="e7581e4ae4d96b238a63b95760365ab6" category="inline-link">Amazon FSx for NetApp ONTAP 설명서용 워크로드 팩토리</block>
-  <block id="739e9505cf489ae6de839a15d67ad290" category="paragraph">FSx for ONTAP 파일 시스템 관리에 대한 자세한 내용은 로<block ref="80490e4643319ea0ed1c5bef7c007699" category="inline-link-rx"></block> 이동하여 사용할 수 있는 백업 및 보호 기능을 확인하십시오.</block>
   <block id="1995377d356d639f1a2e87a282280beb" category="sidebar">FSx for ONTAP 파일 시스템의 데이터를 MLOps 플랫폼 및 GenAI 기반 모델과 통합하여 조직 데이터를 통해 기능 챗봇을 만들 수 있습니다.</block>
-  <block id="b476e068fefaba1a08ae0f2a7f965d59" category="sidebar">GenAI 설명서를 위한 워크로드 팩토리</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
   <block id="3c26a99b89e3c7e6133ab9da9015f277" category="sidebar">기술 문서를 작성합니다</block>
@@ -502,7 +460,6 @@
   <block id="acbf2b120f060c765cc5fbfef7779840" category="sidebar">기술 자료에 대한 데이터 소스를 식별합니다</block>
   <block id="b032727d9e00be7e59aefec94a0972c2" category="sidebar">인증을 활성화합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
-  <block id="3163a16fc98aa29c5fea8b61c62bb459" category="paragraph">Workload Factory의 GenAI 기능을 무료로 사용할 수 있습니다.</block>
   <block id="a46c34e822b00eb49125943300225ec1" category="summary">지식 기반을 구축하고 챗봇을 테스트하면 사용자가 챗봇을 쿼리할 수 있는 애플리케이션을 설정할 수 있습니다.</block>
   <block id="3034501b6830f6e24b0e219fa3565ffb" category="inline-link">FSx for ONTAP에서 RAG 기반 AI 애플리케이션을 생성하는 방법에 대해 알아보십시오</block>
   <block id="cddb505028d2d2c7026aad1d17c19a05" category="paragraph"><block ref="cddb505028d2d2c7026aad1d17c19a05" category="inline-link-rx"></block></block>
@@ -512,7 +469,6 @@
   <block id="c83d7c23906c063b64dd22d30483cb24" category="list-text">Amazon Bedrock은 접두사가 있는 로그 그룹을 사용하여 Amazon CloudWatch 로그에 로그를 보내도록 구성되어<block ref="26245dda4fa653114e9a41956171489d" prefix=" " category="inline-code"></block>있습니다.</block>
   <block id="6fbe5ae14d71eb3abafcfce8f7fe977a" category="inline-link">BlueXP 계정 ID입니다</block>
   <block id="af270465b477b731bafe1e4859956cc4" category="list-text">GenAI 엔진은 이름이 지정된 로그 그룹을 사용하여 Amazon CloudWatch 로그에 로그를 전송하도록 구성되어<block ref="267ed14c989ee7da1da6b5683a1ba205" prefix=" " category="inline-code"></block>있습니다. 여기서 는 현재 사용자에 대한 입니다.<block ref="44014fe9a7dd0d34b59279b9206b84b3" prefix=" " category="inline-code"></block><block ref="bffdd6286177ca86f99ccefe410268a2" category="inline-link-rx"></block></block>
-  <block id="b3ec171bb9a8cc7c009e2caf4d945535" category="paragraph">Workload Factory API를 사용하여 기술 자료에 액세스하는 방법에 대한 세부 정보가 표시됩니다.</block>
   <block id="f48c3e82e3f3b9cc782fe1277e362ec5" category="paragraph">AWS 인프라, 배포되어 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등을 구축하려면 AWS 자격 증명이 필요합니다.</block>
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="section-title">Amazon CloudWatch Logs 통합</block>
@@ -526,9 +482,7 @@
   <block id="2caafa02c784bfe569590254865dd928" category="paragraph">예를 들어 Amazon Cognito는 JWKS URI 문자열을 다음과 같은 형식으로 사용합니다.</block>
   <block id="566673c66dc53f65f0662ca186b4ff33" category="paragraph">지식 기반 인증을 활성화하여 API 엔드포인트를 사용하여 지식 기반을 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 합니다. 인증을 활성화할 때 챗봇 클라이언트의 기술 자료에 대한 API 요청에 사용할 JSON Web Token의 설정을 구성합니다.</block>
   <block id="af3e21688164f21808a96c579519e58a" category="list-text">* Audience * (선택 사항): 토큰의 의도된 수신자를 포함하는 문자열(때로는 URL)입니다.</block>
-  <block id="9f6d7e16caf2363ed289cf415c43d68e" category="summary">예제 챗봇 애플리케이션을 설치 및 실행하여 기술 자료를 테스트하고 Workload Factory API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
   <block id="ce8f8573f53c4f625df29c794cd7d82a" category="doc">외부 예제 챗봇 응용 프로그램을 사용합니다</block>
-  <block id="15abf1d561eb7f7ddb0e28f6c4562a8c" category="paragraph">기술 자료를 구성, 활성화 및 게시한 후 외부 애플리케이션 개발자는 NetApp에서 제공하는 오픈 소스 예제 챗봇 애플리케이션을 구성 및 실행하여 기술 자료와 상호 작용하고 Workload Factory API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
   <block id="39f8e13a71ec862a906b446df493f119" category="list-text"><block ref="34b37227349aa26ad88498e81a1ea1af" category="inline-link-macro-rx"></block>..</block>
   <block id="804d039033ead5360f1a1a7d2c362f11" category="list-text"><block ref="30b5e2b0cf5de93d45c874ca5c8c6a31" category="inline-link-macro-rx"></block> 사용자가 만든 기술 문서에 대한 정보를 제공합니다.</block>
   <block id="73e5c231c5129b847eb8645a0a52a595" category="paragraph">이렇게 하면 기술 문서에서 API 요청을 인증할 수 있으며 API 엔드포인트를 사용할 때 토큰 유효성 검사와 ACL이 필요합니다.</block>
@@ -543,30 +497,24 @@
   <block id="4fc1d0607a3fe50db5ef612a2c4a178e" category="list-text">로<block ref="0e14f9ffc1d2673bd92f13a4ac79e32e" category="inline-link-rx"></block> 이동하여 응용 프로그램에 로그인합니다.</block>
   <block id="5f62c285aea87618ed1381c43c7ae2cf" category="paragraph">챗봇 애플리케이션 예가 나타납니다.</block>
   <block id="d59048f21fd887ad520398ce677be586" category="section-title">자세한 정보</block>
-  <block id="862b02acae8afc7a8e5ed9bf4c7cb18e" category="inline-link">워크로드 팩토리 API 설명서</block>
-  <block id="39d0fcde59bc31b066cd026cdc9718f8" category="paragraph"><block ref="39d0fcde59bc31b066cd026cdc9718f8" category="inline-link-rx"></block></block>
   <block id="8f3f613a5094ebfa7c5f531cb356028e" category="list-text">* AI 매개 변수 정의 *: * 청크 전략 * 섹션에서 데이터 소스가 기술 문서에 통합될 때 GenAI 엔진이 데이터 소스 콘텐츠를 청크로 분할하는 방법을 정의합니다. 다음 전략 중 하나를 선택할 수 있습니다.</block>
   <block id="091e1c7957272ab69145f4859b4465d0" category="list-text">* 다중 문장 청킹 *: 데이터 소스의 정보를 문장 정의 청크로 정리합니다. 각 청크를 구성하는 문장의 수(최대 100개)를 선택할 수 있습니다.</block>
   <block id="87aa4ffcf50084a10651fe7094e75bda" category="list-text">* 오버랩 기반 청크 *: 데이터 소스의 정보를 인접 청크와 겹칠 수 있는 문자 정의 청크로 구성합니다. 각 청크의 크기를 문자 단위로 선택하고 각 청크가 인접한 청크와 겹치는 정도를 선택할 수 있습니다. 청크 크기는 50자에서 3000자 사이이고 겹치는 비율은 1 ~ 99%로 구성할 수 있습니다.</block>
   <block id="18c41e2a8da7a23dcc990da8d7dfe06d" category="admonition">높은 중복 비율을 선택하면 검색 정확도가 약간 개선되어 저장소 요구 사항이 크게 증가할 수 있습니다.</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">챗봇 애플리케이션 예</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp Workload Factory 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">이제 Generative AI 워크로드가 새로운 각 기술 자료에 대해 전용 Amazon FSx for NetApp ONTAP 볼륨을 생성하여 각 기술 자료에 대한 개별 스냅샷 정책을 지원하고 장애 및 데이터 중독에 대한 보호 기능을 향상합니다.</block>
   <block id="a97438cf1c94fe51248083c86ce591c5" category="list-text">기술 문서 정의 페이지에서 기술 문서 설정을 구성합니다.</block>
   <block id="b651dafbe972dff3ef00c60a522c2c08" category="paragraph">대화 시작점을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. <block ref="787b3d64d417e723feebaf5fa5dbfeee" category="inline-link-macro-rx"></block>..</block>
-  <block id="ce08e73f7c40cf7e58d6371a757d23c6" category="list-text">* FSx for ONTAP 파일 시스템 *: 새로운 기술 자료를 정의하면 워크로드 팩토리에서는 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다. 새 볼륨을 생성할 기존 파일 시스템 이름과 SVM(스토리지 VM이라고도 함)을 선택합니다.</block>
   <block id="ced63c567878ed01730fce043c8ade96" category="inline-link">스냅샷 정책을 생성합니다</block>
   <block id="ad36efe6c620944e32785812d09accd6" category="paragraph">필요한 스냅샷 정책이 없는 경우<block ref="7546e5b5141e2979fa53ccc7106931ca" category="inline-link-rx"></block> 볼륨이 포함된 스토리지 VM에서 수행할 수 있습니다.</block>
   <block id="d2efa843fffdf7f0b1400f4edeb08081" category="paragraph">기술 문서에 통합된 데이터 원본에 대한 정보를 편집할 수 있습니다. 대부분의 정보는 기술 문서에 데이터 원본을 추가한 후에 수정되지만 청크 정의 및 구성과 권한 인식(데이터 소스 볼륨에서 SMB 프로토콜을 사용할 때)을 변경할 수 있습니다.</block>
   <block id="46f71814ee1d2e5bbe062c91635739cf" category="list-text">데이터 원본 편집 페이지에서 <block ref="0722c4ff5aff83b42b3212ce6356e926" category="inline-image-macro-rx" type="image"></block>청크 정의에 대한 행을 확장하도록 선택합니다.</block>
   <block id="c9ee341e3341c054d76e9a00e2455883" category="list-text">청킹 전략 및 구성, 사용 권한 인식(SMB 볼륨의 경우)에 대한 설정을 업데이트하고 * 저장 * 을 선택합니다.</block>
   <block id="f3ee02a23f65c24a5b66f40deaa52796" category="list-text">인프라 설정</block>
-  <block id="88f99918375bbf8120b251d975b7e03e" category="paragraph">기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 문서를 삭제하면 Workload Factory에서 해당 기술 문서가 제거되고 기술 문서가 포함된 볼륨이 삭제됩니다. 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않습니다. 지식 기반 삭제는 되돌릴 수 없습니다.</block>
   <block id="fd33fe22719aed031c8ea822ba866360" category="paragraph">기술 문서를 삭제할 때 기술 문서와 관련된 모든 상담원과의 연결을 해제하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.</block>
-  <block id="fa20235938197ed878f7da8159917a1d" category="paragraph">기술 문서가 Workload Factory에서 제거되고 관련 볼륨이 삭제됩니다.</block>
   <block id="b5cef683aab00353096b98823a237e69" category="section-title">2024년 9월 1일</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="doc">문제 해결</block>
   <block id="36e2bd9e7950f46d3ea6d2bca4c50ba1" category="paragraph">발생할 수 있는 몇 가지 일반적인 문제를 해결하는 방법에 대해 알아봅니다.</block>
@@ -578,14 +526,11 @@
   <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">해결 방법</block>
   <block id="ea355214fd4bc7c57f471bd92918879b" category="cell">구축</block>
   <block id="c7ffd0cab67a601554ae934436d644d8" category="cell">볼륨이 이미 있기 때문에 배포가 실패합니다.</block>
-  <block id="5c985f7bd2795d6a69cd256e7fd02755" category="cell">GenAI용 워크로드 팩토리에는 구축 프로세스 중에 새 볼륨을 생성해야 하지만 지정한 이름을 사용하는 볼륨이 이미 존재합니다.</block>
   <block id="c116d59189f49ad24327d9067ef9806e" category="cell">새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오.</block>
-  <block id="429a792784eb6767e4ecfd3b82f1ae2d" category="cell">GenAI용 Workload Factory에서 볼륨을 마운트할 수 없기 때문에 배포가 실패합니다.</block>
   <block id="8f3392d21c1e23f002f42fd0394d7c80" category="cell">FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.</block>
   <block id="e87d6ed459b274ad7c388e0797013c9f" category="inline-link">ONTAP용 FSx에 대한 보안 그룹 규칙입니다</block>
   <block id="5503cb2b17f74a27a0085d8499cd3f60" category="paragraph">에 나열된 포트를<block ref="127df24588c6526408fa1a708579050d" category="inline-link-rx"></block> 엽니다.</block>
   <block id="10d0de28911c5f66463b9c8783f8148a" category="cell">유지 관리</block>
-  <block id="dbb45a1dccce77b67592b5925f4e79c4" category="cell">Workload Factory for GenAI에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
   <block id="f1e0872518e98f8295b8550491f79850" category="cell">볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.</block>
   <block id="35df13c892646e1e41e065276ead0cee" category="paragraph">다음 복구 단계를 사용합니다.</block>
   <block id="33aefd97376313139230d90d11725c7c" category="list-text">FSx for NetApp ONTAP에서 새 볼륨을 생성합니다. 예를 들어, 볼륨 이름은<block ref="74cd6292d49a50a17339880eaf71909f" prefix=" " category="inline-code"></block> 이고 볼륨 경로는 일 수<block ref="e7251dd12f14500e110af37fd268f48d" prefix=" " category="inline-code"></block> 있습니다.</block>
@@ -601,7 +546,6 @@
   <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">이제 예약된 데이터 원본 스캔을 일시 중지할 수 있습니다. 기본적으로 Generative AI 워크로드는 매일 각 데이터 소스를 스캔하여 각 기술 자료에 새로운 데이터를 수집합니다. 테스트 중 또는 스냅샷 복원 중에 최신 변경 사항을 수집하지 않으려면 예약된 스캔을 일시 중지하고 언제든지 다시 시작할 수 있습니다.</block>
   <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">이제 기술 자료에 지원되는 데이터 보호 볼륨입니다</block>
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.</block>
-  <block id="c880ade9c6e1657038a733388834bf6d" category="list-text">* 스냅샷 정책 *: Workload Factory 스토리지 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다. 선택한 스냅샷 정책에 따라 기술 자료의 반복적인 스냅샷이 자동으로 생성됩니다.</block>
   <block id="530d81713422730939efa8236f41105f" category="paragraph">기술 문서가 작성되는 동안 진행률 표시기가 나타납니다.</block>
   <block id="2ec7e499bf83fa315927a96623d03df5" category="paragraph">기술 문서를 만든 후에는 데이터 원본을 새 기술 문서에 추가하거나 데이터 원본을 추가하지 않고 프로세스를 종료할 수 있습니다. 지금 * 데이터 원본 추가 * 를 선택하고 하나 이상의 데이터 원본을 추가하는 것이 좋습니다.</block>
   <block id="e0308d285e9bc5966f6ceb7008c87849" category="paragraph">기술 자료에 단일 데이터 소스를 추가한 후 챗봇 시뮬레이터 창에서 로컬로 테스트하고 필요에 따라 변경한 후 사용자가 챗봇을 사용할 수 있도록 할 수 있습니다. 또한 동일한 단계에 따라 기술 문서에 데이터 원본을 추가할 수도 있습니다.</block>
@@ -671,4 +615,76 @@
   <block id="402ae08ce46f82670c0313312e504ad7" category="list-text">AI 엔진이 에 액세스할 수 있어야 합니다 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block></block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
   <block id="4b88d56bd65ef92611ac63064c38369f" category="list-text">Amazon CloudWatch 를 참조하십시오</block>
+  <block id="1ee7c829860de53ba4857ad78b7aadef" category="doc">GenAI를 위한 워크로드 팩토리 최초 릴리즈</block>
+  <block id="082d99c5d452c4b44edd8ec50926da9a" category="paragraph">NetApp 워크로드 팩토리 GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp 워크로드 팩토리 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.</block>
+  <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">콘솔 환경</block>
+  <block id="eb788a90862825cc147ed3f85612a8cc" category="list-text">중 하나를 사용하여 워크로드 팩토리에 <block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>로그인합니다.</block>
+  <block id="ba069bdc38a1ce5022a1e6d8b69882b8" category="summary">GenAI용 워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.</block>
+  <block id="8746750042cf20aa9acdb3cd89b6448b" category="doc">GenAI의 워크로드 팩토리에 대해 알아보십시오</block>
+  <block id="ac1e1d326a41d16c68d8f5d08e1dbfe0" category="section-title">GenAI의 워크로드 팩토리는 무엇입니까?</block>
+  <block id="40a89d6e158f3dbec860ab6d35794644" category="paragraph">GenAI용 워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&amp;A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다</block>
+  <block id="70cb57a8d5d75d8762d6b082d319dec7" category="inline-link">워크로드 공장 개요</block>
+  <block id="41dde101808f5228034390c3766fcad7" category="paragraph">작업 부하 공장에 대한 자세한 내용은 을<block ref="5b162ed7e5df7e2d72a6505743e2b555" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="4a7de00a0cde12ad329c366ef21a723d" category="paragraph">GenAI용 워크로드 팩토리에서는 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.</block>
+  <block id="c7fb8bbb17373e98570b6e60b217343a" category="section-title">GenAI용 워크로드 팩토리가 생성 AI 애플리케이션을 구축하는 데 도움이 되는 방법</block>
+  <block id="200e3179449390bdf5f3f8d9a199630c" category="section-title">워크로드 팩토리 사용을 위한 툴</block>
+  <block id="b5a374f3f5b31b5057808689d26fe2c4" category="paragraph">다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="becd2c66a018e594b787abb509da2fcb" category="list-text">* 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션 및 프로젝트에 대한 전체적인 보기를 제공하는 시각적 인터페이스를 제공합니다.</block>
+  <block id="590410b3a112ba2f531f9aae44e29ed1" category="list-text">* BlueXP  콘솔 *: BlueXP  콘솔은 하이브리드 인터페이스 환경을 제공하므로 다른 BlueXP  서비스와 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="3994718f6fdd9c0fd3f50884c4c05615" category="list-text">* REST API *: 워크로드 팩토리 REST API를 통해 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리할 수 있습니다.</block>
+  <block id="870c2713113a9cc14410aec5475c932f" category="list-text">* CloudFormation *: AWS CloudFormation 코드를 사용하면 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리하기 위해 워크로드 팩토리 콘솔에서 정의한 작업을 수행할 수 있습니다.</block>
+  <block id="531a2642b7c023ef8b4ec401d5c39c4b" category="list-text">* Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하면 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리할 수 있습니다.</block>
+  <block id="eb2d717e4f7003bece96a54d9bfcab8c" category="paragraph">워크로드 팩토리의 GenAI 기능을 사용하는 데 비용이 들지 않습니다.</block>
+  <block id="fe25da415465509a9a69d606dab870c0" category="paragraph">워크로드 공장의 AI 기능을 사용하기 위해 NetApp에 특별한 라이센스가 필요하지 않습니다.</block>
+  <block id="f6a347d6bbcc84735a944fdcd256092f" category="summary">AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별한 후에는 워크로드 팩토리를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계에서는 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다.</block>
+  <block id="fa4638b85786436e91a0ed014ba9da00" category="paragraph">AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별한 후에는 워크로드 팩토리를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계의 일환으로 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다.</block>
+  <block id="aa4c92c8522aa5136d6fa172d6893485" category="list-text">* 포함 모델 * : 포함 모델은 귀하의 데이터가 기술 자료를 위한 벡터 임베딩으로 변환되는 방법을 정의합니다. 워크로드 팩토리에서는 다음 모델을 지원합니다.</block>
+  <block id="525553d3b883b9c41607e7357ee094ad" category="list-text">* FSx for ONTAP 파일 시스템 *: 새로운 기술 자료를 정의하면 워크로드 공장에서 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다. 새 볼륨을 생성할 기존 파일 시스템 이름과 SVM(스토리지 VM이라고도 함)을 선택합니다.</block>
+  <block id="e44ba744b83f512e7b5959cb21fc6b7f" category="list-text">* Snapshot policy *: 워크로드 공장 저장소 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다. 선택한 스냅샷 정책에 따라 기술 자료의 반복적인 스냅샷이 자동으로 생성됩니다.</block>
+  <block id="705eb4c2111768712c707614edb7516b" category="paragraph">워크로드 팩토리가 챗봇 인프라 구축을 시작합니다. 이 프로세스는 최대 10분 정도 소요될 수 있습니다.</block>
+  <block id="5962cbafe4a82be941ee73f4b77fcb7c" category="summary">예제 챗봇 애플리케이션을 설치하고 실행하여 기술 자료를 테스트하고 워크로드 팩토리 API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
+  <block id="643a5a7772f51784a29b88cfdcf6b092" category="paragraph">기술 자료를 구성, 활성화 및 게시한 후 외부 애플리케이션 개발자는 NetApp에서 제공하는 오픈 소스 예제 챗봇 애플리케이션을 구성 및 실행하여 기술 자료와 상호 작용하고 워크로드 팩토리 API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다.</block>
+  <block id="9a2d31075859ef5fbc409c301f367bc9" category="inline-link">워크로드 팩토리 API 설명서</block>
+  <block id="9a4b097906b50bfdbef4c168dad3349b" category="paragraph"><block ref="9a4b097906b50bfdbef4c168dad3349b" category="inline-link-rx"></block></block>
+  <block id="557f283cc11851a5c05db183af9af3c5" category="summary">GenAI 인프라를 구축하면 워크로드 팩토리에서는 GenAI 엔진용 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. 워크로드 팩토리에서 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 이해하기를 원할 수 있습니다.</block>
+  <block id="ef369cb7624d410c7ba52a28543206d0" category="list-text">타겟 VPC에 아직 해당 VPC가 없는 경우 워크로드 팩토리는 GenAI 엔진 EC2 인스턴스에 대한 프라이빗 엔드포인트를 생성하여 다음 AWS 서비스와 통신할 수 있도록 합니다.</block>
+  <block id="894106a56db6962222de989043e29e02" category="summary">NetApp는 다양한 방법으로 워크로드 팩토리를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="e703cd6c7dd517a92f3648a2a1305e15" category="list-text">워크로드 팩토리 탐색 메뉴에서 * AI * 를 선택하십시오.</block>
+  <block id="02c24f1607a88a7b66de312463a92ee0" category="paragraph">하나 이상의 챗봇에 배포한 챗봇 인프라가 더 이상 필요하지 않다면 워크로드 팩토리에서 제거할 수 있습니다.</block>
+  <block id="e156182d12afe45e03e8d3deb27ba670" category="paragraph">이 작업을 수행하면 워크로드 팩토리에서 AI 인프라에 대한 링크만 제거되며 AWS에서 모든 구성요소가 제거되는 것은 아닙니다. AWS에서 다음 인프라 구성 요소를 수동으로 삭제해야 합니다.</block>
+  <block id="62daa906a9333be93a5e975044f666a1" category="paragraph">챗봇 인프라 구성 요소가 워크로드 팩토리에서 제거되었습니다.</block>
+  <block id="86dbd1b84518abb5c7347546b8844b7e" category="paragraph">기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 문서를 삭제하면 작업 부하 공장에서 제거되고 기술 문서가 포함된 볼륨이 삭제됩니다. 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않습니다. 지식 기반 삭제는 되돌릴 수 없습니다.</block>
+  <block id="22f6a017871820df71fb38c6218efc2f" category="paragraph">기술 문서가 작업 부하 공장에서 제거되고 관련 볼륨이 삭제됩니다.</block>
+  <block id="ba858f055e02600e40851bb1fac4f97f" category="paragraph">기술 문서를 게시하면 채팅 응용 프로그램에서 사용할 수 있습니다. 게시 작업은 워크로드 팩토리 API를 트리거하여 고유한 엔드포인트를 생성하고 게시합니다. 게시한 후에는 채팅 응용 프로그램에 대한 기술 자료에 액세스할 수 있으며 API 엔드포인트를 통합할 수 있습니다.</block>
+  <block id="621cd8cc7cde6376c8933ec4142532b7" category="paragraph">워크로드 공장에서 기술 자료를 게시합니다. 기술 문서에 대한 세부 정보 페이지에서 상태가 * 게시되지 않음 * 에서 * 게시됨 * 으로 변경됩니다</block>
+  <block id="836f67391daf57190bd0d7acca174b88" category="paragraph">워크로드 팩토리 API를 사용하여 기술 자료에 액세스하는 방법에 대한 세부 정보가 표시됩니다.</block>
+  <block id="2fd605c5fdf1d57ba01b68838e68dc27" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 워크로드 공장 에 로그인합니다</block>
+  <block id="d9eebdefd5feceb309eadc305ce81e6f" category="inline-link">워크로드 팩토리에 계정을 설정합니다</block>
+  <block id="113933a0a6b3eb57d22f707e6384bd49" category="paragraph">를 사용하여<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block> 로그인해야<block ref="5eb9de2715b74ed434f03d8a9fef9b70" category="inline-link-rx"></block> 합니다.</block>
+  <block id="7c42a251218f29f59dd7dbf0987115c8" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> GenAI 요구사항을 충족하도록 환경을 설정합니다</block>
+  <block id="fca2fd00582f9c7c4a5a7f66db5c76d7" category="inline-link-macro">GenAI 요구 사항에 대해 자세히 알아보십시오</block>
+  <block id="0efa8e5eec015c7557fa0d66656108d5" category="paragraph"><block ref="048bf8a63d18514c61565bf7fbdd1a56" category="inline-link-macro-rx"></block>..</block>
+  <block id="13a3df270bbff43d6e9a3cda00e93bf6" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다</block>
+  <block id="21d5bccbbe925613c0af5324543c58b1" category="inline-link-macro">데이터 소스를 식별하는 방법에 대해 알아봅니다</block>
+  <block id="70d15316e3e767964ed59c8ffa7502da" category="paragraph"><block ref="7388636e3703309ce48a47f5a2c06fbc" category="inline-link-macro-rx"></block>..</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="67544fe024b8f9a36d65dad6756df3ae" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 기술 자료 인프라를 구축합니다</block>
+  <block id="20ec4ab4fcf35b65157df141218adeb4" category="inline-link-macro">기술 자료 인프라를 구축하는 방법에 대해 알아보십시오</block>
+  <block id="821dd0baa6265d27edc6fde0f7f8a2a7" category="paragraph"><block ref="cf103609479325827138f1030380ee71" category="inline-link-macro-rx"></block>..</block>
+  <block id="7da236f1583acd597958e11defdd0aed" category="summary">기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.</block>
+  <block id="7881e5952d93ca1a1396ec11c08fa645" category="list-text">워크로드 공장 로그인 및 계정</block>
+  <block id="c3c0f7069bfe59c5a67dd6f1fd5d2301" category="list-text">자동 사용 권한으로 워크로드 공장에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _AUTOMATE_MODE의 워크로드 공장을 사용합니다.</block>
+  <block id="5145374f219e1c177ab5588a5344aa6e" category="inline-link">워크로드 팩토리에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
+  <block id="ced1a4827b1ea3c1da0273c3d73fdd46" category="paragraph"><block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="e75accc1948bab24f6bde8f2716d9465" category="paragraph">GenAI의 워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.</block>
+  <block id="056634bec4a153903ebb9b769277f4d7" category="summary">NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 워크로드 팩토리에 NetApp Support 사이트 계정을 추가한 다음 지원을 등록해야 합니다.</block>
+  <block id="3616889860b75d784463bb497e34e82f" category="paragraph">사용자의 애플리케이션에 기술 자료를 배포하기 전에 워크로드 공장 내에서 대부분의 테스트를 수행합니다. 데이터 원본이나 챗봇 작업을 변경해야 하는 경우 기술 자료를 게시하기 전에 지금 변경해야 합니다.</block>
+  <block id="448a7638f78d8e27c82dc4eb9cfffaa5" category="cell">GenAI용 워크로드 팩토리는 구축 프로세스 중에 새 볼륨을 생성해야 하지만 지정한 이름을 사용하는 볼륨이 이미 존재합니다.</block>
+  <block id="9db9426b923f79f37245bd6e27517b75" category="cell">GenAI용 워크로드 팩토리에서 볼륨을 마운트할 수 없기 때문에 구축이 실패합니다.</block>
+  <block id="3b93973bf09251ccbc76e14631d727e0" category="cell">GenAI용 워크로드 팩토리에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
+  <block id="1862818cbcef0536011835283968bd91" category="summary">워크로드 팩토리의 AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="34734891f639d2ae1ecbbaab22157fe2" category="paragraph">워크로드 팩토리의 Generative AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="81ff996ef963d9805259d4a6c9bafac8" category="inline-link">Amazon FSx for NetApp ONTAP 설명서의 워크로드 팩토리</block>
+  <block id="07e2e5eecff8fe1dbb4712055f0055f1" category="paragraph">FSx for ONTAP 파일 시스템 관리에 대한 자세한 내용은 로<block ref="3845b9852e43f2af9ae621ea5bb328c1" category="inline-link-rx"></block> 이동하여 사용할 수 있는 백업 및 보호 기능을 확인하십시오.</block>
+  <block id="ae734fb1e6d4e05106a10b963ef2ee25" category="sidebar">GenAI 문서를 위한 워크로드 팩토리</block>
 </blocks>

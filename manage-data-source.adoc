@@ -20,7 +20,8 @@ FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자
 데이터 원본의 콘텐츠에 대한 정보를 볼 수 있으며 기술 문서를 통해 해당 포함 상태를 볼 수 있습니다. 데이터 원본은 기술 문서의 일부이므로 데이터 원본 세부 정보를 보려면 먼저 기술 문서를 열어야 합니다.
 
 .단계
-. 탐색 메뉴에서 * AI * 를 선택합니다.
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 워크로드 팩토리 탐색 메뉴에서 * AI * 를 선택하십시오.
 . 데이터 원본이 있는 기술 문서를 선택한 다음 * Manage Knowledge Base * 를 선택하고 image:icon-action.png["옵션 단추"] 선택합니다.
 +
 페이지 아래쪽에는 이 기술 자료에 포함된 데이터 원본이 나열됩니다.
@@ -38,6 +39,7 @@ FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자
 기술 문서에 통합된 데이터 원본에 대한 정보를 편집할 수 있습니다. 대부분의 정보는 기술 문서에 데이터 원본을 추가한 후에 수정되지만 청크 정의 및 구성과 권한 인식(데이터 소스 볼륨에서 SMB 프로토콜을 사용할 때)을 변경할 수 있습니다.
 
 .단계
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
 . Knowledge Base 인벤토리 페이지에서 데이터 원본이 있는 기술 문서를 선택한 다음 * Manage Knowledge Base * 를 선택하고 image:icon-action.png["옵션 단추"] 선택합니다.
 +
 페이지 아래쪽에는 이 기술 자료에 포함된 데이터 원본이 나열됩니다.
@@ -65,6 +67,7 @@ FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자
 데이터 원본이 더 이상 기술 문서에 포함되지 않아도 되는 경우 삭제할 수 있습니다.
 
 .단계
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
 . 기술 문서 인벤토리 페이지에서 데이터 원본이 있는 기술 문서를 선택한 다음 * 기술 자료 관리 * 를 선택하고 image:icon-action.png["옵션 단추"] 선택합니다.
 +
 페이지 아래쪽에는 이 기술 자료에 포함된 데이터 원본이 나열됩니다.

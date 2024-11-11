@@ -56,7 +56,7 @@ AWS 자격 증명을 입력하고 FSx for ONTAP 파일 시스템을 선택하여
 이 절차를 시작하기 전에 환경이 충족되는지 확인하십시오. link:requirements.html["설명합니다"]
 
 .단계
-. Workload Factory에 로그인합니다.
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
 . AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . 인프라 다이어그램을 검토하고 * Next * 를 선택합니다.
 . AWS 설정 * 섹션의 항목을 완료합니다.
@@ -78,7 +78,7 @@ GenAI 배포는 Amazon Bedrock이 활성화된 AWS 지역에 있어야 합니다
 
 
 .결과
-Workload Factory가 챗봇 인프라 구축을 시작합니다. 이 프로세스는 최대 10분 정도 소요될 수 있습니다.
+워크로드 팩토리가 챗봇 인프라 구축을 시작합니다. 이 프로세스는 최대 10분 정도 소요될 수 있습니다.
 
 배포 프로세스 중에 다음 항목이 설정됩니다.
 

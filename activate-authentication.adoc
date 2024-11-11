@@ -14,6 +14,7 @@ summary: 기술 자료를 챗봇 애플리케이션과 통합할 때 토큰 검�
 지식 기반 인증을 활성화하여 API 엔드포인트를 사용하여 지식 기반을 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 합니다. 인증을 활성화할 때 챗봇 클라이언트의 기술 자료에 대한 API 요청에 사용할 JSON Web Token의 설정을 구성합니다.
 
 .단계
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
 . Knowledge Base 인벤토리 페이지에서 인증을 활성화할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 . 조치 * 메뉴를 선택하고 * 인증 설정 관리 * 를 선택합니다.
