@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: GenAI 문서를 위한 워크로드 팩토리
+  title: GenAI 설명서를 위한 BlueXP  워크로드 팩토리
   summary: FSx for ONTAP 파일 시스템의 데이터를 MLOps 플랫폼 및 GenAI 기반 모델과 통합하여 조직 데이터를 통해 기능
     챗봇을 만들 수 있습니다.
   keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP, knowledge base
