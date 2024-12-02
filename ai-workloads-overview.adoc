@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: ai-workloads-overview.html 
 keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot 
-summary: GenAI용 워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다. 
+summary: GenAI용 BlueXP  워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다. 
 ---
-= GenAI의 워크로드 팩토리에 대해 알아보십시오
+= GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -15,9 +15,9 @@ GenAI용 워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파�
 
 
 
-== GenAI의 워크로드 팩토리는 무엇입니까?
+== GenAI의 BlueXP  워크로드 팩토리는 무엇입니까?
 
-GenAI용 워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다
+GenAI용 BlueXP  워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다
 
 조직 데이터와 함께 Generative AI를 사용하면 모델이 훈련된 공용 데이터에 기반한 모델의 인텔리전스에만 의존하지 않고 자체 지식과 전문 지식을 활용할 수 있습니다. RAG를 사용하여 모델을 사용자 정의하면 조직별 질문에 정확하고 적절한 답변을 할 수 있어 Generative AI를 사용하여 애플리케이션 사용자의 생산성과 효율성이 향상됩니다.
 
@@ -29,7 +29,7 @@ GenAI용 워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 
 
 == GenAI를 사용하여 생성 AI 애플리케이션을 생성할 때의 이점
 
-GenAI용 워크로드 팩토리에서는 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.
+GenAI용 BlueXP  워크로드 공장은 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.
 
 * 데이터 인프라, 기초 및 언어 모델에 대한 심층적인 지식이 없어도 IT 관리자와 개발자는 GenAI에서 제공하는 자동화를 활용하여 애플리케이션 개발을 가속화할 수 있습니다. 데이터 관리자와 개발자는 생성 AI 애플리케이션에서 사용할 조직의 비정형 데이터를 포함하는 엔터프라이즈 기술 자료를 쉽고 빠르게 생성할 수 있습니다.
 * 데이터 보안 및 개인 정보 보호를 위해 기술 자료에 포함된 파일에 사용자 권한을 보존하여 보안을 강화합니다. 챗봇과 같은 애플리케이션은 인증된 사용자에게만 사용자가 액세스할 수 있는 데이터를 기반으로 해답을 제공하기 위해 개발될 수 있습니다.
@@ -49,7 +49,7 @@ image:diagram-chatbot-processing.png["GenAI의 주요 구성 요소, 기능 및 
 
 
 
-== GenAI용 워크로드 팩토리가 생성 AI 애플리케이션을 구축하는 데 도움이 되는 방법
+== GenAI용 BlueXP  워크로드 공장이 생성 AI 애플리케이션을 구축하는 데 어떤 도움이 되는지 알아보십시오
 
 GenAI는 다음과 같은 방식으로 RAG를 사용하여 생성 AI 애플리케이션을 구축하는 데 도움이 됩니다.
 

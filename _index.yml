@@ -9,7 +9,7 @@ indexpage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: GenAI의 워크로드 팩토리에 대해 알아보십시오
+    - title: GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
       url: ai-workloads-overview.html
     - title: 빠른 시작
       url: quick-start.html

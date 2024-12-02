@@ -10,7 +10,7 @@ settings:
   rss_page: whats-new.html
   release_notes_autogen:
     release_notes_repo: workload-relnotes
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
   - title: GenAI 문서
@@ -21,7 +21,7 @@ sidebar:
       url: "/whats-new.html"
   - title: 시작하십시오
     entries:
-    - title: GenAI의 워크로드 팩토리에 대해 알아보십시오
+    - title: GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
       url: "/ai-workloads-overview.html"
     - title: 빠른 시작
       url: "/quick-start.html"

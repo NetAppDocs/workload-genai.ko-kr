@@ -91,7 +91,6 @@
   <block id="cc573650532041ff5d41735ee141eab8" category="paragraph">다음 이미지는 GenAI 인프라를 보여 줍니다. 이 절차를 수행하는 동안 번호가 1, 2, 3인 구성 요소가 전개됩니다. 배포를 시작하기 전에 다른 요소가 있어야 합니다.</block>
   <block id="ce783b25723548b58b44d3dde715476f" category="inline-image-macro">AI 챗봇 구성 요소의 다이어그램</block>
   <block id="b7cef2c498d21a11e9176de11360774c" category="paragraph"><block ref="b7cef2c498d21a11e9176de11360774c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b2e0047ff352d3aae4c45b40d2f7cc05" category="paragraph">AWS 자격 증명을 입력하고 FSx for ONTAP 파일 시스템을 선택하여 RAG(Retrieval Augmentation Generation) 인프라를 배포해야 합니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="567dcfd6302e5511c1b546a4df21a679" category="inline-link-macro">설명합니다</block>
   <block id="48b1a64ea0f002f28680bb1b8a8c87b2" category="paragraph">이 절차를 시작하기 전에 환경이 충족되는지 확인하십시오. <block ref="b537f86d93b89f494a26572d1a60f4ef" category="inline-link-macro-rx"></block></block>
@@ -236,14 +235,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="22e5a7336ebe77138f0282cedcb069ab" category="inline-link">워크로드 팩토리</block>
-  <block id="7ffcbeca3b450b8d05f9cf0eedb617f8" category="list-text"><block ref="7ffcbeca3b450b8d05f9cf0eedb617f8" category="inline-link-rx"></block></block>
-  <block id="887f800d53dc2cd5a7894464a6f60a6b" category="inline-link">데이터베이스용 워크로드 팩토리</block>
-  <block id="7e505d4c691d86e5bd415f9ccb849966" category="list-text"><block ref="7e505d4c691d86e5bd415f9ccb849966" category="inline-link-rx"></block></block>
-  <block id="9591e2d54c998ae1c9d48fd5be7762e9" category="inline-link">GenAI를 위한 워크로드 팩토리</block>
-  <block id="f38c7416013fc239c3dd3288d40a40c0" category="list-text"><block ref="f38c7416013fc239c3dd3288d40a40c0" category="inline-link-rx"></block></block>
-  <block id="404a5efb62a3a3f22b02593091042608" category="inline-link">VMware용 워크로드 팩토리</block>
-  <block id="9a211183d3fa82368d76fdbab5abdeda" category="list-text"><block ref="9a211183d3fa82368d76fdbab5abdeda" category="inline-link-rx"></block></block>
   <block id="a76746a54be32982bbd6b113b4d88d95" category="summary">FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자료를 생성한 후에는 데이터 소스 세부 정보를 보고, 데이터 소스 콘텐츠를 업데이트 또는 변경하고, 데이터 소스 설정을 편집하거나, 데이터 소스를 삭제할 수 있습니다.</block>
   <block id="a184e20ed5e6a5b8da09e0b40c163e0c" category="doc">데이터 소스 관리</block>
   <block id="185887c3ad19744e76bc5a84165858d0" category="section-title">데이터 원본에 대한 정보를 봅니다</block>
@@ -528,8 +519,6 @@
   <block id="c7ffd0cab67a601554ae934436d644d8" category="cell">볼륨이 이미 있기 때문에 배포가 실패합니다.</block>
   <block id="c116d59189f49ad24327d9067ef9806e" category="cell">새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오.</block>
   <block id="8f3392d21c1e23f002f42fd0394d7c80" category="cell">FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.</block>
-  <block id="e87d6ed459b274ad7c388e0797013c9f" category="inline-link">ONTAP용 FSx에 대한 보안 그룹 규칙입니다</block>
-  <block id="5503cb2b17f74a27a0085d8499cd3f60" category="paragraph">에 나열된 포트를<block ref="127df24588c6526408fa1a708579050d" category="inline-link-rx"></block> 엽니다.</block>
   <block id="10d0de28911c5f66463b9c8783f8148a" category="cell">유지 관리</block>
   <block id="f1e0872518e98f8295b8550491f79850" category="cell">볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.</block>
   <block id="35df13c892646e1e41e065276ead0cee" category="paragraph">다음 복구 단계를 사용합니다.</block>
@@ -620,13 +609,8 @@
   <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">콘솔 환경</block>
   <block id="eb788a90862825cc147ed3f85612a8cc" category="list-text">중 하나를 사용하여 워크로드 팩토리에 <block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>로그인합니다.</block>
   <block id="ba069bdc38a1ce5022a1e6d8b69882b8" category="summary">GenAI용 워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.</block>
-  <block id="8746750042cf20aa9acdb3cd89b6448b" category="doc">GenAI의 워크로드 팩토리에 대해 알아보십시오</block>
-  <block id="ac1e1d326a41d16c68d8f5d08e1dbfe0" category="section-title">GenAI의 워크로드 팩토리는 무엇입니까?</block>
-  <block id="40a89d6e158f3dbec860ab6d35794644" category="paragraph">GenAI용 워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&amp;A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다</block>
   <block id="70cb57a8d5d75d8762d6b082d319dec7" category="inline-link">워크로드 공장 개요</block>
   <block id="41dde101808f5228034390c3766fcad7" category="paragraph">작업 부하 공장에 대한 자세한 내용은 을<block ref="5b162ed7e5df7e2d72a6505743e2b555" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="4a7de00a0cde12ad329c366ef21a723d" category="paragraph">GenAI용 워크로드 팩토리에서는 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.</block>
-  <block id="c7fb8bbb17373e98570b6e60b217343a" category="section-title">GenAI용 워크로드 팩토리가 생성 AI 애플리케이션을 구축하는 데 도움이 되는 방법</block>
   <block id="200e3179449390bdf5f3f8d9a199630c" category="section-title">워크로드 팩토리 사용을 위한 툴</block>
   <block id="b5a374f3f5b31b5057808689d26fe2c4" category="paragraph">다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
   <block id="becd2c66a018e594b787abb509da2fcb" category="list-text">* 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션 및 프로젝트에 대한 전체적인 보기를 제공하는 시각적 인터페이스를 제공합니다.</block>
@@ -676,15 +660,89 @@
   <block id="c3c0f7069bfe59c5a67dd6f1fd5d2301" category="list-text">자동 사용 권한으로 워크로드 공장에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _AUTOMATE_MODE의 워크로드 공장을 사용합니다.</block>
   <block id="5145374f219e1c177ab5588a5344aa6e" category="inline-link">워크로드 팩토리에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
   <block id="ced1a4827b1ea3c1da0273c3d73fdd46" category="paragraph"><block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
-  <block id="e75accc1948bab24f6bde8f2716d9465" category="paragraph">GenAI의 워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.</block>
   <block id="056634bec4a153903ebb9b769277f4d7" category="summary">NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 워크로드 팩토리에 NetApp Support 사이트 계정을 추가한 다음 지원을 등록해야 합니다.</block>
   <block id="3616889860b75d784463bb497e34e82f" category="paragraph">사용자의 애플리케이션에 기술 자료를 배포하기 전에 워크로드 공장 내에서 대부분의 테스트를 수행합니다. 데이터 원본이나 챗봇 작업을 변경해야 하는 경우 기술 자료를 게시하기 전에 지금 변경해야 합니다.</block>
-  <block id="448a7638f78d8e27c82dc4eb9cfffaa5" category="cell">GenAI용 워크로드 팩토리는 구축 프로세스 중에 새 볼륨을 생성해야 하지만 지정한 이름을 사용하는 볼륨이 이미 존재합니다.</block>
-  <block id="9db9426b923f79f37245bd6e27517b75" category="cell">GenAI용 워크로드 팩토리에서 볼륨을 마운트할 수 없기 때문에 구축이 실패합니다.</block>
-  <block id="3b93973bf09251ccbc76e14631d727e0" category="cell">GenAI용 워크로드 팩토리에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
   <block id="1862818cbcef0536011835283968bd91" category="summary">워크로드 팩토리의 AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
   <block id="34734891f639d2ae1ecbbaab22157fe2" category="paragraph">워크로드 팩토리의 Generative AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.</block>
   <block id="81ff996ef963d9805259d4a6c9bafac8" category="inline-link">Amazon FSx for NetApp ONTAP 설명서의 워크로드 팩토리</block>
   <block id="07e2e5eecff8fe1dbb4712055f0055f1" category="paragraph">FSx for ONTAP 파일 시스템 관리에 대한 자세한 내용은 로<block ref="3845b9852e43f2af9ae621ea5bb328c1" category="inline-link-rx"></block> 이동하여 사용할 수 있는 백업 및 보호 기능을 확인하십시오.</block>
   <block id="2b6b3d10fe7ba8590618a95b1cc96a1a" category="sidebar">GenAI 설명서를 위한 BlueXP  워크로드 팩토리</block>
+  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">스냅샷에서 지식 베이스를 복제합니다</block>
+  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.</block>
+  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">기술 문서를 복제합니다</block>
+  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">온프레미스 ONTAP 클러스터 검색 및 복제</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">온프레미스 ONTAP 클러스터 데이터를 FSx for ONTAP 파일 시스템으로 검색하고 복제하여 AI 지식 기반을 보강하는 데 사용할 수 있습니다. 모든 사내 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 * 온-프레미스 ONTAP * 탭에서 사용할 수 있습니다.</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">사내 ONTAP 클러스터를 검색합니다</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="b83113ab8d9d4c69dfb32e9034617513" category="summary">GenAI용 BlueXP  워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.</block>
+  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="doc">GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오</block>
+  <block id="766c4de0717e832db67cb7e35ee5df4b" category="section-title">GenAI의 BlueXP  워크로드 팩토리는 무엇입니까?</block>
+  <block id="847fc7565e14d8fa93f26cd789e29cb5" category="paragraph">GenAI용 BlueXP  워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. RAG(Retrieval Augmentation Generation) 프레임워크를 사용하면 Amazon Bedrock을 통해 사용 가능한 기초 모델에 데이터 소스를 빠르게 연결하여 가상 도우미, Q&amp;A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다</block>
+  <block id="586d1c82027100a85b2c840e10585fd4" category="paragraph">GenAI용 BlueXP  워크로드 공장은 RAG(Retrieval Augmented Generation)를 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.</block>
+  <block id="daadd89cd1fba3fd8665e4d598faa29e" category="section-title">GenAI용 BlueXP  워크로드 공장이 생성 AI 애플리케이션을 구축하는 데 어떤 도움이 되는지 알아보십시오</block>
+  <block id="6849617ada590bcd67ec5c42f527dbca" category="paragraph">AWS 자격 증명을 입력하고 FSx for ONTAP 파일 시스템을 선택하여 검색 증강 생성(RAG) 인프라를 배포해야 합니다.</block>
+  <block id="29c02ba7cbd3c64fafa4c7eab2de837a" category="admonition">자격 증명 오류로 인해 배포가 실패하는 경우 오류 메시지 내에서 하이퍼링크를 선택하여 오류 세부 정보를 확인할 수 있습니다. 누락 또는 차단된 권한 목록과 GenAI 워크로드를 배포하기 위해 필요한 권한 목록을 확인할 수 있습니다.</block>
+  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
+  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="3797e84a3c9da31524b0e5a526fb59cb" category="paragraph">기술 자료 스냅샷에서 새로운 기술 자료를 생성할 수 있습니다. 이 기능은 원본 기술 문서가 손상되었거나 손실된 경우에 유용합니다.</block>
+  <block id="e83bec71ebafaf78ee9064dcfcc19f67" category="list-text">Actions * 메뉴를 선택하고 * Snapshot &gt; Clone Knowledge Base * 를 선택합니다.</block>
+  <block id="8b6829f6ee0ef3bfbe0ab0540f326557" category="paragraph">클론 대화 상자가 나타납니다.</block>
+  <block id="e9a021d7afe855c5ba056c07000e7027" category="list-text">스냅숏이 클론 생성된 후 예약 및 현재 실행 중인 데이터 원본 스캔을 계속하려면 * 스냅숏 클론 생성 후 실행 및 예약된 검사 일시 중지 * 옵션을 선택 취소합니다.</block>
+  <block id="0568052f85119ac83d89df964e8851c0" category="list-text">목록에서 복제할 스냅샷을 선택합니다.</block>
+  <block id="136dc09835924029e4299fa28f17233d" category="list-text">Continue * 를 선택합니다.</block>
+  <block id="86de75270b79ca51ee2b62cc69460393" category="list-text">새 기술 문서의 이름을 입력합니다.</block>
+  <block id="0ddebe34caa600a9062280228e099952" category="list-text">새 기술 자료에 사용할 파일 시스템 SVM 및 볼륨 이름을 선택합니다.</block>
+  <block id="9de0e2b17d7e1e2da6c0ce7e9dc6e377" category="list-text">클론 * 을 선택합니다.</block>
+  <block id="f895e26ca8de37d350a247e7eae1987c" category="paragraph">GenAI의 BlueXP  워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.</block>
+  <block id="96f6c1844fa04dad54f5ced764d5d751" category="cell">GenAI용 BlueXP  워크로드 팩토리에는 구축 프로세스 중에 새 볼륨을 생성해야 하지만, 지정한 이름을 사용하는 볼륨이 이미 존재합니다.</block>
+  <block id="efc3cdef33c078d242eaa096c1a9da3d" category="cell">GenAI용 BlueXP  워크로드 팩토리에서 볼륨을 마운트할 수 없기 때문에 구축이 실패합니다.</block>
+  <block id="407b33bc44b7fc7c0c4648bcaeff2a44" category="paragraph">다음 인바운드 포트를 엽니다.</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">프로토콜</block>
+  <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">포트</block>
+  <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">목적</block>
+  <block id="d4b4ed7579a4f9267cc7dff8a948018e" category="cell">모든 ICMP</block>
+  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="cell">모두</block>
+  <block id="fbabb5b35538d91f91e0e1d4f56ff5a4" category="cell">인스턴스에 Ping을 수행 중입니다</block>
+  <block id="0e8433f9a404f1f3ba601c14b026d321" category="cell">HTTPS</block>
+  <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
+  <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">Connector에서 fsxadmin 관리 LIF로 액세스하여 FSx로 API 호출을 전송합니다</block>
+  <block id="765553e6c7ac8592c389acb9878a050a" category="cell">SSH를 클릭합니다</block>
+  <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="cell">22</block>
+  <block id="68e68bb8029eb3e7ed079fea7b679d99" category="cell">클러스터 관리 LIF 또는 노드 관리 LIF의 IP 주소에 SSH를 액세스할 수 있습니다</block>
+  <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
+  <block id="698d51a19d8a121ce581499d7b701668" category="cell">111</block>
+  <block id="42309a274997c44da61b489d9df7edc8" category="cell">NFS에 대한 원격 프로시저 호출</block>
+  <block id="e00da03b685a0dd18fb6a08af0923de0" category="cell">139</block>
+  <block id="f578101933ae5aa506411a00b33b06ec" category="cell">CIFS에 대한 NetBIOS 서비스 세션입니다</block>
+  <block id="ff86b94aeb68e2de5387c9dbf865b3b9" category="cell">161-162 을 참조하십시오</block>
+  <block id="e0215167b05004bf68d7d23d0a15605c" category="cell">단순한 네트워크 관리 프로토콜</block>
+  <block id="67f7fb873eaf29526a11a9b7ac33bfac" category="cell">445</block>
+  <block id="100c97ce556d60c86e5d8b424c3ed3ad" category="cell">Microsoft SMB/CIFS over TCP 및 NetBIOS 프레임</block>
+  <block id="6a10bbd480e4c5573d8f3af73ae0454b" category="cell">635</block>
+  <block id="718b3fb251c2987c99ce9d2d23eb38b6" category="cell">NFS 마운트</block>
+  <block id="b056eb1587586b71e2da9acfe4fbd19e" category="cell">749</block>
+  <block id="87b3695bfd6f672e2c7c4da7ca2b46a8" category="cell">Kerberos</block>
+  <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049</block>
+  <block id="02c69a3a7485c8d2f899c2eb58f8be50" category="cell">NFS 서버 데몬</block>
+  <block id="d54ce9de9df77c579775a7b6b1a4bdc0" category="cell">3260</block>
+  <block id="decc72453fd5881c6144ead65577abe0" category="cell">iSCSI 데이터 LIF를 통한 iSCSI 액세스</block>
+  <block id="ee0e95249268b86ff2053bef214bfeda" category="cell">4045</block>
+  <block id="3efa34cc491e9e34264231984db1c224" category="cell">NFS 잠금 데몬</block>
+  <block id="354ac345fd8c6d7ef634d9a8e3d47b83" category="cell">4046</block>
+  <block id="6e1768e34172523fffe5e878d95f0f1a" category="cell">NFS에 대한 네트워크 상태 모니터</block>
+  <block id="b7a782741f667201b54880c925faec4b" category="cell">10000</block>
+  <block id="9f6c516b5f5492bbbe0bfa8167ac3c38" category="cell">NDMP를 사용한 백업</block>
+  <block id="bf03faf089665754a8af5dce381a42ca" category="cell">11104</block>
+  <block id="0f98f191f6139c531c1435214b55de48" category="cell">SnapMirror에 대한 인터클러스터 통신 세션의 관리</block>
+  <block id="f0f07e680de407b0f12abf15bd520097" category="cell">11105</block>
+  <block id="d03bcbb93f8e29ffb08772b43b55d234" category="cell">인터클러스터 LIF를 사용하여 SnapMirror 데이터 전송</block>
+  <block id="f5ef036b4d8b630721e51fe23489fbc9" category="cell">UDP입니다</block>
+  <block id="89a4779d3836ea432f7ea074e522a17e" category="cell">4049</block>
+  <block id="ec29b09319bcf28d103f2dda2dae3590" category="cell">NFS rquotad 프로토콜</block>
+  <block id="edd9b7b1aa59153309a4116720911246" category="cell">AI 엔진을 시작하지 못하고 * Knowledge Base * 페이지에 "AI engine instance error" 오류가 표시됩니다.</block>
+  <block id="b7542ca3c48aa928fdf94d78371dd834" category="cell">AI 엔진 인스턴스가 손상되었거나 존재하지 않습니다.</block>
+  <block id="849293736c770408f68a35f4fcdf9592" category="cell">Rebuild * 버튼을 선택합니다. GenAI를 위한 BlueXP  워크로드 공장은 인프라를 리빌드하고 리빌드 진행률을 표시합니다. 완료되면 지식 베이스가 재구축된 인프라에 다시 연결되고 지식 베이스 목록이 표시됩니다.</block>
+  <block id="d1955ee5035af265f471c1debd693717" category="cell">BlueXP  워크로드 팩터에서 GenAI를 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
+  <block id="6ad17d07338dffda7982d8efdad3a276" category="section-title">2024년 12월 1일</block>
 </blocks>

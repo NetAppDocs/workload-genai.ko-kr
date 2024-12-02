@@ -29,7 +29,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크�
 아마존 Bedrock:: Amazon Bedrock은 기반 모델을 사용할 수 있으며 생성 가능한 AI 애플리케이션을 구축하는 기능을 제공합니다.
 +
 --
-GenAI의 워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.
+GenAI의 BlueXP  워크로드 공장을 시작하기 전에 Amazon Bedrock을 설정해야 합니다. GenAI 배포는 Amazon Bedrock이 지원되는 AWS 지역에 있어야 합니다.
 
 * https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html["AWS 설명서: Amazon Bedrock을 설정합니다"^]
 * https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["AWS 설명서: Amazon Bedrock에 대한 지식 기반 지원 지역 및 모델"^]
