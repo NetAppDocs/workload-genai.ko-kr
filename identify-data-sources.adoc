@@ -4,7 +4,7 @@ permalink: identify-data-sources.html
 keywords: data sources, chatbot, documents, knowledge base 
 summary: '기술 자료에 통합할 FSx for ONTAP 파일 시스템에 있는 문서(데이터 소스)를 식별하거나 생성합니다. 이러한 데이터 원본을 사용하면 기술 문서에서 조직과 관련된 데이터를 기반으로 사용자 쿼리에 대한 정확하고 개인화된 답변을 제공할 수 있습니다.' 
 ---
-= 기술 자료에 통합할 데이터 소스를 식별합니다
+= GenAI 기술 자료에 통합할 데이터 소스를 식별합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

@@ -4,7 +4,7 @@ permalink: example-chatbot-application.html
 keywords: ai, example, sample, chatbot, app, application, local 
 summary: 예제 챗봇 애플리케이션을 설치하고 실행하여 기술 자료를 테스트하고 워크로드 팩토리 API를 사용하여 자체 생성 AI 애플리케이션을 생성하는 방법을 배울 수 있습니다. 
 ---
-= 외부 예제 챗봇 응용 프로그램을 사용합니다
+= GenAI 외부 예제 챗봇 애플리케이션을 사용합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

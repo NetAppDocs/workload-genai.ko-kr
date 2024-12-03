@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
 summary: 워크로드 팩토리의 AI 워크로드 기능의 새로운 기능에 대해 알아보십시오. 
 ---
-= 새로운 기능
+= GenAI를 위한 BlueXP  워크로드 팩토리의 새로운 기능
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

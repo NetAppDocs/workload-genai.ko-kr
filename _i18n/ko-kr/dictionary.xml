@@ -10,7 +10,6 @@
   <block id="9969ec0e7476736a130c54f32700611e" category="list-text">* 사용 안 함 * : 챗봇 사용자는 모든 통합 데이터 소스의 콘텐츠를 사용하여 응답을 받습니다.</block>
   <block id="65f706122d6156fd52b6cb2ff2214944" category="list-text">이 데이터 소스를 기술 문서에 추가하려면 * 추가 * 를 선택하십시오.</block>
   <block id="f1af0b71f33a2e37e9e17b100f3c0b1e" category="summary">기술 자료를 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 기술 자료에 대한 인증을 활성화합니다.</block>
-  <block id="970a6e4ed60b5e3eb0f25c2ab67433fe" category="doc">기술 문서에 대한 외부 인증을 활성화합니다</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="958a8f384aa34f23244386f38ed3aeab" category="list-text">Knowledge Base 인벤토리 페이지에서 게시하려는 기술 문서를 선택합니다.</block>
   <block id="2041999f6b6b70199d1267ee84f453a6" category="inline-image-macro">옵션 단추</block>
@@ -321,7 +320,6 @@
   <block id="0e0f1b27ca798d3b3b8154b411215d9a" category="list-text">조치 * 메뉴를 선택하고 * 기술 문서 삭제 * 를 선택합니다.</block>
   <block id="74091f3303c946e291c1c1702ba6d39a" category="list-text">기술 자료 삭제 대화 상자에서 삭제할 내용을 확인하고 * 삭제 * 를 선택합니다.</block>
   <block id="8bbd4e338e42c1350d453ca5c82eb3b3" category="summary">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
-  <block id="70de8e73e84df845f91376c6c0d1188e" category="doc">기술 문서를 게시하고 고유 끝점을 봅니다</block>
   <block id="12676fc9338d312de3a6cbb584fa3284" category="paragraph">기술 자료를 로컬로 구축 및 테스트한 후에는 사용자가 기술 자료를 쿼리할 수 있도록 챗봇 애플리케이션과 통합할 수 있도록 기술 자료를 게시할 수 있습니다.</block>
   <block id="079d0a527f117f9fde217668d7359a20" category="paragraph">게시한 각 기술 문서에는 고유한 끝점이 있습니다.</block>
   <block id="850b9475ef66eeb78335c085f71bae31" category="list-text">작업 * 메뉴를 선택하고 * 게시 * 를 선택합니다.</block>
@@ -427,7 +425,6 @@
   <block id="c61f79c1724a3bab0885dbbd3b2e87ea" category="inline-image-macro">실행 버튼</block>
   <block id="ccd43d06a7b1187d2ac93471de4a9b64" category="list-text">챗봇 입력 필드에 프롬프트 또는 질문을 입력하고 을 선택하여 챗봇이 조직 지식에 어떻게 반응하는지 확인합니다 <block ref="4673f7ece64f88d1999f6ef93db80a3b" category="inline-image-macro-rx" type="image"></block> .</block>
   <block id="2625a68b73d2dae552cbcc7be08396fc" category="list-text">기술 문서에서 보다 집중적인 답변을 제공할 수 있도록 데이터 원본을 업데이트해야 하는 경우 지금 해당 내용을 변경한 다음 기술 문서를 다시 테스트합니다.</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="1d949c7c5600289e10795f178278edd1" category="section-title">2024년 7월 7일</block>
   <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">초기 릴리스에는 조직의 데이터를 포함하여 사용자 지정된 기술 자료를 개발할 수 있는 기능이 포함되어 있습니다. 사용자를 위한 챗봇 애플리케이션에서 기술 자료에 액세스할 수 있습니다. 이 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 제공함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.</block>
   <block id="a9273ae35bbdb787574410a5cd552892" category="summary">이제 엔터프라이즈 데이터를 사용하여 기술 자료를 만들고 사용자를 위해 배포했으므로 ONTAP용 FSx 파일 시스템을 비롯한 기술 자료, 데이터 소스 및 RAG 인프라를 관리할 수 있습니다.</block>
@@ -600,8 +597,6 @@
   <block id="b91895758c5a35a75fd3e87dc1fa0741" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 데이터 가드레일 사용을 변경하고, 대화 시작점을 자동 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 선택할 수 있습니다.</block>
   <block id="fde00ba8f64d2c57d64a163698fd6f03" category="admonition">임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 후 데이터 가드레일을 활성화하면 기술 문서가 다시 검색되어 비용이 발생합니다.</block>
   <block id="d9f5899ddcae7952c9df69e075c822e2" category="section-title">2024년 11월 3일</block>
-  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
-  <block id="402ae08ce46f82670c0313312e504ad7" category="list-text">AI 엔진이 에 액세스할 수 있어야 합니다 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block></block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
   <block id="4b88d56bd65ef92611ac63064c38369f" category="list-text">Amazon CloudWatch 를 참조하십시오</block>
   <block id="1ee7c829860de53ba4857ad78b7aadef" category="doc">GenAI를 위한 워크로드 팩토리 최초 릴리즈</block>
@@ -745,4 +740,20 @@
   <block id="849293736c770408f68a35f4fcdf9592" category="cell">Rebuild * 버튼을 선택합니다. GenAI를 위한 BlueXP  워크로드 공장은 인프라를 리빌드하고 리빌드 진행률을 표시합니다. 완료되면 지식 베이스가 재구축된 인프라에 다시 연결되고 지식 베이스 목록이 표시됩니다.</block>
   <block id="d1955ee5035af265f471c1debd693717" category="cell">BlueXP  워크로드 팩터에서 GenAI를 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다.</block>
   <block id="6ad17d07338dffda7982d8efdad3a276" category="section-title">2024년 12월 1일</block>
+  <block id="e8293cb4f1909d8329e31cefdfb4dba4" category="doc">GenAI 기술 문서에 대한 외부 인증을 활성화합니다</block>
+  <block id="b05735c6e4c6d503ad9f93af6e740fa9" category="doc">RAG 기반 GenAI 애플리케이션을 생성합니다</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="doc">GenAI 기술 자료를 만듭니다</block>
+  <block id="79cee61f29eb5a0e2dd156871eb70a40" category="list-text">AI 엔진은 BlueXP  API 끝점 \https://api.BlueXP .NetApp.com에 액세스할 수 있어야 합니다.</block>
+  <block id="e63e0ed616c63ed724e592b04e608826" category="doc">GenAI 외부 예제 챗봇 애플리케이션을 사용합니다</block>
+  <block id="52f26f0fff3bae61240c4b3a43f3624d" category="doc">GenAI용 BlueXP  워크로드 팩토리에 도움을 받으십시오</block>
+  <block id="e1cdd82a2918ba1a2c0ff51770aad51e" category="doc">GenAI 기술 자료에 통합할 데이터 소스를 식별합니다</block>
+  <block id="fe1e8231ce0909884a561100cafd30a8" category="doc">GenAI 법적 고지 사항을 위한 BlueXP  워크로드 공장</block>
+  <block id="dd3ed9192bf4d0d55741ed48bf8a6695" category="doc">GenAI 데이터 소스를 관리합니다</block>
+  <block id="10f8936c8a58bcff3825995f8d31ea40" category="doc">GenAI 지식 기반 관리</block>
+  <block id="335c0c9583885e1f231604b7fa10819a" category="doc">GenAI 기술 자료를 게시하고 고유한 엔드포인트를 봅니다</block>
+  <block id="97641902b7a17c72d34451f4f1417531" category="doc">GenAI를 위한 BlueXP  워크로드 팩토리 지원에 등록하십시오</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="doc">GenAI 기술 자료를 테스트합니다</block>
+  <block id="69065fcb8a054a77edd3d2da74b89c6e" category="doc">GenAI 문제 해결</block>
+  <block id="1e7bcc0dba826f450b3684e2a2c6f04e" category="doc">GenAI를 위한 BlueXP  워크로드 팩토리의 새로운 기능</block>
+  <block id="988a487756dcb4e1605a4e07dc7dbd42" category="doc">GenAI를 통해 앞으로 할 수 있는 일</block>
 </blocks>

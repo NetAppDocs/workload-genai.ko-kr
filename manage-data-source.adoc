@@ -4,7 +4,7 @@ permalink: manage-data-source.html
 keywords: ai, chatbot, creating, knowledge base, data source 
 summary: FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자료를 생성한 후에는 데이터 소스 세부 정보를 보고, 데이터 소스 콘텐츠를 업데이트 또는 변경하고, 데이터 소스 설정을 편집하거나, 데이터 소스를 삭제할 수 있습니다. 
 ---
-= 데이터 소스 관리
+= GenAI 데이터 소스를 관리합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
