@@ -25,7 +25,10 @@ Knowledge Base에는 두 가지 데이터 통합 Modality(_public mode_와_Enter
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]..
 
 
-NOTE: 데이터 가드레일은 언제든지 활성화 또는 비활성화할 수 있습니다. 데이터 가드레일 사용을 전환하면 Workload Factory에서 전체 기술 자료를 처음부터 검사하여 비용이 발생합니다.
+NOTE: GenAI용 BlueXP  워크로드 공장은 민감한 개인 정보를 마스킹하지 않습니다(SPii). 이 데이터 유형에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^]참조하십시오.
+
+
+NOTE: 데이터 가드레일은 언제든지 활성화 또는 비활성화할 수 있습니다. 데이터 가드레일 사용을 전환하면 워크로드 공장에서 전체 기술 자료를 처음부터 검사하여 비용이 발생합니다.
 
 --
 
