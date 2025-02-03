@@ -5,7 +5,6 @@
   <block id="e3fbe9ea657688c1ff4a86f23c1752c3" category="list-text">* 볼륨 선택 *: 데이터 원본 파일이 있는 볼륨을 선택하고 * 다음 * 을 선택합니다.</block>
   <block id="3bce906453410b081d8e495b9cf8c9b0" category="paragraph">SMB 프로토콜을 사용하여 저장된 파일을 선택할 때 도메인, IP 주소, 사용자 이름 및 암호를 포함한 Active Directory 정보를 입력해야 합니다.</block>
   <block id="7028355d43ef8a71ff4d5e7bed32be2b" category="list-text">* 데이터 소스 선택 *: 파일을 저장한 위치를 기준으로 데이터 소스 위치를 선택합니다. 전체 볼륨일 수도 있고 볼륨의 특정 폴더 또는 하위 폴더일 수도 있고 * 다음 * 을 선택합니다.</block>
-  <block id="12d073958c6d4922a6f27ae8b5e4b533" category="list-text">선택한 데이터 소스가 SMB 프로토콜을 사용하는 볼륨에 있을 때만 사용할 수 있는 * 권한 인식 * 섹션에서 선택 항목을 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="751157f855d8f0597671b65bc8ea1301" category="list-text">*사용*: 이 기술 자료에 액세스하는 챗봇 사용자는 액세스 권한이 있는 데이터 원본에서 쿼리에 대한 응답만 받습니다.</block>
   <block id="9969ec0e7476736a130c54f32700611e" category="list-text">* 사용 안 함 * : 챗봇 사용자는 모든 통합 데이터 소스의 콘텐츠를 사용하여 응답을 받습니다.</block>
   <block id="65f706122d6156fd52b6cb2ff2214944" category="list-text">이 데이터 소스를 기술 문서에 추가하려면 * 추가 * 를 선택하십시오.</block>
@@ -115,9 +114,7 @@
   <block id="36d8c0d0c9711e8ac7a5bbcbe9b96008" category="list-text">아웃바운드 규칙은 모든 트래픽에 대해 열려 있지만 인바운드 규칙은 완전히 닫힙니다.</block>
   <block id="1f171bab0b26254e4c58e536973c5c09" category="list-text">전용 끝점</block>
   <block id="34048930da0f8b448828d6774b139b17" category="list-text">아마존 Bedrock</block>
-  <block id="c421d122321bec48d6b30858f4e7b515" category="list-text">Amazon EC2</block>
   <block id="719ffca696aa714ef090fce0aca97bd2" category="list-text">Amazon Elastic Container Registry(ECR)</block>
-  <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
   <block id="0072b242011f459b57b0768dceac82f8" category="list-text">AWS 시스템 관리자(SSM)</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="6a7b2c9c4cec65ad972b108fa0a1192b" category="section-title">FSx for ONTAP에 대한 지원을 받으십시오</block>
@@ -475,7 +472,6 @@
   <block id="4fc1d0607a3fe50db5ef612a2c4a178e" category="list-text">로<block ref="0e14f9ffc1d2673bd92f13a4ac79e32e" category="inline-link-rx"></block> 이동하여 응용 프로그램에 로그인합니다.</block>
   <block id="5f62c285aea87618ed1381c43c7ae2cf" category="paragraph">챗봇 애플리케이션 예가 나타납니다.</block>
   <block id="d59048f21fd887ad520398ce677be586" category="section-title">자세한 정보</block>
-  <block id="8f3f613a5094ebfa7c5f531cb356028e" category="list-text">* AI 매개 변수 정의 *: * 청크 전략 * 섹션에서 데이터 소스가 기술 문서에 통합될 때 GenAI 엔진이 데이터 소스 콘텐츠를 청크로 분할하는 방법을 정의합니다. 다음 전략 중 하나를 선택할 수 있습니다.</block>
   <block id="091e1c7957272ab69145f4859b4465d0" category="list-text">* 다중 문장 청킹 *: 데이터 소스의 정보를 문장 정의 청크로 정리합니다. 각 청크를 구성하는 문장의 수(최대 100개)를 선택할 수 있습니다.</block>
   <block id="87aa4ffcf50084a10651fe7094e75bda" category="list-text">* 오버랩 기반 청크 *: 데이터 소스의 정보를 인접 청크와 겹칠 수 있는 문자 정의 청크로 구성합니다. 각 청크의 크기를 문자 단위로 선택하고 각 청크가 인접한 청크와 겹치는 정도를 선택할 수 있습니다. 청크 크기는 50자에서 3000자 사이이고 겹치는 비율은 1 ~ 99%로 구성할 수 있습니다.</block>
   <block id="18c41e2a8da7a23dcc990da8d7dfe06d" category="admonition">높은 중복 비율을 선택하면 검색 정확도가 약간 개선되어 저장소 요구 사항이 크게 증가할 수 있습니다.</block>
@@ -583,7 +579,6 @@
   <block id="3e3c8a56035df76e06772f4505dc58c7" category="list-text">환경이 사전 요구 사항을 충족할 수 있는지 확인합니다</block>
   <block id="0ce4d42838344488f607ff306088fae9" category="list-text">BlueXP 분류를 배포합니다</block>
   <block id="b91895758c5a35a75fd3e87dc1fa0741" category="list-text">기술 자료 편집 페이지에서 기술 자료 이름, 설명, 포함 모델, 채팅 모델, 데이터 가드레일 사용을 변경하고, 대화 시작점을 자동 또는 수동으로 만들지 여부, 기술 문서가 포함된 볼륨에 사용되는 스냅샷 정책을 선택할 수 있습니다.</block>
-  <block id="fde00ba8f64d2c57d64a163698fd6f03" category="admonition">임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 후 데이터 가드레일을 활성화하면 기술 문서가 다시 검색되어 비용이 발생합니다.</block>
   <block id="d9f5899ddcae7952c9df69e075c822e2" category="section-title">2024년 11월 3일</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">NetApp ONTAP용 Amazon FSx</block>
   <block id="4b88d56bd65ef92611ac63064c38369f" category="list-text">Amazon CloudWatch 를 참조하십시오</block>
@@ -781,5 +776,47 @@
   <block id="2c6cb4e03314c724c32217626f17bd37" category="list-text">SSH를 사용하여 인스턴스에 로그인합니다.</block>
   <block id="337d79852891a37d41285c9101c3fff4" category="list-text">다음 명령을 실행합니다.</block>
   <block id="37b8354fe553b0151888468751ea8eb0" category="section-title">2025년 1월 5일</block>
-  <block id="0fdf33109843473a96b84acfe576030a" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block> == 2024년 9월 29일</block>
+  <block id="2b33992406857bfe64aea3c375dfd0f3" category="list-text">* 구성 *: 데이터 소스가 파일에서 정보를 수집하는 방법과 검색에 포함할 파일을 구성합니다.</block>
+  <block id="556d69e48e56f7282433b4470f9fc985" category="list-text">* 데이터 소스 정의 *: * 청크 전략 * 섹션에서 데이터 소스가 기술 문서에 통합될 때 GenAI 엔진이 데이터 소스 컨텐츠를 청크로 분할하는 방법을 정의합니다. 다음 전략 중 하나를 선택할 수 있습니다.</block>
+  <block id="441ffcb2a5deb53b096bf6da09532c3c" category="list-text">* 파일 필터링 *: 검색에 포함할 파일을 구성합니다.</block>
+  <block id="fbf5c3d1e175475dce2b6f27f23e342c" category="list-text">파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.</block>
+  <block id="9c91ae043d4f1fed127449b7d9f56f1a" category="paragraph">이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.</block>
+  <block id="cdc5210ee55660ad12576b6b12e53505" category="paragraph">이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.</block>
+  <block id="527140faa5b9a355e269287e721ad95b" category="admonition">이미지 파일을 스캔에 포함할지 여부는 기술 자료 채팅 모델과 관련이 있습니다. 스캔에 이미지 파일을 포함할 경우 채팅 모델은 이미지를 지원해야 합니다. 여기에서 이미지 파일 형식을 선택하면 기술 문서를 이미지 파일을 지원하지 않는 채팅 모델로 전환할 수 없습니다.</block>
+  <block id="2af4913e8e59a092d414744be9ae44d2" category="list-text">파일 수정 시간 필터 * 섹션에서 수정 시간에 따라 파일 포함을 활성화 또는 비활성화하도록 선택합니다. 수정 시간 필터링을 사용하는 경우 목록에서 날짜 범위를 선택합니다.</block>
+  <block id="67aa8f84073b450b225b7d2830cc4e41" category="admonition">수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 범위가 충족되지 않으면(지정한 날짜 범위 내에서 파일이 수정되지 않음) 파일이 정기 검색에서 제외되고 데이터 원본에 이러한 파일이 포함되지 않습니다.</block>
+  <block id="a036984d47253ddc828a04bc8ac85524" category="list-text">선택한 데이터 원본이 SMB 프로토콜을 사용하는 볼륨에 있을 때만 사용할 수 있는 * 권한 인식 * 섹션에서 권한 인식 응답을 활성화하거나 비활성화할 수 있습니다.</block>
+  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">데이터 원본에 대한 파일 형식 필터링</block>
+  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">GenAI는 이제 데이터 소스를 추가할 때 데이터 소스 스캔에 포함할 특정 파일 유형을 선택할 수 있도록 지원합니다.</block>
+  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
+  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">데이터 원본에 대한 파일 수정 날짜 필터링</block>
+  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI는 이제 데이터 소스를 추가할 때 수정 날짜별로 데이터 소스 스캔에 포함할 파일 필터링을 지원합니다. 포함된 파일의 수정 날짜 범위를 선택할 수 있습니다.</block>
+  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">이미지 파일 지원 및 PDF 파일 지원 향상</block>
+  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지 스캔을 지원합니다(다중 모드 파일 지원이라고도 함). 이미지 파일을 선택하면 이미지의 텍스트가 데이터 원본으로 스캔되어 데이터로 사용됩니다. 이 기능에는 PDF 문서 내의 이미지가 포함됩니다. PDF 파일 형식을 포함하면 각 PDF 내의 이미지가 텍스트를 스캔하고 해당 텍스트가 데이터 원본의 정보에 포함됩니다.</block>
+  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">하이브리드 검색 및 리랭크 지원</block>
+  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">이제 GenAI는 하이브리드 검색을 사용하여 검색 결과의 관련성을 높이고 결과를 재평가합니다. 하이브리드 검색은 키워드 검색과 벡터 및 의미론적 검색을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. GenAI는 검색 결과의 순위를 다시 지정하고 관련성이 가장 높은 결과만 반환합니다.</block>
+  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
+  <block id="c009fe342f72cc06fe63760e2eaa701c" category="list-text">GenAI에서 제공하는 하이브리드 검색 및 재순위 기능으로 데이터에서 고품질 결과를 얻을 수 있습니다. 하이브리드 검색과 재순위를 결합하면 검색 결과의 관련성이 크게 향상됩니다. 이러한 기능은 Amazon AWS를 통해 제공되며 지역에 따라 다릅니다.</block>
+  <block id="e1201f675c705c74b856dba391a68602" category="paragraph">텍스트 정보에 대한 이미지 스캔과 같은 일부 다중 모드 작업은 더 많은 리소스를 사용할 수 있으므로 비용이 더 많이 듭니다. 기술 자료 설정을 변경하는 등의 일부 구성 작업은 데이터 원본을 다시 스캔할 수 있으며 데이터 원본 스캔에 비용이 더 많이 들 수 있습니다.</block>
+  <block id="0a2b76d9cf1a9ffdd3b88e030e038252" category="example-title">IAM 역할 권한</block>
+  <block id="216304eb42158c57d4ec762a309c7df6" category="list-text">베드록</block>
+  <block id="12789b4d0bdf3d54be09051f154d5eba" category="list-text">Bedrock - 런타임</block>
+  <block id="ca6c1f270eb3bc12524f0c3ad6af0765" category="list-text">Bedrock-에이전트-런타임</block>
+  <block id="db974238714ca8de634a7ce1d083a14f" category="list-text">API를 참조하십시오</block>
+  <block id="05b6053c41a2130afd6fc3b158bda4e6" category="list-text">Docker 를 참조하십시오</block>
+  <block id="078aab7ae8c1a0df339ac8525790d5e1" category="list-text">SSM을 참조하십시오</block>
+  <block id="627597c7a47356c5c9f55a4854a59ff3" category="list-text">ec2messages를 참조하십시오</block>
+  <block id="25f6388206f436c2d1de63216302b13d" category="list-text">ssmessages(sms 메시지</block>
+  <block id="907e06a16862d82ca6907a28a68d0ad6" category="cell">JPEG를 선택합니다</block>
+  <block id="8106d47388a74c58448d40c84de6fd91" category="cell">.jpg or.jpeg 을 참조하십시오</block>
+  <block id="7281c70f390b5e0f3c8827352c83f0b0" category="cell">휴대용 네트워크 그래픽</block>
+  <block id="6446d860dbbfe540e9e2cbab5f98f1e3" category="cell">png입니다</block>
+  <block id="a97aa4a947e531a7fa6f96a2b73876e3" category="cell">Graphics Interchange Format(그래픽 교환 형식)</block>
+  <block id="03a46779cf1ed515b29e1c471efd4c0f" category="cell">gif</block>
+  <block id="830b1d3b1096152076b8daa22a275a74" category="cell">WebP 이미지</block>
+  <block id="f38a468e497336f7e3144a22393a4ca9" category="cell">웹</block>
+  <block id="0c05a373f02466ab8f502ea4b3b8e2e8" category="admonition">임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 후 데이터 가드레일을 활성화하면 기술 문서가 다시 검색되어 비용이 발생합니다. 마찬가지로 채팅 모델을 변경하면 GenAI가 관련 데이터 소스를 다시 스캔합니다(비용 발생).</block>
+  <block id="f7fb3b5dc06e03848b8f5ff23bbcd37d" category="paragraph">GenAI는 검색 결과의 관련성을 개선하기 위해 검색 결과의 순위를 기본적으로 재지정합니다. 최상의 결과를 얻으려면 아마존 Bedrock 기반 모델 구성에 COHERE Rerank 또는 Amazon Rerank와 같은 재순위 모델에 대한 액세스가 포함되어 있어야 합니다(해당 지역에서 사용 가능한 경우).</block>
+  <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025년 2월 2일</block>
+  <block id="26e6f4cc71039ce95ddbb0acdad6891d" category="section-title">2024년 9월 29일</block>
 </blocks>

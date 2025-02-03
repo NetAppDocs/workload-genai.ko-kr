@@ -35,6 +35,8 @@ GenAI의 BlueXP  워크로드 공장을 시작하기 전에 Amazon Bedrock을 �
 * https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-supported.html["AWS 설명서: Amazon Bedrock에 대한 지식 기반 지원 지역 및 모델"^]
 
 
+GenAI는 검색 결과의 관련성을 개선하기 위해 검색 결과의 순위를 기본적으로 재지정합니다. 최상의 결과를 얻으려면 아마존 Bedrock 기반 모델 구성에 COHERE Rerank 또는 Amazon Rerank와 같은 재순위 모델에 대한 액세스가 포함되어 있어야 합니다(해당 지역에서 사용 가능한 경우).
+
 --
 모델 임베드:: 기술 문서를 만들기 전에 사용하려는 포함 모델을 활성화해야 합니다. 지원되는 임베드 모델은 다음과 같습니다.
 +
