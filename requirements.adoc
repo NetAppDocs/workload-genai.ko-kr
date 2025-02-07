@@ -50,21 +50,34 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 
 
 --
-채팅 모델:: 기술 자료를 생성하기 전에 사용하려는 기본 채팅 모델을 활성화해야 합니다. 지원되는 Claude 채팅 모델은 다음과 같습니다.
+채팅 모델:: 기술 자료를 생성하기 전에 사용하려는 기본 채팅 모델을 활성화해야 합니다. 모델 지원은 AWS 지역에 따라 다르므로, 기술 자료를 배포할 계획이 있는 지역에서 사용할 수 있는 모델을 확인하려면 을 참조하십시오 https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html["AWS 설명서를 참조하십시오"^] .
 +
 --
-* 클로드 3.5 소넷
-* 클로드 3 오푸스
-* 클로드 3 하이쿠
-* 클로드 3 소넷
-* 클로드 2.1
-* 클로드 2.0
-+
-모델 지원은 AWS 지역에 따라 다르므로, 기술 자료를 배포할 계획이 있는 지역에서 사용할 수 있는 모델을 확인하려면 을 참조하십시오 https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html["이 AWS 설명서 페이지"^] .
+GenAI는 다음과 같은 Anthropic Claude 및 Amazon Nova 모델을 지원합니다.
 
+* 앤트로픽 클로드:
 +
-선택 시 사용할 수 있는 모델에 대해 자세히 알아보십시오. https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
+** 클로드 3.5 소넷
+** 클로드 3 오푸스
+** 클로드 3 하이쿠
+** 클로드 3 소넷
+** 클로드 2.1
+** 클로드 2.0
 
+
+* Amazon Nova:
++
+** 노바 마이크로
+** Nova Lite(이미지 및 텍스트 지원)
+** Nova Pro(이미지 및 텍스트 지원)
+
+
+
+
+아마존 Bedrock에서 이러한 모델을 사용하는 방법에 대해 자세히 알아보십시오.
+
+* https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
+* https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html["아마존 Bedrock 콘솔에서 Amazon Nova를 시작하십시오"^]
 
 
 --
