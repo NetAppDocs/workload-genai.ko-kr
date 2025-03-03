@@ -52,7 +52,16 @@ SMB를 통해 액세스되는 공유(파일 또는 디렉토리)에 데이터 �
 | 파일 형식 | 연장 
 
 
+| 아파치 파케 | 마루 
+
+
 | 쉼표로 구분된 값 파일입니다 | .csv입니다 
+
+
+| Graphics Interchange Format(그래픽 교환 형식) | gif 
+
+
+| JPEG를 선택합니다 | .jpg or.jpeg 을 참조하십시오 
 
 
 | 마크다운 | 진료 부서 
@@ -67,13 +76,7 @@ SMB를 통해 액세스되는 공유(파일 또는 디렉토리)에 데이터 �
 | 휴대용 문서 형식 | PDF로 이동합니다 
 
 
-| JPEG를 선택합니다 | .jpg or.jpeg 을 참조하십시오 
-
-
 | 휴대용 네트워크 그래픽 | png입니다 
-
-
-| Graphics Interchange Format(그래픽 교환 형식) | gif 
 
 
 | WebP 이미지 | 웹 

@@ -832,4 +832,21 @@
   <block id="0dd1c2bf85c6e3f8ac28b8d5d343a230" category="list-text"><block ref="0dd1c2bf85c6e3f8ac28b8d5d343a230" category="inline-link-rx"></block></block>
   <block id="b6c678dfe5e31c8f081fa11ac56bff46" category="inline-link">아마존 Bedrock 콘솔에서 Amazon Nova를 시작하십시오</block>
   <block id="cafb3db15a71932288c768a7beb404b4" category="list-text"><block ref="cafb3db15a71932288c768a7beb404b4" category="inline-link-rx"></block></block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">임베디드 챗봇 개선 사항</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">이제 질문 및 응답을 클립보드에 직접 복사하고 채팅 창의 크기를 조정하며 제목을 변경할 수 있습니다. 또한 채팅 응답에는 이제 표를 포함할 수 있으며, 이 테이블도 복사할 수 있습니다.</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">채팅 응답 인용 지원</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">채팅 응답에는 응답을 생성하는 데 사용된 파일 및 데이터 청크가 나열된 인용이 포함됩니다.</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">향상된 파일 형식 지원</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">이번 GenAI 릴리스는 향상된 파일 지원을 제공합니다.</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">채팅 모델은 향상된 CSV 지원을 제공합니다. 이렇게 하면 CSV 파일에서 데이터를 쿼리할 때 보다 유용한 응답을 사용할 수 있습니다.</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다.</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="bf971e4f3cc5d92890a57f57611a0107" category="cell">아파치 파케</block>
+  <block id="2041784b912a2b2e72827a5e9c656f5f" category="cell">마루</block>
+  <block id="f1776184cd873aef06fc869138b3b776" category="admonition">챗봇 시뮬레이터 창의 크기를 조정하고 제목을 변경하고 질문 및 응답을 클립보드에 복사할 수 있습니다.</block>
+  <block id="e27f142520976de0e091895abd1a2b45" category="list-text">응답 아래의 * Sources * 목록을 확장하면 답변을 생성하는 데 사용되는 소스를 확인할 수 있습니다. 여기에 답변을 생성하는 데 사용되는 파일 목록이 나와 있습니다. 파일 이름 위로 마우스를 가져가면 각 파일 및 볼륨 경로에서 사용되는 데이터 청크를 보고 각 파일에 복사할 수 있습니다.</block>
+  <block id="8e08c9e7067a8bc5d8828ba0b5a8a5b2" category="list-text">응답에 테이블이 포함된 경우 각 열의 데이터를 정렬하고 각 테이블을 클립보드에 복사할 수 있습니다.</block>
+  <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025년 3월 2일</block>
 </blocks>
