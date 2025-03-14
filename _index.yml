@@ -29,3 +29,13 @@ indexpage:
     links:
     - title: 기술 자료 인프라 관리
       url: manage-infrastructure.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events
+    - title: 데이터로 GenAI를 최대한 활용
+      url: https://community.netapp.com/t5/Tech-ONTAP-Blogs/Unlocking-GenAI-with-your-data-using-Amazon-FSx-for-NetApp-ONTAP-and-BlueXP/ba-p/456394
