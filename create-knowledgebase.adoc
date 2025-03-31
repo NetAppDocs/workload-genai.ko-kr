@@ -60,17 +60,22 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 
 
 
-.. * 채팅 모델 * : 아마존 Bedrock에 통합된 Claude 채팅 모델 중에서 선택하십시오. 아마존 Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.
+.. * 채팅 모델 * : 아마존 Bedrock에 통합된 Anthropic Claude 또는 Amazon Nova 채팅 모델 중에서 선택하십시오. 아마존 Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.
 +
-선택 시 사용할 수 있는 모델에 대해 자세히 알아보십시오. https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
+아마존 Bedrock에서 이러한 모델을 사용하는 방법에 대해 자세히 알아보십시오.
+
++
+*** https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
+*** https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html["아마존 Bedrock 콘솔에서 Amazon Nova를 시작하십시오"^]
+
 
 .. * 데이터 가드레일 * : 데이터 가드레일을 활성화 또는 비활성화할지 선택합니다. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP  분류를 기반으로 하는 데이터 가드레일에 대해 알아보십시오"^]..
 +
-데이터 가드레일을 사용하려면 다음 사전 요구 사항을 완료해야 합니다.
+데이터 가드레일을 사용하려면 다음 사전 요구 사항을 충족해야 합니다.
 
 +
 *** BlueXP  분류와 통신하려면 서비스 계정이 필요합니다. 서비스 계정을 생성하려면 BlueXP  Tenancy 계정에 _Organization admin_역할이 있어야 합니다. 조직 관리자 역할을 가진 구성원은 BlueXP 의 모든 작업을 완료할 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member["BlueXP 에서 구성원에 역할을 추가하는 방법에 대해 알아봅니다"^]
-*** AI 엔진은 BlueXP  API 끝점 \https://api.BlueXP .NetApp.com에 액세스할 수 있어야 합니다.
+*** AI 엔진이 에 액세스할 수 있어야 link:https://api.bluexp.netapp.com["BlueXP  API 끝점입니다"^]합니다.
 *** 에 설명된 대로 다음을 수행해야 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start["BlueXP 분류 문서"^]합니다.
 +
 .... BlueXP Connector를 생성합니다
@@ -80,6 +85,13 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 
 
 
+
+
++
+
+NOTE: CSV, JSON, JSONP 또는 Parquet과 같은 구조화된 데이터 파일을 수집할 때는 데이터 가드레일 기능이 지원되지 않습니다.
+
++
 .. * Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.
 +
 대화 시작점을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. link:manage-knowledgebase.html["기술 문서 설정을 수정하는 방법에 대해 알아봅니다"]..

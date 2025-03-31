@@ -55,9 +55,7 @@
   <block id="b6306206c9c2b9f0903b5bfc5872066e" category="paragraph">아마존 Bedrock에서 임베딩 모델을 이미 활성화했어야 합니다.</block>
   <block id="6034693f6588a087cd6872b5c42ea4d6" category="inline-link">Amazon Titan에 대해 자세히 알아보십시오</block>
   <block id="558b7a3f6f7e506377040f9194ff098b" category="paragraph"><block ref="558b7a3f6f7e506377040f9194ff098b" category="inline-link-rx"></block></block>
-  <block id="eedd3619a786f9c1261bba5f49d4f821" category="list-text">* 채팅 모델 * : 아마존 Bedrock에 통합된 Claude 채팅 모델 중에서 선택하십시오. 아마존 Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.</block>
   <block id="d6444760a98aae63c256572c582cbe80" category="inline-link">아마존 Bedrock에 있는 Anthropic's Claude</block>
-  <block id="c6a0e7101f0906d1498552ff723709e5" category="paragraph">선택 시 사용할 수 있는 모델에 대해 자세히 알아보십시오.<block ref="56cf03ef03ec9048e7282cdb73fcf2fd" category="inline-link-rx"></block></block>
   <block id="bb75c182eff66bee3c76899d41fc8e8f" category="list-text">* Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.</block>
   <block id="fd6f710773f79577a44d128bb3df27cc" category="inline-link-macro">기술 문서 설정을 수정하는 방법에 대해 알아봅니다</block>
   <block id="7311e81ffb665c2ec2a4c996ce693887" category="list-text">GenAI에 기술 문서를 추가하려면 * 기술 문서 만들기 * 를 선택하십시오.</block>
@@ -203,7 +201,6 @@
   <block id="be4117b0c842c4be8f9960294bdc2cd1" category="cell">.txt입니다</block>
   <block id="abdf095626d4a4ab2bcd4167b128c1f1" category="cell">PDF로 이동합니다</block>
   <block id="d241ed446445a725f6362568f61cc6c3" category="cell">Microsoft Word를</block>
-  <block id="68dfdbe39ab30356a21fe4db773d9589" category="cell">쉼표로 구분된 값 파일입니다</block>
   <block id="01b1b6ebeb388697cca6712b58439069" category="cell">.csv입니다</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
@@ -322,7 +319,6 @@
   <block id="35f6f80cfc19636641dd85bbae19edee" category="doc">GenAI를 위한 빠른 시작</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
-  <block id="10986db05c15b94a4d13e32858a6e26e" category="paragraph">기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템은 서로 다른 VPC에 있을 수 있지만 동일한 네트워크 내에서 액세스할 수 있어야 합니다.</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
   <block id="ad6f5ec13ed51e48bce763e25a9c69ce" category="inline-link-macro">기술 자료 인프라를 구축합니다</block>
   <block id="41c27d3fbdf0cdc6aab23df489fe4c94" category="paragraph">인프라 구축 마법사를 시작하여 AWS 환경에 기술 자료 인프라를 구축합니다. 이 프로세스는 NetApp GenAI 엔진용 EC2 인스턴스와 NetApp AI Engine 데이터베이스를 포함할 FSx for ONTAP 파일 시스템의 볼륨을 배포합니다. 볼륨은 기술 문서에서 사용하는 벡터 데이터베이스를 저장하는 데 사용됩니다.</block>
@@ -568,7 +564,6 @@
   <block id="2abf45f9ff5a74918b97267cd4e59d6a" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block>..</block>
   <block id="1be907baab24daef236be08a55d381ce" category="inline-link-macro">BlueXP  분류를 기반으로 하는 데이터 가드레일에 대해 알아보십시오</block>
   <block id="239980b6c377cd208cd4875dd11871a7" category="list-text">* 데이터 가드레일 * : 데이터 가드레일을 활성화 또는 비활성화할지 선택합니다. <block ref="705e589dc60832aba1b9593eb1d26a9a" category="inline-link-macro-rx"></block>..</block>
-  <block id="5d78af30e91e495d74cbd3cac7a282db" category="paragraph">데이터 가드레일을 사용하려면 다음 사전 요구 사항을 완료해야 합니다.</block>
   <block id="069e9a4c876c108cc9f27ee13170ed16" category="inline-link-macro">BlueXP 에서 구성원에 역할을 추가하는 방법에 대해 알아봅니다</block>
   <block id="f271e30d6a375057fa3075f037ab44e5" category="list-text">BlueXP  분류와 통신하려면 서비스 계정이 필요합니다. 서비스 계정을 생성하려면 BlueXP  Tenancy 계정에 _Organization admin_역할이 있어야 합니다. 조직 관리자 역할을 가진 구성원은 BlueXP 의 모든 작업을 완료할 수 있습니다. <block ref="9ba9a2df720ef49e9efc4ba4af6ca608" category="inline-link-macro-rx"></block></block>
   <block id="44b34442167c9611792529867ee76d90" category="inline-link-macro">BlueXP 분류 문서</block>
@@ -724,7 +719,6 @@
   <block id="e8293cb4f1909d8329e31cefdfb4dba4" category="doc">GenAI 기술 문서에 대한 외부 인증을 활성화합니다</block>
   <block id="b05735c6e4c6d503ad9f93af6e740fa9" category="doc">RAG 기반 GenAI 애플리케이션을 생성합니다</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="doc">GenAI 기술 자료를 만듭니다</block>
-  <block id="79cee61f29eb5a0e2dd156871eb70a40" category="list-text">AI 엔진은 BlueXP  API 끝점 \https://api.BlueXP .NetApp.com에 액세스할 수 있어야 합니다.</block>
   <block id="e63e0ed616c63ed724e592b04e608826" category="doc">GenAI 외부 예제 챗봇 애플리케이션을 사용합니다</block>
   <block id="52f26f0fff3bae61240c4b3a43f3624d" category="doc">GenAI용 BlueXP  워크로드 팩토리에 도움을 받으십시오</block>
   <block id="e1cdd82a2918ba1a2c0ff51770aad51e" category="doc">GenAI 기술 자료에 통합할 데이터 소스를 식별합니다</block>
@@ -843,7 +837,6 @@
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.</block>
   <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다.</block>
   <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
-  <block id="bf971e4f3cc5d92890a57f57611a0107" category="cell">아파치 파케</block>
   <block id="2041784b912a2b2e72827a5e9c656f5f" category="cell">마루</block>
   <block id="f1776184cd873aef06fc869138b3b776" category="admonition">챗봇 시뮬레이터 창의 크기를 조정하고 제목을 변경하고 질문 및 응답을 클립보드에 복사할 수 있습니다.</block>
   <block id="e27f142520976de0e091895abd1a2b45" category="list-text">응답 아래의 * Sources * 목록을 확장하면 답변을 생성하는 데 사용되는 소스를 확인할 수 있습니다. 여기에 답변을 생성하는 데 사용되는 파일 목록이 나와 있습니다. 파일 이름 위로 마우스를 가져가면 각 파일 및 볼륨 경로에서 사용되는 데이터 청크를 보고 각 파일에 복사할 수 있습니다.</block>
@@ -854,4 +847,30 @@
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="8accc316c27ade20e4acbe4aa6c6742b" category="sidebar">데이터로 GenAI를 최대한 활용</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">이 GenAI 릴리스는 데이터 소스에서 파일을 인제스트할 때 JSON 및 JSONP 파일 형식 지원을 도입합니다.<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block> 중첩된 객체가 있는 JSON 파일이 지원되며 중첩된 배열에 대한 지원이 제한됩니다.</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">외부 챗봇 샘플 애플리케이션에 대한 국제화 지원</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">이제 GenAI 샘플 외부 챗봇 애플리케이션의 사용자 인터페이스를 다른 언어 또는 로캘로 쉽게 변경할 수 있습니다.</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">GenAI 외부 샘플 챗봇 애플리케이션</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Anthropic Claude Sonnet 3.7 채팅 모델을 지원합니다</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI는 이제 Anthropic Claude 3.7 Sonnet 채팅 모델을 지원합니다. Claude 3.7 Sonnet의 베타 기능은 요청당 최대 128K의 출력 토큰을 허용하고 새로운 컴퓨터 사용 작업을 지원합니다. Claude 3.7 Sonnet 확장 사고 모드는 향후 GenAI 릴리스에서 지원될 예정입니다.</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">일반 NFS/SMB 공유에서 데이터 소스 추가 지원</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">이제 워크로드 팩토리 API를 사용하여 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다. NFS 또는 SMB 공유에서 데이터 소스를 추가할 경우 기술 자료 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 유지됩니다. 워크로드 팩토리 웹 UI는 향후 릴리즈에서 이 기능을 지원할 예정입니다.</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC 피어링 지원</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">피어링된 가상 프라이빗 클라우드(VPC)</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">이제 GenAI 인프라를 같은 지역에 배포하고 동일한 AWS 계정을 사용할 수 <block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>있습니다. VPC에 AI 엔진을 구축한 다음 피어링된 VPC에 기술 자료를 생성하고 피어링된 VPC에 상주하는 Amazon FSx for NetApp ONTAP 파일 시스템을 선택할 수 있습니다.</block>
+  <block id="b36fca5a6a45d6da3c01e23792f8a153" category="list-text">* 채팅 모델 * : 아마존 Bedrock에 통합된 Anthropic Claude 또는 Amazon Nova 채팅 모델 중에서 선택하십시오. 아마존 Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.</block>
+  <block id="7b64cb38404993f8db85b46fa460e3f1" category="paragraph">데이터 가드레일을 사용하려면 다음 사전 요구 사항을 충족해야 합니다.</block>
+  <block id="b687386681bc74afd9f1f05a81484454" category="inline-link-macro">BlueXP  API 끝점입니다</block>
+  <block id="52840142bc9ae1cec5ab47f43451b7f2" category="list-text">AI 엔진이 에 액세스할 수 있어야 <block ref="0d55c5152a345809ffefdd3a1a629e2a" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="b3e25fad7a8f45ec59f40a0eaf7b74ea" category="admonition">CSV, JSON, JSONP 또는 Parquet과 같은 구조화된 데이터 파일을 수집할 때는 데이터 가드레일 기능이 지원되지 않습니다.</block>
+  <block id="71e83c676c8b3aea9726262e97dd0c14" category="cell">아파치 Parquetfootnote: disclaimer [구조화된 데이터 파일을 인제스트할 때 데이터 가드레일 기능이 지원되지 않는다.]</block>
+  <block id="230703a919b034364b970a5ee5c5ab76" category="cell">쉼표로 구분된 값 파일:면책 사항 [ ]</block>
+  <block id="33555d9ae9e8936cbd995ec23836ef0a" category="cell">JSON 및 JSONP각주: 면책 사항 [ ]</block>
+  <block id="cc8f0c0e5a5cef9b33f236a0a9c19ca0" category="cell">제이슨</block>
+  <block id="ff9da638fe97b0c6f7deb173e8ea9623" category="paragraph">기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 다음 두 가지 구성 중 하나를 사용해야 합니다.</block>
+  <block id="6c654e9590c6b2b6a77fcf4553b9fc79" category="list-text">동일한 네트워크 내에서 액세스 가능</block>
+  <block id="277e6e0f8a7c91992d2766d798ab5915" category="list-text">VPC는 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 한다</block>
+  <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025년 3월 30일</block>
 </blocks>
