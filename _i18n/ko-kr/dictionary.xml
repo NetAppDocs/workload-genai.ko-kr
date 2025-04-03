@@ -784,9 +784,7 @@
   <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">데이터 원본에 대한 파일 수정 날짜 필터링</block>
   <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI는 이제 데이터 소스를 추가할 때 수정 날짜별로 데이터 소스 스캔에 포함할 파일 필터링을 지원합니다. 포함된 파일의 수정 날짜 범위를 선택할 수 있습니다.</block>
   <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">이미지 파일 지원 및 PDF 파일 지원 향상</block>
-  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지 스캔을 지원합니다(다중 모드 파일 지원이라고도 함). 이미지 파일을 선택하면 이미지의 텍스트가 데이터 원본으로 스캔되어 데이터로 사용됩니다. 이 기능에는 PDF 문서 내의 이미지가 포함됩니다. PDF 파일 형식을 포함하면 각 PDF 내의 이미지가 텍스트를 스캔하고 해당 텍스트가 데이터 원본의 정보에 포함됩니다.</block>
   <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">하이브리드 검색 및 리랭크 지원</block>
-  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">이제 GenAI는 하이브리드 검색을 사용하여 검색 결과의 관련성을 높이고 결과를 재평가합니다. 하이브리드 검색은 키워드 검색과 벡터 및 의미론적 검색을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. GenAI는 검색 결과의 순위를 다시 지정하고 관련성이 가장 높은 결과만 반환합니다.</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="c009fe342f72cc06fe63760e2eaa701c" category="list-text">GenAI에서 제공하는 하이브리드 검색 및 재순위 기능으로 데이터에서 고품질 결과를 얻을 수 있습니다. 하이브리드 검색과 재순위를 결합하면 검색 결과의 관련성이 크게 향상됩니다. 이러한 기능은 Amazon AWS를 통해 제공되며 지역에 따라 다릅니다.</block>
   <block id="e1201f675c705c74b856dba391a68602" category="paragraph">텍스트 정보에 대한 이미지 스캔과 같은 일부 다중 모드 작업은 더 많은 리소스를 사용할 수 있으므로 비용이 더 많이 듭니다. 기술 자료 설정을 변경하는 등의 일부 구성 작업은 데이터 원본을 다시 스캔할 수 있으며 데이터 원본 스캔에 비용이 더 많이 들 수 있습니다.</block>
@@ -835,7 +833,6 @@
   <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">이번 GenAI 릴리스는 향상된 파일 지원을 제공합니다.</block>
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">채팅 모델은 향상된 CSV 지원을 제공합니다. 이렇게 하면 CSV 파일에서 데이터를 쿼리할 때 보다 유용한 응답을 사용할 수 있습니다.</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.</block>
-  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다.</block>
   <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="2041784b912a2b2e72827a5e9c656f5f" category="cell">마루</block>
   <block id="f1776184cd873aef06fc869138b3b776" category="admonition">챗봇 시뮬레이터 창의 크기를 조정하고 제목을 변경하고 질문 및 응답을 클립보드에 복사할 수 있습니다.</block>
@@ -873,4 +870,9 @@
   <block id="6c654e9590c6b2b6a77fcf4553b9fc79" category="list-text">동일한 네트워크 내에서 액세스 가능</block>
   <block id="277e6e0f8a7c91992d2766d798ab5915" category="list-text">VPC는 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 한다</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025년 3월 30일</block>
+  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI는 이제 이미지와 그래프 설명뿐만 아니라 문서 텍스트로부터 얻은 통찰력으로 지식 기반 쿼리에 대한 응답성을 향상시켜 보다 풍부하고 높은 품질의 답변을 제공합니다. GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지를 스캔할 수 있습니다(다중 모드 파일 지원이라고도 함). 이미지나 PDF 파일을 스캔하도록 선택하면 이미지의 텍스트(PDF 문서에 포함된 이미지 포함)가 데이터 원본으로 스캔되고 스캔의 통찰력은 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
+  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI는 이제 하이브리드 검색을 사용하여 검색 결과의 관련성과 정확성을 크게 향상시킬 수 있습니다. 하이브리드 검색은 기존의 키워드 기반 검색의 강점과 고급 밀도 벡터 기반 의미 검색 기법을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. 그런 다음 GenAI는 COHERE Rerank 및 Amazon Rerank와 같은 고급 재순위 모델을 사용하여 이러한 결과를 더욱 구체화하고 가장 관련성이 높은 결과를 반환합니다. 이 기능은 새로 작성된 기술 자료에 사용할 수 있습니다.</block>
+  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
+  <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">워크로드 팩토리 API를 사용하십시오</block>
+  <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
 </blocks>
