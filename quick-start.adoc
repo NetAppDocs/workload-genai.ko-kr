@@ -26,11 +26,7 @@ link:requirements.html["GenAI 요구 사항에 대해 자세히 알아보십시�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다
 [role="quick-margin-para"]
-기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 다음 두 가지 구성 중 하나를 사용해야 합니다.
-
-* 동일한 네트워크 내에서 액세스 가능
-* VPC는 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 한다
-
+기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 동일한 네트워크 내에서 액세스할 수 있거나 VPC를 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 합니다.
 
 [role="quick-margin-para"]
 link:identify-data-sources.html["데이터 소스를 식별하는 방법에 대해 알아봅니다"^]..

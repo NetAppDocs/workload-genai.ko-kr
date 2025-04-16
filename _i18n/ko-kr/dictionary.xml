@@ -866,13 +866,11 @@
   <block id="230703a919b034364b970a5ee5c5ab76" category="cell">쉼표로 구분된 값 파일:면책 사항 [ ]</block>
   <block id="33555d9ae9e8936cbd995ec23836ef0a" category="cell">JSON 및 JSONP각주: 면책 사항 [ ]</block>
   <block id="cc8f0c0e5a5cef9b33f236a0a9c19ca0" category="cell">제이슨</block>
-  <block id="ff9da638fe97b0c6f7deb173e8ea9623" category="paragraph">기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 다음 두 가지 구성 중 하나를 사용해야 합니다.</block>
-  <block id="6c654e9590c6b2b6a77fcf4553b9fc79" category="list-text">동일한 네트워크 내에서 액세스 가능</block>
-  <block id="277e6e0f8a7c91992d2766d798ab5915" category="list-text">VPC는 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 한다</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025년 3월 30일</block>
   <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI는 이제 이미지와 그래프 설명뿐만 아니라 문서 텍스트로부터 얻은 통찰력으로 지식 기반 쿼리에 대한 응답성을 향상시켜 보다 풍부하고 높은 품질의 답변을 제공합니다. GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지를 스캔할 수 있습니다(다중 모드 파일 지원이라고도 함). 이미지나 PDF 파일을 스캔하도록 선택하면 이미지의 텍스트(PDF 문서에 포함된 이미지 포함)가 데이터 원본으로 스캔되고 스캔의 통찰력은 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
   <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI는 이제 하이브리드 검색을 사용하여 검색 결과의 관련성과 정확성을 크게 향상시킬 수 있습니다. 하이브리드 검색은 기존의 키워드 기반 검색의 강점과 고급 밀도 벡터 기반 의미 검색 기법을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. 그런 다음 GenAI는 COHERE Rerank 및 Amazon Rerank와 같은 고급 재순위 모델을 사용하여 이러한 결과를 더욱 구체화하고 가장 관련성이 높은 결과를 반환합니다. 이 기능은 새로 작성된 기술 자료에 사용할 수 있습니다.</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">워크로드 팩토리 API를 사용하십시오</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
+  <block id="1013a9a62eb4667e6ae35cbe4e298de6" category="paragraph">기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 동일한 네트워크 내에서 액세스할 수 있거나 VPC를 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 합니다.</block>
 </blocks>
