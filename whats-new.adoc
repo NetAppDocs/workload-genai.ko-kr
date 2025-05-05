@@ -15,47 +15,39 @@ summary: 워크로드 팩토리의 AI 워크로드 기능의 새로운 기능에
 
 
 
-== 2025년 3월 30일
+== 2025년 5월 4일
 
 
 
-=== 향상된 파일 형식 지원
+=== Amazon Q용 NetApp ONTAP 커넥터 지원
 
-이 GenAI 릴리스는 데이터 소스에서 파일을 인제스트할 때 JSON 및 JSONP 파일 형식 지원을 도입합니다. `.json` 중첩된 객체가 있는 JSON 파일이 지원되며 중첩된 배열에 대한 지원이 제한됩니다.
+이번 GenAI 릴리스는 NetApp ONTAP Connector for Amazon Q에 대한 지원을 도입함으로써 Amazon Q Business용 커넥터를 생성할 수 있습니다. Amazon Bedrock용 GenAI 지식 기반을 구축하는 것보다 초기 구성이 적은 Amazon Q Business AI Assistant를 빠르고 쉽게 활용할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
-
-
-
-=== 외부 챗봇 샘플 애플리케이션에 대한 국제화 지원
-
-이제 GenAI 샘플 외부 챗봇 애플리케이션의 사용자 인터페이스를 다른 언어 또는 로캘로 쉽게 변경할 수 있습니다.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["GenAI 외부 샘플 챗봇 애플리케이션"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business용 GenAI 커넥터를 생성합니다"]
 
 
 
-=== Anthropic Claude Sonnet 3.7 채팅 모델을 지원합니다
+=== 향상된 채팅 모델 지원
 
-GenAI는 이제 Anthropic Claude 3.7 Sonnet 채팅 모델을 지원합니다. Claude 3.7 Sonnet의 베타 기능은 요청당 최대 128K의 출력 토큰을 허용하고 새로운 컴퓨터 사용 작업을 지원합니다. Claude 3.7 Sonnet 확장 사고 모드는 향후 GenAI 릴리스에서 지원될 예정입니다.
+GenAI는 이제 기술 자료에 대해 다음과 같은 추가 채팅 모델을 지원합니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
-
-
-
-=== 일반 NFS/SMB 공유에서 데이터 소스 추가 지원
-
-이제 워크로드 팩토리 API를 사용하여 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다. NFS 또는 SMB 공유에서 데이터 소스를 추가할 경우 기술 자료 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 유지됩니다. 워크로드 팩토리 웹 UI는 향후 릴리즈에서 이 기능을 지원할 예정입니다.
-
-link:https://console.workloads.netapp.com/api-doc["워크로드 팩토리 API를 사용하십시오"^]
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["미스트랄 AI 모델"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titan 텍스트 모델"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llama 모델"^]
+* link:https://docs.ai21.com/["Jamba 1.5 모델"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["COHERE 명령 모델"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["Deepseek 모델"^]
 
 
-
-=== VPC 피어링 지원
-
-이제 GenAI 인프라를 같은 지역에 배포하고 동일한 AWS 계정을 사용할 수 link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["피어링된 가상 프라이빗 클라우드(VPC)"^]있습니다. VPC에 AI 엔진을 구축한 다음 피어링된 VPC에 기술 자료를 생성하고 피어링된 VPC에 상주하는 Amazon FSx for NetApp ONTAP 파일 시스템을 선택할 수 있습니다.
+GenAI는 Amazon Bedrock이 지원하는 각 공급자의 모델을 지원합니다. link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["아마존 Bedrock에서 기반 모델을 지원했습니다"^]
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+=== 사용 권한 용어가 업데이트되었습니다
+
+워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.
 
 
 
@@ -67,7 +59,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Gen
 
 이제 질문 및 응답을 클립보드에 직접 복사하고 채팅 창의 크기를 조정하며 제목을 변경할 수 있습니다. 또한 채팅 응답에는 이제 표를 포함할 수 있으며, 이 테이블도 복사할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
 
 
 
@@ -75,7 +67,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI
 
 채팅 응답에는 응답을 생성하는 데 사용된 파일 및 데이터 청크가 나열된 인용이 포함됩니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
 
 
 
@@ -88,7 +80,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI
 * GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
 
 
 
@@ -100,7 +92,7 @@ link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#sup
 
 GenAI는 이제 Amazon Nova 기반 모델을 지원합니다. Amazon Nova Micro, Amazon Nova Lite 및 Amazon Nova Pro가 지원됩니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI 요구 사항"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/requirements-knowledge-base.html["GenAI 요구 사항"]
 
 
 
@@ -108,7 +100,7 @@ link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI 요�
 
 GenAI는 이제 데이터 소스를 추가할 때 데이터 소스 스캔에 포함할 특정 파일 유형을 선택할 수 있도록 지원합니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
 
 
 
@@ -116,7 +108,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 GenAI는 이제 데이터 소스를 추가할 때 수정 날짜별로 데이터 소스 스캔에 포함할 파일 필터링을 지원합니다. 포함된 파일의 수정 날짜 범위를 선택할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
 
 
 
@@ -124,7 +116,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 GenAI는 이제 이미지와 그래프 설명뿐만 아니라 문서 텍스트로부터 얻은 통찰력으로 지식 기반 쿼리에 대한 응답성을 향상시켜 보다 풍부하고 높은 품질의 답변을 제공합니다. GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지를 스캔할 수 있습니다(다중 모드 파일 지원이라고도 함). 이미지나 PDF 파일을 스캔하도록 선택하면 이미지의 텍스트(PDF 문서에 포함된 이미지 포함)가 데이터 원본으로 스캔되고 스캔의 통찰력은 기술 자료 쿼리에 대한 응답에 포함됩니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["기술 문서에 데이터 원본을 추가합니다"]
 
 
 
@@ -132,7 +124,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 GenAI는 이제 하이브리드 검색을 사용하여 검색 결과의 관련성과 정확성을 크게 향상시킬 수 있습니다. 하이브리드 검색은 기존의 키워드 기반 검색의 강점과 고급 밀도 벡터 기반 의미 검색 기법을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. 그런 다음 GenAI는 COHERE Rerank 및 Amazon Rerank와 같은 고급 재순위 모델을 사용하여 이러한 결과를 더욱 구체화하고 가장 관련성이 높은 결과를 반환합니다. 이 기능은 새로 작성된 기술 자료에 사용할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오"]
+link:https://docs.netapp.com/us-en/workload-genai/general/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오"]
 
 
 
@@ -144,7 +136,7 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 이제 임시 스냅샷에 대한 스냅샷 이름을 제공할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["스냅샷으로 기술 자료 보호"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["스냅샷으로 기술 자료 보호"]
 
 
 
@@ -152,7 +144,7 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#prot
 
 이제 구축 중에 AI 엔진 인스턴스에 사용자 지정 이름을 지정할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["GenAI 인프라를 구축합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/deploy-infrastructure.html["GenAI 인프라를 구축합니다"]
 
 
 
@@ -160,7 +152,7 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Ge
 
 AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["문제 해결"]
+link:https://docs.netapp.com/us-en/workload-genai/general/troubleshooting.html["문제 해결"]
 
 
 
@@ -172,7 +164,7 @@ link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["문제 �
 
 GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["기술 문서를 복제합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#clone-a-knowledge-base["기술 문서를 복제합니다"]
 
 
 
@@ -192,7 +184,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["사�
 
 Generative AI 워크로드에는 BlueXP  분류를 기반으로 하는 데이터 가드레일 기능이 도입되었습니다. 데이터 가드레일 기능은 개인 식별 정보(PII)를 식별 및 마스킹하여 규정 준수를 유지하고 중요한 조직 데이터의 보안을 강화합니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["기술 문서를 작성합니다"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
 
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
 
@@ -206,9 +198,9 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 생성합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 생성합니다"]
 
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 복원합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 복원합니다"]
 
 
 
@@ -216,7 +208,7 @@ https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-kn
 
 이제 예약된 데이터 원본 스캔을 일시 중지할 수 있습니다. 기본적으로 Generative AI 워크로드는 매일 각 데이터 소스를 스캔하여 각 기술 자료에 새로운 데이터를 수집합니다. 테스트 중 또는 스냅샷 복원 중에 최신 변경 사항을 수집하지 않으려면 예약된 스캔을 일시 중지하고 언제든지 다시 시작할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["기술 자료 관리"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html["기술 자료 관리"]
 
 
 
@@ -224,7 +216,7 @@ https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["기술 �
 
 이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["기술 자료에 통합할 데이터 소스를 식별합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html["기술 자료에 통합할 데이터 소스를 식별합니다"]
 
 
 

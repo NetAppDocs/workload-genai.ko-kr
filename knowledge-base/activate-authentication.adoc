@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: activate-authentication.html 
+permalink: knowledge-base/activate-authentication.html 
 keywords: ai, chatbot, publishing, knowledge base 
 summary: 기술 자료를 챗봇 애플리케이션과 통합할 때 토큰 검증 및 ACL이 필요하도록 기술 자료에 대한 인증을 활성화합니다. 
 ---
 = GenAI 기술 문서에 대한 외부 인증을 활성화합니다
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

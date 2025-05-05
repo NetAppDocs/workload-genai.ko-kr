@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: manage-knowledgebase.html 
+permalink: knowledge-base/manage-knowledgebase.html 
 keywords: ai, chatbot, managing, knowledge base 
 summary: 기술 문서를 만든 후에는 기술 문서 세부 정보를 보거나 기술 문서를 수정하거나 추가 데이터 원본을 통합하거나 기술 문서를 삭제할 수 있습니다. 
 ---
 = GenAI 지식 기반 관리
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -237,6 +237,22 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 
 .결과
 기술 자료는 첨부된 데이터 원본과 동기화되며 활성 챗봇은 데이터 원본의 최신 정보를 사용하기 시작합니다.
+
+
+
+=== 예약된 동기화를 일시 중지하거나 다시 시작합니다
+
+데이터 원본의 다음 동기화(스캔)를 일시 중지하거나 다시 시작하려면 언제든지 다시 시작할 수 있습니다. 데이터 원본을 변경하고 변경 기간 동안 동기화를 실행하지 않으려면 다음 예약된 동기화를 일시 중지해야 할 수 있습니다.
+
+.단계
+. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. Knowledge Base & Connectors 탭에서 스캔을 일시 중지하거나 다시 시작할 기술 문서를 선택합니다.
+. 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
+. Actions * 메뉴를 선택하고 * Scan > Pause Scheduled Scan * 또는 * Scan > Resume Scheduled Scan * 을 선택합니다.
++
+다음 예약된 스캔이 일시 중지되었거나 다시 시작되었다는 메시지가 표시됩니다.
+
+
 
 
 

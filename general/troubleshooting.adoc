@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: troubleshooting.html 
+permalink: general/troubleshooting.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
 summary: NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 워크로드 팩토리에 NetApp Support 사이트 계정을 추가한 다음 지원을 등록해야 합니다. 
 ---
 = GenAI 문제 해결
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

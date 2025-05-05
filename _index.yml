@@ -10,25 +10,33 @@ indexpage:
   - title: 시작하십시오
     links:
     - title: GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
-      url: ai-workloads-overview.html
-    - title: 빠른 시작
-      url: quick-start.html
-    - title: GenAI 요구 사항
-      url: requirements.html
+      url: general/ai-workloads-overview.html
     - title: 기술 자료 인프라를 구축합니다
-      url: deploy-infrastructure.html
-  - title: 기술 문서를 작성합니다
+      url: knowledge-base/deploy-infrastructure.html
+  - title: 아마존 Bedrock에 대한 지식 기반을 구축하십시오
     links:
+    - title: 기술 문서를 빠르게 시작합니다
+      url: knowledge-base/quick-start-knowledge-base.html
     - title: 기술 문서를 작성합니다
-      url: create-knowledgebase.html
+      url: knowledge-base/create-knowledgebase.html
     - title: 기술 문서를 테스트합니다
-      url: test-knowledgebase.html
+      url: knowledge-base/test-knowledgebase.html
     - title: 기술 문서를 게시합니다
-      url: publish-knowledgebase.html
+      url: knowledge-base/publish-knowledgebase.html
+  - title: Amazon Q Business용 커넥터를 생성합니다
+    links:
+    - title: 커넥터를 빠르게 시작합니다
+      url: connector/quick-start-connector.html
+    - title: Amazon Q Business용 커넥터를 생성합니다
+      url: connector/define-connector.html
   - title: GenAI 관리
     links:
-    - title: 기술 자료 인프라 관리
-      url: manage-infrastructure.html
+    - title: GenAI 인프라 관리
+      url: general/manage-infrastructure.html
+    - title: 기술 자료 관리
+      url: knowledge-base/manage-knowledgebase.html
+    - title: 연결선을 관리합니다
+      url: connector/manage-connector.html
   - title: 블로그 및 커뮤니티
     links:
     - title: NetApp 커뮤니티

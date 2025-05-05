@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: connector/quick-start-connector.html 
+keywords: quick start, connector, chatbot 
+summary: Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 커넥터 생성을 시작하십시오. 
+---
+= GenAI 커넥터를 위한 빠른 시작
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Amazon FSx for 파일 시스템에 있는 조직의 데이터를 사용하여 NetApp ONTAP Q용 NetApp ONTAP 커넥터 생성을 시작하십시오. 커넥터를 생성한 후 최종 사용자는 Amazon Q Business Assistant에 액세스하여 질문에 대한 조직 중심의 응답을 받을 수 있습니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 워크로드 공장 에 로그인합니다
+[role="quick-margin-para"]
+를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] GenAI 요구사항을 충족하도록 환경을 설정합니다
+[role="quick-margin-para"]
+AWS 인프라, 배포되고 검색된 FSx for ONTAP 파일 시스템, 커넥터에 통합하려는 데이터 소스 목록, Amazon Q Business 애플리케이션에 대한 액세스 등을 배포하려면 AWS 자격 증명이 필요합니다.
+
+[role="quick-margin-para"]
+link:requirements-connector.html["GenAI 요구 사항에 대해 자세히 알아보십시오"^]..
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다
+[role="quick-margin-para"]
+커넥터에 통합할 데이터 원본은 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 있을 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 동일한 네트워크 내에서 액세스할 수 있거나 VPC를 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 합니다.
+
+[role="quick-margin-para"]
+link:identify-data-sources-connector.html["데이터 소스를 식별하는 방법에 대해 알아봅니다"^]..
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] GenAI 인프라를 구축합니다
+[role="quick-margin-para"]
+인프라 배포 마법사를 시작하여 AWS 환경에 GenAI 인프라를 구축합니다. 이 프로세스는 NetApp GenAI 엔진용 EC2 인스턴스와 NetApp AI Engine 데이터베이스를 포함할 FSx for ONTAP 파일 시스템의 볼륨을 배포합니다. 볼륨은 커넥터에 대한 정보를 저장하는 데 사용됩니다.
+
+[role="quick-margin-para"]
+link:deploy-infrastructure.html["GenAI 인프라를 구축하는 방법에 대해 알아보십시오"^]..
+
+.다음 단계
+이제 Amazon Q Business용 커넥터를 만들어 최종 사용자에게 조직 중심의 응답을 제공할 수 있습니다.

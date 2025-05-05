@@ -8,9 +8,9 @@
 
 이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 생성합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 생성합니다"]
 
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 복원합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["기술 자료 볼륨의 스냅샷을 복원합니다"]
 
 
 
@@ -18,7 +18,7 @@ https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-kn
 
 이제 예약된 데이터 원본 스캔을 일시 중지할 수 있습니다. 기본적으로 Generative AI 워크로드는 매일 각 데이터 소스를 스캔하여 각 기술 자료에 새로운 데이터를 수집합니다. 테스트 중 또는 스냅샷 복원 중에 최신 변경 사항을 수집하지 않으려면 예약된 스캔을 일시 중지하고 언제든지 다시 시작할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["기술 자료 관리"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html["기술 자료 관리"]
 
 
 
@@ -26,4 +26,4 @@ https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["기술 �
 
 이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.
 
-https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["기술 자료에 통합할 데이터 소스를 식별합니다"]
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html["기술 자료에 통합할 데이터 소스를 식별합니다"]

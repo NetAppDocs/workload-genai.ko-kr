@@ -1,17 +1,17 @@
 ---
 sidebar: sidebar 
-permalink: quick-start.html 
+permalink: knowledge-base/quick-start-knowledge-base.html 
 keywords: quick start, knowledge base, chatbot 
 summary: Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 기술 자료 작성을 시작합니다. 챗봇과 같은 애플리케이션은 이 기술 자료에 액세스하여 최종 사용자에게 조직 중심의 응답을 제공합니다. 
 ---
-= GenAI를 위한 빠른 시작
+= GenAI 지식 기반을 빠르게 시작합니다
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
-Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 기술 자료 작성을 시작합니다. 챗봇과 같은 애플리케이션은 이 기술 자료에 액세스하여 최종 사용자에게 조직 중심의 응답을 제공합니다.
+Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 기술 자료 또는 Amazon Q Business 커넥터를 만들기 시작합니다. 챗봇과 같은 애플리케이션은 이 기술 자료 또는 커넥터에 액세스하여 최종 사용자에게 조직 중심의 응답을 제공합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 워크로드 공장 에 로그인합니다
 [role="quick-margin-para"]
@@ -19,21 +19,21 @@ Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] GenAI 요구사항을 충족하도록 환경을 설정합니다
 [role="quick-margin-para"]
-AWS 인프라, 배포되어 검색된 FSx for ONTAP 파일 시스템, 기술 자료에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스에 대한 액세스 등을 구축하려면 AWS 자격 증명이 필요합니다.
+AWS 인프라, 배포되어 검색된 FSx for ONTAP 파일 시스템, 기술 자료 또는 커넥터에 통합하려는 데이터 소스 목록, Amazon Bedrock AI 서비스 또는 Amazon Q Business 애플리케이션에 대한 액세스 등을 구축하려면 AWS 자격 증명이 필요합니다.
 
 [role="quick-margin-para"]
-link:requirements.html["GenAI 요구 사항에 대해 자세히 알아보십시오"^]..
+link:requirements-knowledge-base.html["GenAI 요구 사항에 대해 자세히 알아보십시오"^]..
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 데이터 소스가 포함된 FSx for ONTAP 파일 시스템을 식별합니다
 [role="quick-margin-para"]
 기술 자료에 통합할 데이터 소스는 단일 FSx for ONTAP 파일 시스템 또는 여러 FSx for ONTAP 파일 시스템에 배치할 수 있습니다. 이러한 시스템이 서로 다른 VPC에 있는 경우 동일한 네트워크 내에서 액세스할 수 있거나 VPC를 피어링하여 AI 엔진과 동일한 지역 및 AWS 계정을 사용해야 합니다.
 
 [role="quick-margin-para"]
-link:identify-data-sources.html["데이터 소스를 식별하는 방법에 대해 알아봅니다"^]..
+link:identify-data-sources-knowledge-base.html["데이터 소스를 식별하는 방법에 대해 알아봅니다"^]..
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 기술 자료 인프라를 구축합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] GenAI 인프라를 구축합니다
 [role="quick-margin-para"]
-인프라 구축 마법사를 시작하여 AWS 환경에 기술 자료 인프라를 구축합니다. 이 프로세스는 NetApp GenAI 엔진용 EC2 인스턴스와 NetApp AI Engine 데이터베이스를 포함할 FSx for ONTAP 파일 시스템의 볼륨을 배포합니다. 볼륨은 기술 문서에서 사용하는 벡터 데이터베이스를 저장하는 데 사용됩니다.
+인프라 배포 마법사를 시작하여 AWS 환경에 GenAI 인프라를 구축합니다. 이 프로세스는 NetApp GenAI 엔진용 EC2 인스턴스와 NetApp AI Engine 데이터베이스를 포함할 FSx for ONTAP 파일 시스템의 볼륨을 배포합니다. 볼륨은 기술 문서에서 사용하는 벡터 데이터베이스를 저장하는 데 사용됩니다.
 
 [role="quick-margin-para"]
 link:deploy-infrastructure.html["기술 자료 인프라를 구축하는 방법에 대해 알아보십시오"^]..

@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: genai-engine-instance.html 
+permalink: general/genai-engine-instance.html 
 keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints 
 summary: GenAI 인프라를 구축하면 워크로드 팩토리에서는 GenAI 엔진용 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. 워크로드 팩토리에서 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 이해하기를 원할 수 있습니다. 
 ---
 = NetApp GenAI 엔진의 구성 요소
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -87,7 +87,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai: :<ai-engine-id>:kbId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -100,7 +100,20 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d": "*"
+          "aws:ResourceTag/netapp:wlmai: :<ai-engine-id>:qConnectorId": "*"
+        }
+      },
+      "Action": "fsx:DeleteVolume",
+      "Resource": [
+        "arn:aws:fsx:*:*:volume/*/*",
+        "arn:aws:fsx:*:*:backup/*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -110,7 +123,17 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai:8529f2ac-b443-4224-9abe-f42dc418ab8d:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>:kbId": "*"
+        }
+      },
+      "Action": "fsx:UntagResource",
+      "Resource": "arn:aws:fsx:*:*:volume/*/*",
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "aws:ResourceTag/netapp:wlmai:<ai-engine-id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -135,6 +158,22 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
         "ec2messages:DeleteMessage",
         "ec2messages:FailMessage",
         "ec2messages:SendReply"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "qbusiness:ListWebExperiences",
+        "qbusiness:GetApplication",
+        "qbusiness:CreateDataSource",
+        "qbusiness:DeleteDataSource",
+        "qbusiness:ListIndices",
+        "qbusiness:StartDataSourceSyncJob",
+        "qbusiness:StopDataSourceSyncJob",
+        "qbusiness:ListDataSourceSyncJobs",
+        "qbusiness:BatchPutDocument",
+        "qbusiness:BatchDeleteDocument"
       ],
       "Resource": "*",
       "Effect": "Allow"

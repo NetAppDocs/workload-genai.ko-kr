@@ -1,31 +1,43 @@
 ---
 sidebar: sidebar 
-permalink: requirements.html 
+permalink: knowledge-base/requirements-knowledge-base.html 
 keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements 
 summary: 기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다. 
 ---
-= GenAI 요구 사항
+= GenAI 기술 자료 요구 사항
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
 기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다.
 
+
+
+== 기본 GenAI 요구 사항
+
+GenAI는 시작하기 전에 환경에 필요한 일반적인 요구 사항을 충족해야 합니다.
+
 워크로드 공장 로그인 및 계정:: 를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
-AWS 자격 증명 및 권한:: 자동 사용 권한으로 워크로드 공장에 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _AUTOMATE_MODE의 워크로드 공장을 사용합니다.
+AWS 자격 증명 및 권한:: 읽기/쓰기 권한으로 워크로드 팩토리에는 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _Read/Write_mode의 워크로드 팩터리를 사용합니다.
 +
 --
-_Basic_mode 및 _Read_mode 권한은 현재 지원되지 않습니다.
+_Basic_mode 및 _Read-only_mode 권한은 현재 지원되지 않습니다.
 
 자격 증명을 설정할 때 아래 표시된 권한을 선택하면 FSx for ONTAP 파일 시스템을 관리하고 기술 자료 및 챗봇에 필요한 GenAI EC2 인스턴스 및 기타 AWS 리소스를 배포 및 관리할 수 있는 모든 권한을 얻을 수 있습니다.
-
-image:screenshot-ai-permissions.png["AI 리소스의 전체 관리에 대한 사용 권한 설정을 보여 주는 스크린샷"]
 
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"^]
 
 --
+
+
+
+
+== GenAI 기술 자료 요구 사항
+
+기술 자료를 사용할 계획이라면 환경이 다음 요구 사항을 충족하는지 확인하십시오.
+
 아마존 Bedrock:: Amazon Bedrock은 기반 모델을 사용할 수 있으며 생성 가능한 AI 애플리케이션을 구축하는 기능을 제공합니다.
 +
 --
@@ -44,6 +56,8 @@ GenAI는 검색 결과의 관련성을 개선하기 위해 검색 결과의 순�
 * Titan Embeddings G1 - 텍스트
 * Titan Embedding Text v2
 * 타이탄 다중 모드 포함 G1
+* 영어 포함
+* 다국어 포함
 +
 https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아보십시오"^]
 
@@ -53,38 +67,24 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 채팅 모델:: 기술 자료를 생성하기 전에 사용하려는 기본 채팅 모델을 활성화해야 합니다. 모델 지원은 AWS 지역에 따라 다르므로, 기술 자료를 배포할 계획이 있는 지역에서 사용할 수 있는 모델을 확인하려면 을 참조하십시오 https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html["AWS 설명서를 참조하십시오"^] .
 +
 --
-GenAI는 다음과 같은 Anthropic Claude 및 Amazon Nova 모델을 지원합니다.
-
-* 앤트로픽 클로드:
-+
-** 클로드 3.5 소넷
-** 클로드 3 오푸스
-** 클로드 3 하이쿠
-** 클로드 3 소넷
-** 클로드 2.1
-** 클로드 2.0
-
-
-* Amazon Nova:
-+
-** 노바 마이크로
-** Nova Lite(이미지 및 텍스트 지원)
-** Nova Pro(이미지 및 텍스트 지원)
-
-
-
+GenAI는 Anthropic, Amazon, Mistral AI, Meta, Jamba 및 COHERE의 다양한 모델을 지원합니다.
 
 아마존 Bedrock에서 이러한 모델을 사용하는 방법에 대해 자세히 알아보십시오.
 
 * https://aws.amazon.com/bedrock/claude/["아마존 Bedrock에 있는 Anthropic's Claude"^]
 * https://docs.aws.amazon.com/nova/latest/userguide/getting-started-console.html["아마존 Bedrock 콘솔에서 Amazon Nova를 시작하십시오"^]
+* https://aws.amazon.com/bedrock/mistral/["미스트랄 AI 모델"^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titan 텍스트 모델"^]
+* https://aws.amazon.com/bedrock/llama/["Meta Llama 모델"^]
+* https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jamba.html["Jamba 모델"^]
+* https://aws.amazon.com/bedrock/cohere/["COHERE 명령 모델"^]
 
 
 --
 FSx for ONTAP 파일 시스템:: FSx for ONTAP 파일 시스템이 하나 이상 필요합니다.
 +
 --
-* NetApp GenAI 엔진에서 기술 자료에 사용되는 벡터 데이터베이스를 저장하는 데 하나의 파일 시스템이 사용됩니다.
+* NetApp GenAI 엔진에서 기술 자료에 사용되는 벡터 데이터베이스를 저장하기 위해 하나의 파일 시스템을 사용(또는 없는 경우 생성)합니다.
 +
 이 FSx for ONTAP 파일 시스템은 FlexVol 볼륨을 사용해야 합니다. FlexGroup 볼륨은 지원되지 않습니다.
 

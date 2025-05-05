@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: connector/requirements-connector.html 
+keywords: ai, chatbot, prerequisites, bedrock, fsx for ontap, prerequisites, requirements 
+summary: 기술 자료를 구축하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되었는지 확인하십시오. 여기에는 AWS 로그인 자격 증명, 기술 자료에 통합하려는 데이터 소스가 포함된 배포된 FSx for ONTAP 파일 시스템, Amazon Bedrock AI 서비스에 대한 액세스 등이 포함됩니다. 
+---
+= GenAI 커넥터 요구 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp ONTAP Connector for Amazon q를 생성하기 전에 워크로드 팩토리 및 AWS가 올바르게 설정되어 있는지 확인하십시오
+
+
+
+== 기본 GenAI 요구 사항
+
+GenAI는 시작하기 전에 환경에 필요한 일반적인 요구 사항을 충족해야 합니다.
+
+워크로드 공장 로그인 및 계정:: 를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
+AWS 자격 증명 및 권한:: 읽기/쓰기 권한으로 워크로드 팩토리에는 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _Read/Write_mode의 워크로드 팩터리를 사용합니다.
++
+--
+_Basic_mode 및 _Read-only_mode 권한은 현재 지원되지 않습니다.
+
+자격 증명을 설정할 때 아래 표시된 권한을 선택하면 FSx for ONTAP 파일 시스템을 관리하고 기술 자료 및 챗봇에 필요한 GenAI EC2 인스턴스 및 기타 AWS 리소스를 배포 및 관리할 수 있는 모든 권한을 얻을 수 있습니다.
+
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"^]
+
+--
+
+
+
+
+== 아마존 Q용 NetApp ONTAP 커넥터 요구 사항
+
+환경이 아마존 Q 비즈니스 커넥터에 대한 다음과 같은 특정 요구 사항을 충족하는지 확인하십시오.
+
+Amazon Q Business 응용 프로그램:: 아마존 Q 비즈니스 응용 프로그램을 생성하거나 기존 응용 프로그램을 사용해야 합니다.
++
+--
+* 애플리케이션이 AWS 지역 중 하나에 존재하는지 확인합니다.
+* 응용 프로그램에 대해 이 https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/select-retriever.html["인덱스를 만들었습니다"^] 있는지 확인합니다.
+* 응용 프로그램이 오류 상태가 아닌지 확인합니다.
+
+
+--
+FSx for ONTAP 파일 시스템:: FSx for ONTAP 파일 시스템이 하나 이상 필요합니다.
++
+--
+* 커넥터에 대한 정보를 저장하기 위해 NetApp GenAI 엔진에서 하나의 파일 시스템을 사용(또는 없는 경우 생성)합니다.
++
+이 FSx for ONTAP 파일 시스템은 FlexVol 볼륨을 사용해야 합니다. FlexGroup 볼륨은 지원되지 않습니다.
+
+* 하나 이상의 파일 시스템에 커넥터에 추가할 데이터 원본이 포함됩니다.
++
+하나의 FSx for ONTAP 파일 시스템을 두 가지 용도로 사용하거나 여러 FSx for ONTAP 파일 시스템을 사용할 수 있습니다.
+
+* AWS FSx for ONTAP 파일 시스템이 상주하는 AWS 지역, VPC 및 서브넷을 알아야 합니다.
+* 이 배포의 일부인 AWS 리소스에 적용할 태그 키/값 쌍을 고려해야 합니다(선택 사항).
+* NetApp AI 엔진 인스턴스에 안전하게 연결할 수 있는 키 쌍 정보를 알아야 합니다.
+
+
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["FSx for ONTAP 파일 시스템을 구축 및 관리하는 방법에 관해 알아보십시오"^]
+
+--
+
