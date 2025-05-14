@@ -974,7 +974,6 @@
   <block id="1e99c460cf537bae167f699f72f10783" category="list-text">기술 문서의 내용을 기반으로 대화 시작 질문을 자동으로 작성합니다.</block>
   <block id="f7876b81c07b146c27fb7196bb0889f1" category="list-text">데이터 관리자가 기술 자료를 사용하여 채팅을 테스트할 수 있는 채팅 시뮬레이터를 제공합니다.</block>
   <block id="183107db84b5d97e830561a02417467f" category="list-text">간단한 커넥터 인터페이스를 제공하므로 GenAI를 Amazon Q Business와 연결하고 이 AI 도우미의 기능을 빠르고 쉽게 활용할 수 있습니다.</block>
-  <block id="1c9640aa9075334712c6c2b922771c50" category="paragraph"><block ref="1c9640aa9075334712c6c2b922771c50" category="inline-link-rx"></block></block>
   <block id="3e037b952ced7d9d3d5f755278df683d" category="paragraph">그러나 생성 AI 인프라를 지원하기 위해 구축하는 AWS 리소스에 대한 비용을 지불해야 합니다. 예를 들어, Amazon Bedrock 또는 Amazon Q Business, FSx for ONTAP 파일 시스템 및 스토리지 용량, GenAI 엔진 EC2 인스턴스의 비용을 지불합니다.</block>
   <block id="eb172a4ea0ca9b00dbcb16f6401ade8d" category="doc">NetApp GenAI 엔진의 구성 요소</block>
   <block id="9f6ab331f6e1b93cd7720e3b01290dfe" category="paragraph">FSx for ONTAP 파일 시스템에서 데이터 소스를 사용하여 기술 자료 또는 커넥터를 생성한 후에는 데이터 소스 세부 정보를 보거나, 데이터 소스 콘텐츠를 업데이트 또는 변경하거나, 데이터 소스 설정을 편집하거나, 데이터 소스를 삭제할 수 있습니다.</block>
@@ -1025,4 +1024,13 @@
   <block id="04e72ad1a1f8c5d1bc6e9d9cd655d231" category="sidebar">기술 문서에 추가할 데이터 소스 식별</block>
   <block id="6d0922d38f508966c79ec8917c90f839" category="sidebar">GenAI를 사용하여 Amazon Q Business용 커넥터를 만듭니다</block>
   <block id="12195af943d3077522e0ef3c26f4b4fd" category="admonition">데이터 원본의 파일에 텍스트가 없는 경우(예: 텍스트가 없는 이미지) Amazon Q Business는 해당 파일을 인덱싱하지 않고 텍스트가 없음을 나타내는 항목을 Amazon CloudWatch 로그에 기록합니다.</block>
+  <block id="200e3179449390bdf5f3f8d9a199630c" category="section-title">워크로드 팩토리 사용을 위한 툴</block>
+  <block id="b5a374f3f5b31b5057808689d26fe2c4" category="paragraph">다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="4b50901597179fa075617d96ccf51901" category="list-text">* 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 포괄적인 뷰를 제공합니다.</block>
+  <block id="590410b3a112ba2f531f9aae44e29ed1" category="list-text">* BlueXP  콘솔 *: BlueXP  콘솔은 하이브리드 인터페이스 환경을 제공하므로 다른 BlueXP  서비스와 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="62c5120220d244bd5e611d7c4459b5c5" category="list-text">* 질문하기 *: 질문하기 AI 도우미를 사용하여 워크로드 팩토리 웹 UI를 벗어나지 않고도 워크로드 공장에 대해 자세히 알아보십시오. 워크로드 기본 도움말 메뉴에서 질문하기 에 액세스합니다.</block>
+  <block id="e234d079cc2fccaeed8041a81e1e8122" category="list-text">* CloudShell CLI *: 워크로드 팩토리에는 단일 브라우저 기반 CLI를 통해 모든 계정에서 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. 워크로드 팩토리 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.</block>
+  <block id="dfbf98e5a4263fb93c5b851bfc384ae3" category="list-text">* REST API *: 워크로드 팩토리 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.</block>
+  <block id="57f4ce64453b6cd8aa398c4f88d38c2e" category="list-text">* CloudFormation *: AWS CloudFormation 코드를 사용하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리하기 위해 워크로드 팩토리 콘솔에 정의한 작업을 수행합니다.</block>
+  <block id="06c2e2277da374dd2cc7b735a1d1e848" category="list-text">* Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하여 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리하십시오.</block>
 </blocks>
