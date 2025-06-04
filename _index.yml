@@ -23,11 +23,11 @@ indexpage:
       url: knowledge-base/test-knowledgebase.html
     - title: 기술 문서를 게시합니다
       url: knowledge-base/publish-knowledgebase.html
-  - title: Amazon Q Business용 커넥터를 생성합니다
+  - title: Amazon Q Business용 NetApp 커넥터 만들기
     links:
     - title: 커넥터를 빠르게 시작합니다
       url: connector/quick-start-connector.html
-    - title: Amazon Q Business용 커넥터를 생성합니다
+    - title: Amazon Q Business용 NetApp 커넥터 만들기
       url: connector/define-connector.html
   - title: GenAI 관리
     links:

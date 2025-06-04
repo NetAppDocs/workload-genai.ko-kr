@@ -23,7 +23,7 @@ GenAI용 BlueXP  워크로드 팩토리를 사용하면 생성 AI 애플리케�
 
 조직의 데이터에 맞춘 GenAI 애플리케이션을 개발하면 자신의 지식과 전문성을 활용할 수 있습니다. 이 사용자 지정 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 보장함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.
 
-link:../knowledge-base/create-knowledgebase.html["기술 문서를 작성합니다"^]GenAI는 데이터 소스에서 데이터를 수집하고 벡터화된 결과를 데이터베이스에 저장하며 수집된 데이터를 사용하여 쿼리에 응답하는 방법을 완벽하게 제어할 수 있습니다. 이 방법을 사용하려면 초기 구성이 더 필요하지만 다른 결과에 대해 다른 채팅 모델을 선택할 수 있습니다. link:../connector/define-connector.html["아마존 Q용 NetApp ONTAP 커넥터를 정의합니다"]사용자의 경우 데이터 원본의 데이터는 Amazon Q Business에서 수집되어 인덱스에 저장됩니다. 이 방법을 사용하면 초기 구성이 덜 필요하지만 결과를 제어할 수 없습니다.
+link:../knowledge-base/create-knowledgebase.html["기술 문서를 작성합니다"^]GenAI는 데이터 소스에서 데이터를 수집하고 벡터화된 결과를 데이터베이스에 저장하며 수집된 데이터를 사용하여 쿼리에 응답하는 방법을 완벽하게 제어할 수 있습니다. 이 방법을 사용하려면 초기 구성이 더 필요하지만 다른 결과에 대해 다른 채팅 모델을 선택할 수 있습니다. link:../connector/define-connector.html["Amazon Q Business용 NetApp 커넥터 정의"]사용자의 경우 데이터 원본의 데이터는 Amazon Q Business에서 수집되어 인덱스에 저장됩니다. 이 방법을 사용하면 초기 구성이 덜 필요하지만 결과를 제어할 수 없습니다.
 
 작업 부하 공장에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["워크로드 공장 개요"^]참조하십시오.
 
