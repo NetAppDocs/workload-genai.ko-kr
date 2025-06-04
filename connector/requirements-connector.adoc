@@ -20,10 +20,10 @@ Amazon Q Business용 NetApp 커넥터를 생성하기 전에 워크로드 팩토
 GenAI는 시작하기 전에 환경에 필요한 일반적인 요구 사항을 충족해야 합니다.
 
 워크로드 공장 로그인 및 계정:: 를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
-AWS 자격 증명 및 권한:: 읽기/쓰기 권한으로 워크로드 팩토리에는 AWS 자격 증명을 추가해야 합니다. 즉, GenAI용 _Read/Write_mode의 워크로드 팩터리를 사용합니다.
+AWS 자격 증명 및 권한:: 워크로드 팩토리에 AWS 자격 증명을 읽기/쓰기 권한으로 추가해야 합니다. 즉, GenAI에 대해 워크로드 팩토리를 _읽기/쓰기_ 모드로 사용해야 합니다.
 +
 --
-_Basic_mode 및 _Read-only_mode 권한은 현재 지원되지 않습니다.
+현재 _기본_ 모드와 _읽기 전용_ 모드 권한은 지원되지 않습니다.
 
 자격 증명을 설정할 때 아래 표시된 권한을 선택하면 FSx for ONTAP 파일 시스템을 관리하고 기술 자료 및 챗봇에 필요한 GenAI EC2 인스턴스 및 기타 AWS 리소스를 배포 및 관리할 수 있는 모든 권한을 얻을 수 있습니다.
 
