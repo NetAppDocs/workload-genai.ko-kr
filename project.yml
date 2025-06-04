@@ -65,7 +65,7 @@ sidebar:
         url: "/connector/deploy-infrastructure.html"
     - title: 아마존 Q용 NetApp ONTAP 커넥터를 생성합니다
       url: "/connector/define-connector.html"
-  - title: GenAI 관리
+  - title: 관리 및 모니터링
     entries:
     - title: GenAI 인프라를 관리합니다
       url: "/general/manage-infrastructure.html"
@@ -75,6 +75,8 @@ sidebar:
       url: "/connector/manage-connector.html"
     - title: 데이터 소스 관리
       url: "/general/manage-data-source.html"
+    - title: Tracker를 사용하여 작업을 모니터링합니다
+      url: "/general/monitor-operations.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오
