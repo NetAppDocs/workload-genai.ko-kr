@@ -2,16 +2,72 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, genai' 
-summary: 워크로드 팩토리의 AI 워크로드 기능의 새로운 기능에 대해 알아보십시오. 
+summary: Workload Factory의 AI 워크로드 기능에 대한 새로운 소식을 알아보세요. 
 ---
-= GenAI를 위한 BlueXP  워크로드 팩토리의 새로운 기능
+= GenAI용 NetApp Workload Factory의 새로운 기능
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-워크로드 팩토리의 Generative AI 워크로드 기능의 새로운 기능에 대해 알아보십시오.
+Workload Factory의 생성적 AI 워크로드 기능에 대한 새로운 소식을 알아보세요.
+
+
+
+== 2025년 10월 5일
+
+
+
+=== BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+
+BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.
+
+
+
+=== Amazon Q Business용 NetApp 커넥터에서 일반 NFS/SMB 데이터 소스 추가 지원
+
+Workload Factory API를 사용하면 이제 일반 NFSv3, NFSv4 또는 SMB 공유의 데이터 소스를 Amazon Q Business용 NetApp Connector에 추가할 수 있습니다.  이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business용 NetApp 커넥터 만들기"]
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["커넥터에 데이터 소스 추가"]
+
+
+
+=== 지식 기반을 위한 고급 채팅 구성
+
+이제 지식 기반의 채팅 모델에 적용할 수 있는 고급 채팅 설정(응답 길이, 온도, 추론 설정 등)을 구성할 수 있습니다.  최근성 및 수정 시간 설정, 고급 검색 설정, 시스템 프롬프트 등 일부 설정은 Workload Factory API를 통해서만 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+=== 이제 임베딩, 채팅 및 재순위 지정 모델에 대한 추론 유형 선택이 지원됩니다.
+
+선택한 임베딩, 채팅 또는 재순위 지정 모델에 추론 설정이 있는 경우 이제 추론 유형을 선택할 수 있습니다.  이를 통해 사용자의 필요에 맞게 챗봇 성능과 리소스 요구 사항을 더 잘 조정할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+== 2025년 8월 3일
+
+
+
+=== 구조화된 데이터 결과에 대한 안전한 저장
+
+챗봇 쿼리 결과에 구조화된 데이터가 포함되어 있는 경우 GenAI는 해당 결과를 Amazon S3 버킷에 저장할 수 있습니다. 이러한 결과가 S3 버킷에 저장되면 채팅 세션 내의 다운로드 링크를 사용하여 다운로드할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+=== MCP 서버 가용성
+
+NetApp 이제 GenAI를 위한 NetApp Workload Factory와 함께 Model Context Protocol(MCP) 서버를 제공합니다. 서버를 로컬에 설치하여 외부 MCP 클라이언트가 GenAI 지식 기반에서 쿼리 결과를 검색하고 검색할 수 있도록 할 수 있습니다.
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp Workload Factory GenAI MCP 서버"^]
 
 
 
@@ -37,7 +93,7 @@ https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add
 
 GenAI에서 Tracker 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하면 보류 중, 진행 중 및 완료된 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업의 세부 정보를 검토하고, 문제나 오류를 진단하고, 실패한 작업의 매개변수를 편집하고, 실패한 작업을 다시 시도할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["BlueXP 워크로드 팩토리의 Tracker를 사용하여 워크로드 작업을 모니터링합니다."]
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["NetApp Workload Factory의 Tracker를 사용하여 워크로드 작업 모니터링"]
 
 
 
@@ -81,7 +137,11 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 === 사용 권한 용어가 업데이트되었습니다
 
-워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다. == 2025년 3월 2일
+Workload Factory 사용자 인터페이스와 설명서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"이라는 용어를 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"라는 용어를 사용합니다.
+
+
+
+== 2025년 3월 2일
 
 
 
@@ -154,7 +214,7 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 GenAI는 이제 하이브리드 검색을 사용하여 검색 결과의 관련성과 정확성을 크게 향상시킬 수 있습니다. 하이브리드 검색은 기존의 키워드 기반 검색의 강점과 고급 밀도 벡터 기반 의미 검색 기법을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. 그런 다음 GenAI는 COHERE Rerank 및 Amazon Rerank와 같은 고급 재순위 모델을 사용하여 이러한 결과를 더욱 구체화하고 가장 관련성이 높은 결과를 반환합니다. 이 기능은 새로 작성된 기술 자료에 사용할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-genai/general/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오"]
+link:https://docs.netapp.com/us-en/workload-genai/general/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["GenAI용 NetApp Workload Factory에 대해 알아보세요"]
 
 
 
@@ -180,7 +240,7 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/deploy-infrastr
 
 === 손상되거나 누락된 GenAI 인프라를 재구축합니다
 
-AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.
+AI 엔진 인스턴스가 손상되거나 어떤 이유로든 삭제된 경우 Workload Factory에서 해당 인스턴스를 다시 빌드할 수 있습니다.  워크로드 팩토리는 재구축이 완료된 후 지식 기반을 인프라에 자동으로 다시 연결하여 사용할 수 있도록 합니다.
 
 link:https://docs.netapp.com/us-en/workload-genai/general/troubleshooting.html["문제 해결"]
 
@@ -192,7 +252,7 @@ link:https://docs.netapp.com/us-en/workload-genai/general/troubleshooting.html["
 
 === 스냅샷에서 지식 베이스를 복제합니다
 
-GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.
+GenAI용 NetApp Workload Factory는 이제 스냅샷에서 지식 기반 복제를 지원합니다.  이를 통해 지식 기반을 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 지식 기반을 생성할 수 있으며, 데이터 복구 및 개발에 도움이 됩니다.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledgebase.html#clone-a-knowledge-base["기술 문서를 복제합니다"]
 
@@ -200,7 +260,7 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/manage-knowledg
 
 === 온프레미스 ONTAP 클러스터 검색 및 복제
 
-온프레미스 ONTAP 클러스터 데이터를 FSx for ONTAP 파일 시스템으로 검색하고 복제하여 AI 지식 기반을 보강하는 데 사용할 수 있습니다. 모든 사내 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 * 온-프레미스 ONTAP * 탭에서 사용할 수 있습니다.
+온프레미스 ONTAP 클러스터 데이터를 검색하여 FSx for ONTAP 파일 시스템에 복제하여 AI 지식 기반을 강화하는 데 사용할 수 있습니다.  모든 온프레미스 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 *온프레미스 ONTAP* 메뉴에서 가능합니다.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["사내 ONTAP 클러스터를 검색합니다"]
 
@@ -212,11 +272,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["사�
 
 === 데이터 가드레일을 사용하여 개인 식별 정보를 마스킹합니다
 
-Generative AI 워크로드에는 BlueXP  분류를 기반으로 하는 데이터 가드레일 기능이 도입되었습니다. 데이터 가드레일 기능은 개인 식별 정보(PII)를 식별 및 마스킹하여 규정 준수를 유지하고 중요한 조직 데이터의 보안을 강화합니다.
+생성적 AI 워크로드는 NetApp 콘솔 분류를 기반으로 하는 데이터 가드레일 기능을 도입합니다.  데이터 가드레일 기능은 개인 식별 정보(PII)를 식별하고 마스킹하여 규정을 준수하고 민감한 조직 데이터의 보안을 강화하는 데 도움이 됩니다.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
 
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]
+link:https://docs.netapp.com/us-en/data-services-data-classification/concept-cloud-compliance.html["NetApp 콘솔 분류에 대해 알아보세요"^]
 
 
 
@@ -278,7 +338,7 @@ https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-source
 
 === 챗봇 애플리케이션 예
 
-NetApp 워크로드 팩토리 GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp 워크로드 팩토리 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.
+NetApp Workload Factory GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp Workload Factory 지식 기반에서 인증 및 검색을 테스트할 수 있습니다.
 
 
 
@@ -286,6 +346,6 @@ NetApp 워크로드 팩토리 GenAI 샘플 애플리케이션을 사용하면 �
 
 
 
-=== GenAI를 위한 워크로드 팩토리 최초 릴리즈
+=== GenAI용 Workload Factory의 초기 릴리스
 
 초기 릴리스에는 조직의 데이터를 포함하여 사용자 지정된 기술 자료를 개발할 수 있는 기능이 포함되어 있습니다. 사용자를 위한 챗봇 애플리케이션에서 기술 자료에 액세스할 수 있습니다. 이 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 제공함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.

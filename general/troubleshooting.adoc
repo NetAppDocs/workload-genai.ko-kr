@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: general/troubleshooting.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 워크로드 팩토리에 NetApp Support 사이트 계정을 추가한 다음 지원을 등록해야 합니다. 
+summary: NetApp 기술 지원에 지원 사례를 개설하려면 먼저 Workload Factory에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다. 
 ---
 = GenAI 문제 해결
 :allow-uri-read: 
@@ -24,10 +24,10 @@ summary: NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 
 | 영역 | 문제 | 원인 | 해결 방법 
 
 
-| 구축 | 볼륨이 이미 있기 때문에 배포가 실패합니다. | GenAI용 BlueXP  워크로드 팩토리에는 구축 프로세스 중에 새 볼륨을 생성해야 하지만, 지정한 이름을 사용하는 볼륨이 이미 존재합니다. | 새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오. 
+| 구축 | 볼륨이 이미 있기 때문에 배포가 실패합니다. | GenAI용 NetApp Workload Factory는 배포 프로세스 중에 새 볼륨을 생성해야 하지만, 지정한 이름을 사용하는 볼륨이 이미 존재합니다. | 새 볼륨에 사용할 고유한 이름을 지정하고 다시 배포하십시오. 
 
 
-| 구축 | GenAI용 BlueXP  워크로드 팩토리에서 볼륨을 마운트할 수 없기 때문에 구축이 실패합니다. | FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.  a| 
+| 구축 | NetApp Workload Factory for GenAI가 볼륨을 마운트할 수 없어 배포가 실패합니다. | FSx for NetApp ONTAP에 필요한 하나 이상의 인바운드 포트가 닫히거나 필터링되었습니다.  a| 
 다음 인바운드 포트를 엽니다.
 
 [cols="10,10,80"]
@@ -105,7 +105,7 @@ summary: NetApp 기술 지원에 대한 지원 케이스를 생성하기 전에 
 |===
 
 
-| 유지 관리 | AI 엔진을 시작하지 못하고 * Knowledge Base * 페이지에 "AI engine instance error" 오류가 표시됩니다. | AI 엔진 인스턴스가 손상되었거나 존재하지 않습니다. | Rebuild * 버튼을 선택합니다. GenAI를 위한 BlueXP  워크로드 공장은 인프라를 리빌드하고 리빌드 진행률을 표시합니다. 완료되면 지식 베이스가 재구축된 인프라에 다시 연결되고 지식 베이스 목록이 표시됩니다. 
+| 유지 관리 | AI 엔진을 시작하지 못하고 * Knowledge Base * 페이지에 "AI engine instance error" 오류가 표시됩니다. | AI 엔진 인스턴스가 손상되었거나 존재하지 않습니다. | *재구축* 버튼을 선택하세요.  GenAI용 NetApp Workload Factory는 인프라를 재구축하고 재구축 진행 상황을 표시합니다.  완료되면 지식 기반이 재구축된 인프라에 다시 연결되고 지식 기반 목록이 표시됩니다. 
 
 
 | 유지 관리 | AI 엔진이 시작되지 않고 * Knowledge Base * 페이지에 "GenAI 엔진 인스턴스가 중지되었습니다" 오류가 표시됩니다. | AI 엔진 인스턴스가 실행되고 있지 않습니다. | AWS Management Console 또는 AWS CLI를 사용하여 AI 엔진 인스턴스를 시작합니다. 
@@ -127,7 +127,7 @@ docker-compose up
 
 
 
-| 유지 관리 | BlueXP  워크로드 팩터에서 GenAI를 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.  a| 
+| 유지 관리 | GenAI용 NetApp Workload Factory에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 볼륨이 삭제되고 EC2 인스턴스가 다시 시작되었습니다.  a| 
 다음 복구 단계를 사용합니다.
 
 .단계
@@ -163,8 +163,8 @@ volumes:
 
 
 
-| 유지 관리 | BlueXP  워크로드 팩터에서 GenAI를 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 루트 볼륨이 삭제되었습니다. | 이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다. 
+| 유지 관리 | GenAI용 NetApp Workload Factory에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 루트 볼륨이 삭제되었습니다. | 이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다. 
 
 
-| 유지 관리 | BlueXP  워크로드 팩터에서 GenAI를 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 루트 볼륨이 삭제되었습니다. | 이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다. 
+| 유지 관리 | GenAI용 NetApp Workload Factory에서 사용하는 백엔드 Docker 인스턴스를 시작하지 못했습니다. | 루트 볼륨이 삭제되었습니다. | 이름과 경로를 사용하여 볼륨을 생성한 다음 Amazon EC2에서 백엔드 Docker 인스턴스를 다시 시작합니다. 
 |===

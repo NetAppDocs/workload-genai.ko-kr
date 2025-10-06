@@ -20,8 +20,8 @@ summary: 기술 문서를 만든 후에는 기술 문서 세부 정보를 보거
 통합된 기술 자료 및 데이터 원본에 대한 설정에 대한 정보를 볼 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. 워크로드 팩토리 탐색 메뉴에서 * AI * 를 선택하십시오.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . 보려는 기술 문서를 선택합니다.
 +
 정의된 경우 현재 사용 중인 대화 시작점이 오른쪽 창에 표시됩니다.
@@ -44,7 +44,8 @@ summary: 기술 문서를 만든 후에는 기술 문서 세부 정보를 보거
 기술 문서에서 데이터 원본을 추가, 수정 또는 제거할 때마다 데이터 원본이 기술 문서에 다시 인덱싱되도록 데이터 원본을 동기화해야 합니다. 동기화는 증분 방식이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 FSx for ONTAP 볼륨의 개체만 처리합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 업데이트할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 +
@@ -82,7 +83,8 @@ NOTE: 임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 
 기술 자료 볼륨의 수동 스냅샷을 생성하여 기술 문서의 상태를 저장할 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 보호할 기술 자료를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 +
@@ -109,7 +111,8 @@ NOTE: 임베딩, 비용 등 모든 기술 자료 검사 기술 문서를 만든 
 NOTE: 볼륨에 저장된 데이터베이스가 손상되었거나 삭제된 경우 Generative AI 워크로드 UI를 사용하여 스냅샷을 복원할 수 없습니다. 이 문제를 해결하려면 볼륨이 호스팅되는 ONTAP 클러스터에서 을 사용하여 스냅샷을 복원할 수 https://docs.netapp.com/us-en/ontap-cli/volume-snapshot-restore.html["ONTAP CLI 를 참조하십시오"^] 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 복원할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 +
@@ -134,7 +137,8 @@ NOTE: 볼륨에 저장된 데이터베이스가 손상되었거나 삭제된 경
 기술 자료 스냅샷에서 새로운 기술 자료를 생성할 수 있습니다. 이 기능은 원본 기술 문서가 손상되었거나 손실된 경우에 유용합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 복원할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 +
@@ -162,7 +166,8 @@ NOTE: 볼륨에 저장된 데이터베이스가 손상되었거나 삭제된 경
 추가 데이터 원본을 기술 문서에 포함시켜 추가 조직 데이터로 채울 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 데이터 소스를 추가할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 데이터 원본 추가 * 를 선택합니다.
 . 추가하려는 데이터 소스 유형을 선택하세요.
@@ -199,7 +204,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -251,7 +256,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -310,7 +315,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -345,7 +350,8 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 동기화는 증분 동기화이므로 Amazon Bedrock은 마지막 동기화 이후 추가, 수정 또는 삭제된 데이터 원본의 객체만 처리합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 동기화할 기술 자료를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 . 조치 * 메뉴를 선택하고 * 지금 스캔 * 을 선택합니다.
@@ -364,8 +370,9 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 데이터 원본의 다음 동기화(스캔)를 일시 중지하거나 다시 시작하려면 언제든지 다시 시작할 수 있습니다. 데이터 원본을 변경하고 변경 기간 동안 동기화를 실행하지 않으려면 다음 예약된 동기화를 일시 중지해야 할 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. Knowledge Base & Connectors 탭에서 스캔을 일시 중지하거나 다시 시작할 기술 문서를 선택합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
+. 지식 기반 및 커넥터 메뉴에서 스캔을 일시 중지하거나 다시 시작할 지식 기반을 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 . Actions * 메뉴를 선택하고 * Scan > Pause Scheduled Scan * 또는 * Scan > Resume Scheduled Scan * 을 선택합니다.
 +
@@ -383,7 +390,8 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 NOTE: 이 기능은 Knowledge Base가 생성되지 않은 경우(Knowledge Base 인벤토리 페이지에 Knowledge Base가 없는 경우에만) 사용할 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 Chatbot 페이지 오른쪽에 채팅 모델을 선택하는 옵션이 표시됩니다.
 . 목록에서 채팅 모델을 선택하고 프롬프트 영역에 질문 집합을 입력하여 챗봇이 어떻게 응답하는지 확인합니다.
 . 여러 모델을 시도하여 구현에 가장 적합한 모델을 확인하십시오.
@@ -401,7 +409,8 @@ NOTE: 이 기능은 Knowledge Base가 생성되지 않은 경우(Knowledge Base 
 기술 문서의 게시를 취소하면 모든 채팅 응용 프로그램이 작동하지 않습니다. 기술 자료에 액세스할 수 있는 고유 API 끝점이 비활성화됩니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 게시를 취소할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 +
@@ -417,12 +426,13 @@ NOTE: 이 기능은 Knowledge Base가 생성되지 않은 경우(Knowledge Base 
 
 == 기술 문서를 삭제합니다
 
-기술 문서가 더 이상 필요하지 않은 경우 삭제할 수 있습니다. 기술 문서를 삭제하면 작업 부하 공장에서 제거되고 기술 문서가 포함된 볼륨이 삭제됩니다. 기술 자료를 사용하는 애플리케이션이나 챗봇이 작동하지 않습니다. 지식 기반 삭제는 되돌릴 수 없습니다.
+지식 기반이 더 이상 필요하지 않으면 삭제할 수 있습니다.  지식 기반을 삭제하면 Workload Factory에서도 제거되고, 해당 지식 기반이 포함된 볼륨도 삭제됩니다.  지식 기반을 사용하는 모든 애플리케이션이나 챗봇은 작동을 멈춥니다.  지식 기반을 삭제하면 되돌릴 수 없습니다.
 
 기술 문서를 삭제할 때 기술 문서와 관련된 모든 상담원과의 연결을 해제하여 기술 문서와 연결된 모든 리소스를 완전히 삭제해야 합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base 인벤토리 페이지에서 삭제할 기술 문서를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 기술 자료 관리 * 를 선택합니다.
 . 조치 * 메뉴를 선택하고 * 기술 문서 삭제 * 를 선택합니다.
@@ -430,4 +440,4 @@ NOTE: 이 기능은 Knowledge Base가 생성되지 않은 경우(Knowledge Base 
 
 
 .결과
-기술 문서가 작업 부하 공장에서 제거되고 관련 볼륨이 삭제됩니다.
+지식 기반이 Workload Factory에서 제거되고 관련 볼륨이 삭제됩니다.

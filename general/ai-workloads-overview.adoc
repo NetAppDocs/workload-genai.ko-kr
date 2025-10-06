@@ -2,22 +2,22 @@
 sidebar: sidebar 
 permalink: general/ai-workloads-overview.html 
 keywords: overview, concepts, features, use case, workloads, AI, Bedrock, knowledge base, chatbot 
-summary: GenAI용 BlueXP  워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다. 
+summary: GenAI용 NetApp Workload Factory를 사용 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다.  이를 통해 AI 데이터세트에 대한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다. 
 ---
-= GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
+= GenAI용 NetApp Workload Factory에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-GenAI용 BlueXP  워크로드 팩토리를 사용하면 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다. 이 솔루션은 AI 데이터 세트를 위한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.
+GenAI용 NetApp Workload Factory를 사용 Amazon FSx for NetApp ONTAP 파일 시스템을 GenAI 기반 모델과 통합할 수 있습니다.  이를 통해 AI 데이터세트에 대한 풍부한 보호, 보안 및 비용 최적화 기능을 갖춘 고성능 스토리지를 제공합니다.
 
 
 
-== GenAI의 BlueXP  워크로드 팩토리는 무엇입니까?
+== GenAI용 NetApp Workload Factory란 무엇인가요?
 
-GenAI용 BlueXP  워크로드 팩토리를 사용하면 생성 AI 애플리케이션이 있는 Amazon FSx for NetApp ONTAP에서 엔터프라이즈 데이터 소스를 사용할 수 있습니다. 검색 증강 생성(RAG)을 활용하면 Amazon Bedrock 또는 Amazon Q Business를 통해 사용 가능한 기반 모델에 데이터 소스를 신속하게 연결하여 가상 도우미, Q&A 챗봇, 문서 요약, 콘텐츠 작성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다
+GenAI용 NetApp Workload Factory를 사용하면 Amazon FSx for NetApp ONTAP 에서 엔터프라이즈 데이터 소스를 Generative AI 애플리케이션과 함께 사용할 수 있습니다.  검색 증강 생성(RAG)을 활용하면 Amazon Bedrock이나 Amazon Q Business를 통해 제공되는 기반 모델에 데이터 소스를 빠르게 연결하여 가상 비서, Q&A 챗봇, 문서 요약, 콘텐츠 생성 등과 같은 생성 AI 기반 애플리케이션을 개발할 수 있습니다.
 
 조직 데이터와 함께 Generative AI를 사용하면 모델이 훈련된 공용 데이터에 기반한 모델의 인텔리전스에만 의존하지 않고 자체 지식과 전문 지식을 활용할 수 있습니다. RAG를 사용하여 모델을 사용자 정의하면 조직별 질문에 정확하고 적절한 답변을 할 수 있어 Generative AI를 사용하여 애플리케이션 사용자의 생산성과 효율성이 향상됩니다.
 
@@ -25,13 +25,13 @@ GenAI용 BlueXP  워크로드 팩토리를 사용하면 생성 AI 애플리케�
 
 link:../knowledge-base/create-knowledgebase.html["기술 문서를 작성합니다"^]GenAI는 데이터 소스에서 데이터를 수집하고 벡터화된 결과를 데이터베이스에 저장하며 수집된 데이터를 사용하여 쿼리에 응답하는 방법을 완벽하게 제어할 수 있습니다. 이 방법을 사용하려면 초기 구성이 더 필요하지만 다른 결과에 대해 다른 채팅 모델을 선택할 수 있습니다. link:../connector/define-connector.html["Amazon Q Business용 NetApp 커넥터 정의"]사용자의 경우 데이터 원본의 데이터는 Amazon Q Business에서 수집되어 인덱스에 저장됩니다. 이 방법을 사용하면 초기 구성이 덜 필요하지만 결과를 제어할 수 없습니다.
 
-작업 부하 공장에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["워크로드 공장 개요"^]참조하십시오.
+Workload Factory에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["Workload Factory 개요"^] .
 
 
 
 == GenAI를 사용하여 생성 AI 애플리케이션을 생성할 때의 이점
 
-GenAI용 BlueXP  워크로드 팩토리에서는 검색 증강 생성(RAG)을 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라 배포 프로세스를 간소화합니다. 특히 GenAI는 다음과 같은 이점을 제공합니다.
+GenAI용 NetApp Workload Factory는 검색 증강 생성(RAG)을 사용하여 생성 AI 애플리케이션을 구축하는 데 필요한 인프라를 배포하는 프로세스를 간소화합니다.  특히 GenAI는 다음과 같은 이점을 제공합니다.
 
 * 데이터 인프라, 기초 및 언어 모델에 대한 심층적인 지식이 없어도 IT 관리자와 개발자는 GenAI에서 제공하는 자동화를 활용하여 애플리케이션 개발을 가속화할 수 있습니다. 데이터 관리자와 개발자는 생성 AI 애플리케이션에서 사용할 조직의 비정형 데이터를 포함하는 엔터프라이즈 기술 자료를 쉽고 빠르게 생성할 수 있습니다.
 * 데이터 보안 및 개인 정보 보호를 위해 기술 자료에 포함된 파일에 사용자 권한을 보존하여 보안을 강화합니다. 챗봇과 같은 애플리케이션은 인증된 사용자에게만 사용자가 액세스할 수 있는 데이터를 기반으로 해답을 제공하기 위해 개발될 수 있습니다.
@@ -52,7 +52,7 @@ image:genai-infrastructure-diagram.png["GenAI의 주요 구성 요소, 기능 �
 
 
 
-== GenAI용 BlueXP  워크로드 공장이 생성 AI 애플리케이션을 구축하는 데 어떤 도움이 되는지 알아보십시오
+== GenAI용 NetApp Workload Factory가 생성 AI 애플리케이션을 구축하는 데 어떻게 도움이 되는지
 
 GenAI는 다음과 같은 방식으로 RAG를 사용하여 생성 AI 애플리케이션을 구축하는 데 도움이 됩니다.
 
@@ -66,24 +66,24 @@ GenAI는 다음과 같은 방식으로 RAG를 사용하여 생성 AI 애플리�
 
 
 
-== 워크로드 팩토리 사용을 위한 툴
+== NetApp Workload Factory를 사용하는 도구
 
-다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.
+다음 도구와 함께 NetApp Workload Factory를 사용할 수 있습니다.
 
-* * 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 포괄적인 뷰를 제공합니다.
-* * BlueXP  콘솔 *: BlueXP  콘솔은 하이브리드 인터페이스 환경을 제공하므로 다른 BlueXP  서비스와 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.
-* * 질문하기 *: 질문하기 AI 도우미를 사용하여 워크로드 팩토리 웹 UI를 벗어나지 않고도 워크로드 공장에 대해 자세히 알아보십시오. 워크로드 기본 도움말 메뉴에서 질문하기 에 액세스합니다.
-* * CloudShell CLI *: 워크로드 팩토리에는 단일 브라우저 기반 CLI를 통해 모든 계정에서 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. 워크로드 팩토리 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.
-* * REST API *: 워크로드 팩토리 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.
-* * CloudFormation *: AWS CloudFormation 코드를 사용하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리하기 위해 워크로드 팩토리 콘솔에 정의한 작업을 수행합니다.
-* * Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하여 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리하십시오.
+* *Workload Factory 콘솔*: Workload Factory 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 전체적인 보기를 제공합니다.
+* * NetApp 콘솔*: NetApp 콘솔은 Workload Factory를 다른 NetApp 데이터 서비스와 함께 사용할 수 있도록 하이브리드 인터페이스 환경을 제공합니다.
+* *질문하기*: Workload Factory 콘솔을 벗어나지 않고도 Ask me AI 도우미를 사용하여 질문을 하고 Workload Factory에 대해 자세히 알아보세요. Workload Factory 도움말 메뉴에서 Ask me에 액세스하세요.
+* *CloudShell CLI*: Workload Factory에는 단일 브라우저 기반 CLI를 통해 여러 계정의 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. Workload Factory 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.
+* *REST API*: Workload Factory REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.
+* *CloudFormation*: AWS CloudFormation 코드를 사용하여 Workload Factory 콘솔에서 정의한 작업을 수행하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리합니다.
+* *Terraform NetApp Workload Factory 공급자*: Terraform을 사용하여 Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리합니다.
 
 
 
 
 == 비용
 
-워크로드 팩토리의 GenAI 기능을 사용하는 데 비용이 들지 않습니다.
+Workload Factory의 GenAI 기능을 사용하는 데는 비용이 없습니다.
 
 그러나 생성 AI 인프라를 지원하기 위해 구축하는 AWS 리소스에 대한 비용을 지불해야 합니다. 예를 들어, Amazon Bedrock 또는 Amazon Q Business, FSx for ONTAP 파일 시스템 및 스토리지 용량, GenAI 엔진 EC2 인스턴스의 비용을 지불합니다.
 
@@ -93,4 +93,18 @@ GenAI는 다음과 같은 방식으로 RAG를 사용하여 생성 AI 애플리�
 
 == 라이센싱
 
-워크로드 공장의 AI 기능을 사용하기 위해 NetApp에 특별한 라이센스가 필요하지 않습니다.
+Workload Factory의 AI 기능을 사용하려면 NetApp 의 특별 라이선스가 필요하지 않습니다.
+
+
+
+== 지역
+
+Workload Factory는 FSx for ONTAP 이 지원되는 모든 상업 지역에서 지원됩니다.link:https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["지원되는 Amazon 지역을 확인하세요."^]
+
+다음 AWS 지역은 지원되지 않습니다.
+
+* 중국 지역
+* GovCloud(미국) 지역
+* 시크릿 클라우드
+* 극비 클라우드
+

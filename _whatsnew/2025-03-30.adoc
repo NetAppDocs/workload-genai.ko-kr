@@ -30,9 +30,9 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 === 일반 NFS/SMB 공유에서 데이터 소스 추가 지원
 
-이제 워크로드 팩토리 API를 사용하여 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다. NFS 또는 SMB 공유에서 데이터 소스를 추가할 경우 기술 자료 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 유지됩니다. 워크로드 팩토리 웹 UI는 향후 릴리즈에서 이 기능을 지원할 예정입니다.
+Workload Factory API를 사용하면 이제 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다.  NFS 또는 SMB 공유에서 데이터 소스를 추가하면 지식 기반 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 그대로 유지됩니다.  Workload Factory 웹 UI는 향후 릴리스에서 이 기능을 지원할 예정입니다.
 
-link:https://console.workloads.netapp.com/api-doc["워크로드 팩토리 API를 사용하십시오"^]
+link:https://console.workloads.netapp.com/api-doc["Workload Factory API를 사용하세요"^]
 
 
 

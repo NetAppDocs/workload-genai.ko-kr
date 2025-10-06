@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: general/genai-engine-instance.html 
 keywords: genai engine, instance, ec2, role, iam role, permissions, security group, inbound, outbound, private endpoints 
-summary: GenAI 인프라를 구축하면 워크로드 팩토리에서는 GenAI 엔진용 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. 워크로드 팩토리에서 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 이해하기를 원할 수 있습니다. 
+summary: GenAI 인프라를 배포하면 Workload Factory가 GenAI 엔진에 대한 EC2 인스턴스를 생성합니다.  또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트가 생성됩니다.  AWS 환경에서 Workload Factory가 생성하는 이러한 구성 요소에 대해 더 자세히 알아보고 싶을 수도 있습니다. 
 ---
 = NetApp GenAI 엔진의 구성 요소
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: GenAI 인프라를 구축하면 워크로드 팩토리에서는 GenAI �
 
 
 [role="lead"]
-GenAI 인프라를 구축하면 워크로드 팩토리에서는 GenAI 엔진용 EC2 인스턴스를 생성합니다. 또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트도 생성합니다. 워크로드 팩토리에서 AWS 환경에서 생성하는 이러한 구성 요소에 대한 자세한 정보를 이해하기를 원할 수 있습니다.
+GenAI 인프라를 배포하면 Workload Factory가 GenAI 엔진에 대한 EC2 인스턴스를 생성합니다.  또한 이 인스턴스에 대한 IAM 역할, 보안 그룹 및 개인 엔드포인트가 생성됩니다.  AWS 환경에서 Workload Factory가 생성하는 이러한 구성 요소에 대해 더 자세히 알아보고 싶을 수도 있습니다.
 
 EC2 인스턴스 유형입니다:: m5.large를 참조하십시오
 IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedrock의 내장 모델에 전송하고 NetApp AI Service 백엔드와 통신할 수 있는 권한이 필요합니다. IAM 역할에는 다음 권한이 포함됩니다.
@@ -25,6 +25,16 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
 {
   "Version": "2012-10-17",
   "Statement": [
+    {
+      "Action": [
+        "iam:CreateRole",
+        "iam:CreatePolicy",
+        "iam:AttachRolePolicy",
+        "iam:PassRole"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+    },
     {
       "Action": [
         "ssm:DescribeDocument",
@@ -87,7 +97,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:kbId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -100,7 +110,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:qConnectorId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:DeleteVolume",
@@ -113,7 +123,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -123,7 +133,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:kbId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:kbId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -133,7 +143,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Condition": {
         "StringLike": {
-          "aws:ResourceTag/netapp:wlmai: <ai-engine-id>:qConnectorId": "*"
+          "aws:ResourceTag/netapp:wlmai:<id>:qConnectorId": "*"
         }
       },
       "Action": "fsx:UntagResource",
@@ -145,7 +155,9 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
         "bedrock:InvokeModel",
         "bedrock:Rerank",
         "bedrock:GetFoundationModel",
-        "bedrock:GetInferenceProfile"
+        "bedrock:GetInferenceProfile",
+        "bedrock:GetModelInvocationLoggingConfiguration",
+        "bedrock:PutModelInvocationLoggingConfiguration"
       ],
       "Resource": "*",
       "Effect": "Allow"
@@ -165,6 +177,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
     {
       "Action": [
         "qbusiness:ListWebExperiences",
+        "qbusiness:ListApplications",
         "qbusiness:GetApplication",
         "qbusiness:CreateDataSource",
         "qbusiness:DeleteDataSource",
@@ -193,6 +206,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
         "logs:CreateLogGroup"
       ],
       "Resource": [
+        "arn:aws:logs:*:*:log-group:/aws/bedrock*",
         "arn:aws:logs:*:*:log-group:/netapp/wlmai/*:log-stream:*",
         "arn:aws:logs:*:*:log-group:/netapp/wlmai/*"
       ],
@@ -220,7 +234,7 @@ IAM 역할:: GenAI 엔진 인스턴스에서는 데이터 집합을 Amazon Bedro
 ====
 --
 보안 그룹:: 아웃바운드 규칙은 모든 트래픽에 대해 열려 있지만 인바운드 규칙은 완전히 닫힙니다.
-전용 끝점:: 타겟 VPC에 아직 해당 VPC가 없는 경우 워크로드 팩토리는 GenAI 엔진 EC2 인스턴스에 대한 프라이빗 엔드포인트를 생성하여 다음 AWS 서비스와 통신할 수 있도록 합니다.
+전용 끝점:: 대상 VPC에 아직 없는 경우 Workload Factory는 GenAI 엔진 EC2 인스턴스에 대한 개인 엔드포인트를 생성하여 다음 AWS 서비스와 통신할 수 있도록 합니다.
 +
 --
 * 아마존 Bedrock

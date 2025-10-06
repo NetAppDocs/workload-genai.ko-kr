@@ -20,9 +20,9 @@ Amazon Q Business용 커넥터를 만든 후에는 커넥터 세부 정보를 �
 통합된 커넥터 및 데이터 원본에 대한 설정 정보를 볼 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. 워크로드 팩토리 탐색 메뉴에서 * AI * 를 선택하십시오.
-. 보려는 연결선을 선택합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
+. 지식 기반 및 커넥터 인벤토리 페이지에서 보려는 커넥터를 선택합니다.
 . 커넥터 세부 정보를 보려면 * 커넥터 관리 * 를 선택하고 image:icon-action.png["옵션 단추"]선택합니다.
 +
 이 페이지에는 게시된 상태, 데이터 원본의 포함 상태, 포함 모드, 포함된 모든 데이터 원본의 목록 등이 표시됩니다.
@@ -41,7 +41,8 @@ Amazon Q Business용 커넥터를 만든 후에는 커넥터 세부 정보를 �
 커넥터에서 데이터 원본을 추가, 수정 또는 제거할 때마다 GenAI는 다시 인덱싱되도록 데이터 원본 정보를 Amazon Q Business로 전송해야 합니다. 동기화는 증분 방식이므로 Amazon Q Business는 마지막 동기화 이후 추가, 수정 또는 삭제된 FSx for ONTAP 볼륨의 객체만 처리합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base & Connectors 인벤토리 페이지에서 업데이트할 커넥터를 선택합니다.
 . 을 image:icon-action.png["옵션 단추"]선택하고 * 커넥터 관리 * 를 선택합니다.
 +
@@ -63,7 +64,8 @@ NOTE: 임베딩을 포함한 모든 데이터 소스 스캔에는 비용이 소�
 커넥터에 추가 데이터 원본을 포함시켜 추가 조직 데이터로 채울 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base & Connectors 인벤토리 페이지에서 데이터 원본을 추가할 커넥터를 선택합니다.
 . 를 image:icon-action.png["옵션 단추"] 선택하고 * 데이터 원본 추가 * 를 선택합니다.
 . 추가하려는 데이터 소스 유형을 선택하세요.
@@ -100,7 +102,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -152,7 +154,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -211,7 +213,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -246,8 +248,9 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 동기화는 증분 동기화이므로 Amazon Q Business는 마지막 동기화 이후 추가, 수정 또는 삭제된 데이터 원본의 객체만 처리합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. 지식 기반 및 커넥터 탭에서 동기화할 커넥터를 선택합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
+. 지식 기반 및 커넥터 메뉴에서 동기화할 커넥터를 선택합니다.
 . 을 image:icon-action.png["옵션 단추"]선택하고 * 커넥터 관리 * 를 선택합니다.
 . 조치 * 메뉴를 선택하고 * 지금 스캔 * 을 선택합니다.
 +
@@ -265,7 +268,8 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 데이터 원본의 다음 동기화(스캔)를 일시 중지하거나 다시 시작하려면 언제든지 다시 시작할 수 있습니다. 데이터 원본을 변경하고 변경 기간 동안 동기화를 실행하지 않으려면 다음 예약된 동기화를 일시 중지해야 할 수 있습니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . 커넥터 인벤토리 페이지에서 스캔을 일시 중지하거나 다시 시작할 커넥터를 선택합니다.
 . 을 image:icon-action.png["옵션 단추"]선택하고 * 커넥터 관리 * 를 선택합니다.
 . Actions * 메뉴를 선택하고 * Scan > Pause Scheduled Scan * 또는 * Scan > Resume Scheduled Scan * 을 선택합니다.
@@ -278,12 +282,13 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 
 == 연결선을 삭제합니다
 
-연결선이 더 이상 필요하지 않으면 삭제할 수 있습니다. 커넥터를 삭제하면 작업 부하 공장에서 제거되고 커넥터가 포함된 볼륨이 삭제됩니다. 커넥터 삭제는 되돌릴 수 없습니다.
+더 이상 커넥터가 필요하지 않으면 삭제할 수 있습니다.  커넥터를 삭제하면 Workload Factory에서 제거되고 커넥터가 포함된 볼륨도 삭제됩니다.  커넥터를 삭제하면 되돌릴 수 없습니다.
 
 커넥터를 삭제할 때 커넥터와 관련된 모든 에이전트에서 커넥터를 연결 해제하여 커넥터와 연결된 모든 리소스를 완전히 삭제해야 합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
+. AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
 . Knowledge Base & Connectors 인벤토리 페이지에서 삭제할 커넥터를 선택합니다.
 . 을 image:icon-action.png["옵션 단추"]선택하고 * 커넥터 관리 * 를 선택합니다.
 . 조치 * 메뉴를 선택하고 * 커넥터 삭제 * 를 선택합니다.
@@ -291,4 +296,4 @@ NOTE: 수정 날짜 범위를 기준으로 파일을 포함하는 경우 날짜 
 
 
 .결과
-커넥터가 작업 부하 공장에서 제거되고 관련 볼륨이 삭제됩니다.
+커넥터가 Workload Factory에서 제거되고 연관된 볼륨이 삭제됩니다.

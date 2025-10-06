@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: GenAI 설명서를 위한 BlueXP  워크로드 팩토리
+  title: GenAI용 NetApp Workload Factory 설명서
   summary: FSx for ONTAP 파일 시스템의 데이터를 MLOps 플랫폼 및 GenAI 기반 모델과 통합하여 조직 데이터를 통해 기능
     챗봇을 만들 수 있습니다.
   keywords: AI, GenAI, ML, Chatbot, FSx, FSx for ONTAP, knowledge base
@@ -9,7 +9,7 @@ indexpage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: GenAI를 위한 BlueXP  워크로드 팩토리에 대해 알아보십시오
+    - title: GenAI용 NetApp Workload Factory에 대해 알아보세요
       url: general/ai-workloads-overview.html
     - title: 기술 자료 인프라를 구축합니다
       url: knowledge-base/deploy-infrastructure.html
@@ -39,11 +39,9 @@ indexpage:
       url: connector/manage-connector.html
   - title: 블로그 및 커뮤니티
     links:
+    - title: NetApp 콘솔
+      url: https://www.netapp.com/console
+    - title: NetApp 데이터 서비스
+      url: https://www.netapp.com/data-services/
     - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP 블로그
-      url: https://bluexp.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://bluexp.netapp.com/events
-    - title: 데이터로 GenAI를 최대한 활용
-      url: https://community.netapp.com/t5/Tech-ONTAP-Blogs/Unlocking-GenAI-with-your-data-using-Amazon-FSx-for-NetApp-ONTAP-and-BlueXP/ba-p/456394
+      url: https://community.netapp.com/

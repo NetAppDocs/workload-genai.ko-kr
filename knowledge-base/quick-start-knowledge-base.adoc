@@ -13,9 +13,9 @@ summary: Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이
 [role="lead"]
 Amazon FSx for NetApp ONTAP 파일 시스템에 있는 조직의 데이터를 사용하여 기술 자료 또는 Amazon Q Business 커넥터를 만들기 시작합니다. 챗봇과 같은 애플리케이션은 이 기술 자료 또는 커넥터에 액세스하여 최종 사용자에게 조직 중심의 응답을 제공합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 워크로드 공장 에 로그인합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"]Workload Factory에 로그인하세요
 [role="quick-margin-para"]
-를 사용하여 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] 로그인해야 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["워크로드 팩토리에 계정을 설정합니다"^] 합니다.
+당신은 필요합니다 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Workload Factory에 계정을 설정하세요"^] 다음 중 하나를 사용하여 로그인하세요. https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] GenAI 요구사항을 충족하도록 환경을 설정합니다
 [role="quick-margin-para"]

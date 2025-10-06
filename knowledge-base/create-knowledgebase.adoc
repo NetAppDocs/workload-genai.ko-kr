@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: knowledge-base/create-knowledgebase.html 
 keywords: ai, chatbot, creating, knowledge base 
-summary: AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별한 후에는 워크로드 팩토리를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계에서는 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다. 
+summary: AI 인프라를 배포하고 FSx for ONTAP 데이터 저장소에서 지식 기반에 통합할 데이터 소스를 식별한 후에는 Workload Factory를 사용하여 지식 기반을 구축할 준비가 된 것입니다.  이 단계에서는 AI의 특성을 정의하고 대화의 시작점을 만드는 작업도 수행합니다. 
 ---
 = GenAI 기술 자료를 만듭니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기�
 
 
 [role="lead"]
-AI 인프라를 구축하고 FSx for ONTAP 데이터 저장소의 기술 자료에 통합할 데이터 소스를 식별한 후에는 워크로드 팩토리를 사용하여 기술 자료를 구축할 준비가 된 것입니다. 이 단계의 일환으로 AI 특성을 정의하고 대화를 시작하는 방안을 마련합니다.
+AI 인프라를 배포하고 FSx for ONTAP 데이터 저장소에서 지식 기반에 통합할 데이터 소스를 식별한 후에는 Workload Factory를 사용하여 지식 기반을 구축할 준비가 된 것입니다.  이 단계에서는 AI의 특성을 정의하고 대화의 시작점을 만드는 작업도 수행합니다.
 
 계속하기 전에 귀사의 환경이 기술 자료에 대한 을 충족하는지 link:requirements-knowledge-base.html["요구 사항"]확인하십시오.
 
@@ -22,15 +22,15 @@ Knowledge Base에는 두 가지 데이터 통합 Modality(_public mode_와_Enter
 엔터프라이즈 모드:: 대부분의 경우 조직의 데이터 원본을 기술 자료에 통합할 수 있습니다. 이를 엔터프라이즈 모드_통합이라고 하며, 이는 기업으로부터 지식을 제공하기 때문입니다.
 +
 --
-조직의 데이터 원본에는 PII(개인 식별 정보)가 포함될 수 있습니다. 이러한 중요한 정보를 보호하기 위해 기술 자료를 만들고 구성할 때 _data guardrails_를 활성화할 수 있습니다. BlueXP  분류를 기반으로 하는 데이터 가드레일은 PII를 식별하고 마스킹하므로 액세스 및 복구가 불가능합니다.
+귀하의 조직의 데이터 소스에는 개인 식별 정보(PII)가 포함될 수 있습니다.  이러한 민감한 정보를 보호하려면 지식 기반을 만들고 구성할 때 _데이터 가드레일_을 활성화할 수 있습니다.  NetApp 데이터 분류 기반의 데이터 가드레일은 PII를 식별하고 마스킹하여 접근 및 복구가 불가능하게 만듭니다.
 
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 알아보십시오"^]..
-
-
-NOTE: GenAI용 BlueXP  워크로드 공장은 민감한 개인 정보를 마스킹하지 않습니다(SPii). 이 데이터 유형에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^]참조하십시오.
+link:https://docs.netapp.com/us-en/data-services-data-classification/concept-cloud-compliance.html["NetApp 데이터 분류에 대해 알아보세요"^] .
 
 
-NOTE: 데이터 가드레일은 언제든지 활성화 또는 비활성화할 수 있습니다. 데이터 가드레일 사용을 전환하면 워크로드 공장에서 전체 기술 자료를 처음부터 검사하여 비용이 발생합니다.
+NOTE: GenAI용 NetApp Workload Factory는 민감한 개인 정보(SPii)를 가리지 않습니다.  참조하다link:https://docs.netapp.com/us-en/data-services-data-classification/reference-private-data-categories.html#types-of-sensitive-personal-data["중요한 개인 데이터의 유형"^] 이 유형의 데이터에 대한 자세한 내용은 다음을 참조하세요.
+
+
+NOTE: 데이터 가드레일은 언제든지 활성화하거나 비활성화할 수 있습니다.  데이터 가드레일 활성화를 전환하면 Workload Factory가 전체 지식 기반을 처음부터 스캔하므로 비용이 발생합니다.
 
 --
 
@@ -42,44 +42,52 @@ NOTE: 데이터 가드레일은 언제든지 활성화 또는 비활성화할 �
 기술 자료에서는 지식 기반을 생성하는 데 사용할 Bedrock AI 모델 및 내장 형식과 같은 특성을 정의합니다.
 
 .단계
-. 중 하나를 사용하여 워크로드 팩토리에 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 Workload Factory에 로그인하세요.link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^] .
 . AI 워크로드 타일에서 * 배포 및 관리 * 를 선택합니다.
-. Knowledge Base & Connectors 탭에서 * Create New * 드롭다운을 선택하고 * Bedrock용 * NetApp GenAI Knowledge Base * 를 선택합니다.
-. 기술 문서 정의 페이지에서 기술 문서 설정을 구성합니다.
+. 지식 기반 및 커넥터 메뉴에서 *새로 만들기* 드롭다운을 선택하고 *Bedrock용 NetApp GenAI 지식 기반*을 선택합니다.
+. NetApp GenAI 지식 기반 만들기 페이지에서 지식 기반 설정을 구성합니다.
+
+
+[discrete]
+===== 지식 기반 세부 정보
+
+. * 이름 *: 기술 문서에 사용할 이름을 입력하십시오.
+. *Description*: 기술 문서에 대한 자세한 설명을 입력합니다.
+. *Bedrock*: AWS 계정에서 Amazon Bedrock을 사용할 수 있는 지역을 선택하세요.
+
+
+[discrete]
+===== 음식물 섭취
+
+. *임베딩 모델*:
 +
-.. * 이름 *: 기술 문서에 사용할 이름을 입력하십시오.
-.. *Description*: 기술 문서에 대한 자세한 설명을 입력합니다.
-.. * 포함 모델 * : 포함 모델은 귀하의 데이터가 기술 자료를 위한 벡터 임베딩으로 변환되는 방법을 정의합니다. 워크로드 팩토리에서는 다음 모델을 지원합니다.
-+
-*** Titan Embeddings G1 - 텍스트
-*** Titan Embedding Text v2
-*** 타이탄 다중 모드 포함 G1
-*** 영어 포함
-*** 다국어 포함
+** 지식 기반에 사용할 임베딩 모델을 선택하세요.  임베딩 모델은 데이터가 지식 기반의 벡터 임베딩으로 어떻게 변환될지 정의합니다.  Workload Factory는 다음 모델을 지원합니다.
+** Titan Embeddings G1 - 텍스트
+** Titan Embedding Text v2
+** 타이탄 다중 모드 포함 G1
+** 영어 포함
+** 다국어 포함
 +
 아마존 Bedrock에서 임베딩 모델을 이미 활성화했어야 합니다.
 
 +
 https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아보십시오"^]
 
+** 해당되는 경우, 선택한 임베딩 모델의 구성과 일치하는 추론 유형을 선택합니다.
 
 
-.. * 채팅 모델 * : 아마존 Bedrock에 통합된 다양한 채팅 모델 중에서 선택하십시오. 아마존 Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.
-.. *재순위*: 쿼리 결과의 관련성과 품질을 향상시킬 수 있는 재순위 기능을 활성화 또는 비활성화합니다. 재순위 기능에 사용할 표준 채팅 모델 또는 특수 재순위 모델을 선택하세요. 재순위 모델 옵션은 해당 지역에서 사용 가능한 경우에만 표시됩니다.
-.. * 데이터 가드레일 * : 데이터 가드레일을 활성화 또는 비활성화할지 선택합니다. link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP  분류를 기반으로 하는 데이터 가드레일에 대해 알아보십시오"^]..
+. *데이터 가드레일*: 데이터 가드레일을 활성화할지 비활성화할지 선택합니다. link:https://docs.netapp.com/us-en/data-services-data-classification/concept-cloud-compliance.html["NetApp 데이터 분류를 통해 지원되는 데이터 가드레일에 대해 알아보세요."^] .
 +
 데이터 가드레일을 사용하려면 다음 사전 요구 사항을 충족해야 합니다.
 
 +
-*** BlueXP  분류와 통신하려면 서비스 계정이 필요합니다. 서비스 계정을 생성하려면 BlueXP  Tenancy 계정에 _Organization admin_역할이 있어야 합니다. 조직 관리자 역할을 가진 구성원은 BlueXP 의 모든 작업을 완료할 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member["BlueXP 에서 구성원에 역할을 추가하는 방법에 대해 알아봅니다"^]
-*** AI 엔진이 에 액세스할 수 있어야 link:https://api.bluexp.netapp.com["BlueXP  API 끝점입니다"^]합니다.
-*** 에 설명된 대로 다음을 수행해야 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html#quick-start["BlueXP 분류 문서"^]합니다.
+** NetApp 데이터 분류와 통신하려면 서비스 계정이 필요합니다.  서비스 계정을 생성하려면 NetApp 콘솔 테넌시 계정에 _조직 관리자_ 역할이 있어야 합니다.  조직 관리자 역할이 있는 구성원은 .의 모든 작업을 완료할 수 있습니다.link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#add-a-role-to-a-member["NetApp 콘솔에서 멤버에게 역할을 추가하는 방법을 알아보세요."^]
+** AI 엔진은 다음에 액세스할 수 있어야 합니다.link:https://api.bluexp.netapp.com["NetApp 콘솔 API 엔드포인트"^] .
+** 다음 설명에 따라 다음을 수행해야 합니다.link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html#quick-start["NetApp 데이터 분류 문서"^] :
 +
-.... BlueXP Connector를 생성합니다
-.... 환경이 사전 요구 사항을 충족할 수 있는지 확인합니다
-.... BlueXP 분류를 배포합니다
-
-
+... 콘솔 에이전트 만들기
+... 환경이 사전 요구 사항을 충족할 수 있는지 확인합니다
+... NetApp 데이터 분류 배포
 
 
 
@@ -88,13 +96,37 @@ https://aws.amazon.com/bedrock/titan/["Amazon Titan에 대해 자세히 알아�
 
 NOTE: CSV, JSON, JSONP 또는 Parquet과 같은 구조화된 데이터 파일을 수집할 때는 데이터 가드레일 기능이 지원되지 않습니다.
 
+
+
+[discrete]
+===== 채팅 및 검색 설정
+
+. *채팅 모델*:
 +
-.. * Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.
+** Amazon Bedrock에 통합된 다양한 채팅 모델 중에서 선택하세요.  Amazon Bedrock에서 채팅 모델을 이미 활성화했어야 합니다.
+** 해당되는 경우, 선택한 모델의 구성과 일치하는 추론 유형을 선택합니다.
+
+
+. *채팅 설정*:
++
+** 챗봇의 응답의 무작위성과 창의성을 구성하기 위해 온도를 선택하세요.  온도가 낮을수록 반응은 더 예측 가능하고, 온도가 높을수록 반응은 더 다양해집니다.
+** 최대 응답 길이를 선택하여 응답의 세부 정보를 구성합니다.  응답 길이가 길수록 더 많은 응답 토큰이 사용되며 비용이 더 많이 발생할 수 있습니다.
+
+
+. *사고 모드*: 사고 모드가 활성화되면 챗봇이 질의를 처리하는 데 더 많은 시간이 걸리지만 일반적으로 결과가 더 정확해집니다.  사고 모드를 활성화하면 결과를 생성할 때 얼마나 많은 추론 토큰이 사용되는지 제어할 수 있습니다.  추론 토큰을 더 많이 사용하면 응답의 정확도가 높아지지만, 비용이 더 많이 들 수도 있습니다.
+. *재순위 지정*: 재순위 지정을 활성화하거나 비활성화하여 쿼리 결과의 관련성과 품질을 개선할 수 있습니다.  재순위를 지정하려면 표준 채팅 모델이나 전문 재순위 지정 모델을 선택하세요.  재순위 모델 옵션은 해당 지역에서 사용 가능한 경우에만 표시됩니다.  선택한 모델의 구성과 일치하는 추론 유형을 선택하세요.
+. * Conversation Starters *: 이 기술 자료를 사용하는 챗봇과 상호 작용하는 사용자에게 표시되는 최대 4개의 대화 시작 프롬프트를 제공할지 여부를 선택합니다. 이 설정을 사용하는 것이 좋습니다.
 +
 대화 시작점을 활성화하면 기본적으로 "자동 모드"가 선택됩니다. "수동 모드"는 기술 문서에 데이터 원본을 추가한 후에만 활성화할 수 있습니다. link:manage-knowledgebase.html["기술 문서 설정을 수정하는 방법에 대해 알아봅니다"]..
 
-.. * FSx for ONTAP 파일 시스템 *: 새로운 기술 자료를 정의하면 워크로드 공장에서 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다. 새 볼륨을 생성할 기존 파일 시스템 이름과 SVM(스토리지 VM이라고도 함)을 선택합니다.
-.. * Snapshot policy *: 워크로드 공장 저장소 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다. 선택한 스냅샷 정책에 따라 기술 자료의 반복적인 스냅샷이 자동으로 생성됩니다.
+
+
+[discrete]
+===== 저장소 정의
+
+. *FSx for ONTAP 파일 시스템*: 새로운 지식 기반을 정의하면 Workload Factory는 이를 저장할 새로운 Amazon FSx for NetApp ONTAP 볼륨을 생성합니다.  기존 파일 시스템 이름과 새 볼륨이 생성될 SVM(스토리지 VM이라고도 함)을 선택합니다.
+. *스냅샷 정책*: Workload Factory 스토리지 인벤토리에 정의된 기존 정책 목록에서 스냅샷 정책을 선택합니다.  지식 기반의 반복적인 스냅샷은 선택한 스냅샷 정책에 따라 빈도에 따라 자동으로 생성됩니다.
+. *S3 버킷*: 챗봇 쿼리 결과에 구조화된 데이터가 포함되어 있는 경우 GenAI는 해당 결과를 S3 버킷에 저장할 수 있습니다.  이 기능을 사용하려면 *S3 버킷 활성화* 설정을 활성화하고 목록에서 계정과 연결된 S3 버킷을 선택하세요. 이러한 결과가 S3 버킷에 저장되면 채팅 세션 내의 다운로드 링크를 사용하여 다운로드할 수 있습니다.
 +
 필요한 스냅샷 정책이 없는 경우 https://docs.netapp.com/us-en/ontap/data-protection/create-snapshot-policy-task.html["스냅샷 정책을 생성합니다"] 볼륨이 포함된 스토리지 VM에서 수행할 수 있습니다.
 
@@ -153,7 +185,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -205,7 +237,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
@@ -264,7 +296,7 @@ NOTE: 높은 중복 비율을 선택하면 검색 정확도가 약간 개선되�
 +
 *** 파일 형식 지원 * 섹션에서 모든 파일 형식을 포함하거나 데이터 원본 검색에 포함할 개별 파일 형식을 선택합니다.
 +
-이미지 또는 PDF 파일을 포함하는 경우 GenAI용 BlueXP  워크로드 공장에서 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 듭니다.
+이미지나 PDF 파일을 포함하는 경우 NetApp Workload Factory for GenAI는 이미지(PDF 문서의 이미지 포함)의 텍스트를 구문 분석하므로 비용이 더 많이 발생합니다.
 
 +
 이미지의 텍스트 데이터를 포함할 경우, 스캔된 텍스트 데이터가 사용자 환경에서 AWS로 전송되기 때문에 GenAI는 이미지에서 PII(개인 식별 정보)를 마스킹할 수 없습니다. 그러나 데이터가 저장되면 모든 PII가 GenAI 데이터베이스에 마스킹됩니다.
